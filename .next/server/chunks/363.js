@@ -1,1 +1,0 @@
-"use strict";exports.id=363,exports.ids=[363],exports.modules={9363:(e,s,t)=>{t.r(s),t.d(s,{default:()=>r});let r=(0,t(8570).createProxy)(String.raw`E:\APTIT\websites\Cassendra\cassandra gourmet\components\GalleryIsotope.js#default`)}};
