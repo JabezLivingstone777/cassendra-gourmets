@@ -150,8 +150,8 @@ export const AboutUs2 = ({
   );
 };
 export const AboutUs3 = ({
-  aboutImg1 = "/assets/images/about/about-four3.jpg",
-  aboutImg2 = "/assets/images/about/about-four4.jpg",
+  aboutImg1 = "/assets/images/webp/cakes/DSC09535-large.webp",
+  aboutImg2 = "/assets/images/webp/chocolates/_DSC4309-large.webp",
 }) => {
   return (
     <section className="about-us-area-four pt-130 rpt-100 pb-85 rpb-55 rel z-1">
@@ -165,28 +165,33 @@ export const AboutUs3 = ({
               data-aos-offset={50}
             >
               <div className="section-title mb-25">
-                <span className="sub-title mb-5">learn About wellfood</span>
-                <h2>we provide best Quality food for your health</h2>
+                <span className="sub-title mb-5">About Cassandra's Gourmet</span>
+                <h2>Baking from My Hearth, Cooking from My Heart</h2>
               </div>
               <p>
-                Welcome too restaurant, where culinary excellence meets warm
-                hospitality in every dish we serve. Nestled in the heart of City
-                Name our eatery invites you on a journey
+                Welcome to Cassandra's Gourmet, where every creation tells a story of passion,
+                tradition, and love. What started as a childhood fascination with baking at age 10
+                has evolved into 30+ years of expertise in crafting artisan chocolates and baked delights.
               </p>
-              <Link href="about" className="theme-btn mt-25 mb-60">
-                learn more us <i className="far fa-arrow-alt-right" />
+              <p className="mt-15">
+                After a fulfilling career in HR, I chose to follow my true calling - bringing joy through
+                homemade, made-to-order treats. Every Korean bun, chocolate truffle, and custom cake is crafted
+                with the same dedication I bring to my own family's table.
+              </p>
+              <Link href="/contact" className="theme-btn mt-25 mb-60">
+                Order Now <i className="far fa-arrow-alt-right" />
               </Link>
               <div className="row">
                 <div className="col-sm-4 col-6">
                   <div className="counter-item style-two counter-text-wrap">
                     <span
-                      className="count-text k-plus"
+                      className="count-text plus"
                       data-speed={3000}
-                      data-stop={34}
+                      data-stop={30}
                     >
-                      <Counter end={34} />
+                      <Counter end={30} />
                     </span>
-                    <span className="counter-title">Organic Planting</span>
+                    <span className="counter-title">Years Experience</span>
                   </div>
                 </div>
                 <div className="col-sm-4 col-6">
@@ -194,23 +199,23 @@ export const AboutUs3 = ({
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop={356}
+                      data-stop={2}
                     >
-                      <Counter end={356} />
+                      <Counter end={2} />
                     </span>
-                    <span className="counter-title">Passionate Chef’s</span>
+                    <span className="counter-title">Generations of Recipes</span>
                   </div>
                 </div>
                 <div className="col-sm-4 col-6">
                   <div className="counter-item style-two counter-text-wrap">
                     <span
-                      className="count-text plus"
+                      className="count-text percent"
                       data-speed={3000}
-                      data-stop={8534}
+                      data-stop={100}
                     >
-                      <Counter end={8534} />
+                      <Counter end={100} />
                     </span>
-                    <span className="counter-title">Favourite Dishes</span>
+                    <span className="counter-title">Homemade</span>
                   </div>
                 </div>
               </div>
@@ -225,16 +230,16 @@ export const AboutUs3 = ({
             >
               <div className="row">
                 <div className="col">
-                  <img src="assets/images/about/about-four1.jpg" alt="About" />
+                  <img src={aboutImg1} alt="Cassandra's Cakes" />
                 </div>
                 <div className="col mt-80">
-                  <img src="assets/images/about/about-four2.jpg" alt="About" />
+                  <img src={aboutImg2} alt="Artisan Chocolates" />
                 </div>
               </div>
               <div className="badge">
                 <img
                   src="assets/images/about/about-four-badge.jpg"
-                  alt="Badge"
+                  alt="Quality Badge"
                 />
               </div>
             </div>
@@ -245,7 +250,7 @@ export const AboutUs3 = ({
   );
 };
 
-export const AboutUs4 = ({}) => {
+export const AboutUs4 = ({ }) => {
   return (
     <section className="about-us-area pt-130 rpt-100 pb-90 rpb-60 rel z-1">
       <div className="container">

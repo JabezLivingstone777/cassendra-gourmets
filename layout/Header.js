@@ -127,7 +127,7 @@ const MobileMenu = () => {
   const [toggle, setToggle] = useState(false);
   const [activeMenu, setActiveMenu] = useState("");
   const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
+    setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   return (
@@ -141,7 +141,7 @@ const MobileMenu = () => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="/assets/images/logos/logodark.png"
                       alt="Logo"
                       title="Logo"
                     />
@@ -155,7 +155,7 @@ const MobileMenu = () => {
                     <div className="mobile-logo">
                       <Link href="/">
                         <img
-                          src="assets/images/logos/logo.png"
+                          src="/assets/images/logos/logodark.png"
                           alt="Logo"
                           title="Logo"
                         />
@@ -175,9 +175,8 @@ const MobileMenu = () => {
                     </button>
                   </div>
                   <div
-                    className={`navbar-collapse collapse clearfix ${
-                      toggle ? "show" : ""
-                    }`}
+                    className={`navbar-collapse collapse clearfix ${toggle ? "show" : ""
+                      }`}
                   >
                     <ul className="navigation clearfix">
                       <li className="dropdown" style={activeLi("home")}>
@@ -207,7 +206,7 @@ const MobileMenu = () => {
                             <Link href="menu-pizza">Menu Pizza</Link>
                           </li>
                           <li>
-                            <Link href="menu-grill">Menu Gril</Link>
+                            <Link href="menu-grill">Menu Grill</Link>
                           </li>
                           <li>
                             <Link href="menu-burger">Menu Burger</Link>
@@ -372,7 +371,7 @@ const Header = () => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="/assets/images/logos/logodark.png"
                       alt="Logo"
                       title="Logo"
                     />
@@ -386,7 +385,7 @@ const Header = () => {
                     <div className="mobile-logo">
                       <Link href="/">
                         <img
-                          src="assets/images/logos/logo.png"
+                          src="/assets/images/logos/logodark.png"
                           alt="Logo"
                           title="Logo"
                         />

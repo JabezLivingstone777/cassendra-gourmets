@@ -69,7 +69,7 @@ const DefaultFooter = () => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-25">
                   <Link href="/">
-                    <img src="assets/images/logos/logo.png" alt="Logo" />
+                    <img src="/assets/images/logos/logodark.png" alt="Logo" />
                   </Link>
                 </div>
                 <p>
@@ -592,7 +592,7 @@ const Footer5 = () => {
                   <h5>Location</h5>
                 </div>
                 <p>
-                  1403 Washington Ave, New Orlea ns, LA 70130, United States
+                  Hyderabad, India
                 </p>
               </div>
             </div>
@@ -609,12 +609,12 @@ const Footer5 = () => {
                 </div>
                 <ul>
                   <li>
-                    <a href="mailto:wellfood@gmail.com">
-                      <u>wellfood@gmail.com</u>
+                    <a href="mailto:cassandrasgourmet@gmail.com">
+                      <u>cassandrasgourmet@gmail.com</u>
                     </a>
                   </li>
                   <li>
-                    <a href="callto:+(1)0987654321">+(1) 098 765 4321</a>
+                    <a href="callto:+919866142982">+91 9866142982</a>
                   </li>
                 </ul>
               </div>

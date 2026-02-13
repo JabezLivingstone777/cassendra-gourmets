@@ -15,199 +15,104 @@ const page = () => {
       {/* Food Category Area start */}
       <FoodCategory />
       {/* Food Category Area end */}
-      {/* Booking Table Area start */}
-      <section
-        className="booking-table-area-two bgs-cover py-100 rel z-1 overlay"
-        style={{
-          backgroundImage:
-            "url(assets/images/background/booking-table-two.jpg)",
-        }}
-      >
+      {/* Our Story Area start */}
+      <section className="about-page-story pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
-          <div className="row justify-content-between align-items-center">
-            <div
-              className="col-lg-5"
-              data-aos="fade-left"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <BookTableForm />
-            </div>
-            <div
-              className="col-xl-5 col-lg-6"
-              data-aos="fade-right"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="booking-table-content style-two rmt-55">
-                <a
-                  href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                  className="mfp-iframe video-play"
-                >
-                  <i className="fas fa-play" />
-                </a>
-                <div className="section-title mt-50 text-white mb-50">
-                  <h2>
-                    We Offer quality service That Customers Needs for health
-                    food
-                  </h2>
-                </div>
-                <hr />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Booking Table Area end */}
-      {/* Chefs Area start */}
-      <section className="chefs-area pt-130 rpt-100 pb-55 rpb-30 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-7 col-lg-9">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
               <div
-                className="section-title text-center mb-50"
-                data-aos="fade-up"
+                className="about-story-image rmb-55"
+                data-aos="fade-right"
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <span className="sub-title mb-5">professional chefs</span>
-                <h2>we have professionals team member meet our expert chefs</h2>
+                <img src="assets/images/webp/platters/_DSC4385-large.webp" alt="Cassandra's Creations" />
               </div>
             </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-3 col-lg-4 col-sm-6">
+            <div className="col-lg-6">
               <div
-                className="chefs-item"
-                data-aos="fade-up"
+                className="about-story-content"
+                data-aos="fade-left"
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <div className="image">
-                  <img src="assets/images/chefs/chef1.jpg" alt="Chef" />
+                <div className="section-title mb-30">
+                  <span className="sub-title mb-5">Our Journey</span>
+                  <h2>From Passion to Perfection</h2>
                 </div>
-                <div className="description">
-                  <h5>
-                    <Link href="chef-details">Nolan E. Barrera</Link>
-                  </h5>
-                  <span>Senior Chef</span>
-                  <Link href="chef-details" className="more-btn">
-                    <i className="far fa-plus" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div
-                className="chefs-item"
-                data-aos="fade-up"
-                data-aos-delay={50}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img src="assets/images/chefs/chef2.jpg" alt="Chef" />
-                </div>
-                <div className="description">
-                  <h5>
-                    <Link href="chef-details">William B. Nguyen</Link>
-                  </h5>
-                  <span>Senior Chef</span>
-                  <Link href="chef-details" className="more-btn">
-                    <i className="far fa-plus" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div
-                className="chefs-item"
-                data-aos="fade-up"
-                data-aos-delay={100}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img src="assets/images/chefs/chef3.jpg" alt="Chef" />
-                </div>
-                <div className="description">
-                  <h5>
-                    <Link href="chef-details">Michael A. Coulson</Link>
-                  </h5>
-                  <span>Senior Chef</span>
-                  <Link href="chef-details" className="more-btn">
-                    <i className="far fa-plus" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div
-                className="chefs-item"
-                data-aos="fade-up"
-                data-aos-delay={150}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img src="assets/images/chefs/chef4.jpg" alt="Chef" />
-                </div>
-                <div className="description">
-                  <h5>
-                    <Link href="chef-details">Brent M. Powers</Link>
-                  </h5>
-                  <span>Senior Chef</span>
-                  <Link href="chef-details" className="more-btn">
-                    <i className="far fa-plus" />
-                  </Link>
+                <p>
+                  What began as a childhood love for baking at age 10 has blossomed into Cassandra's Gourmet.
+                  For over 30 years, I've been crafting artisan chocolates and baked goods, combining traditional
+                  recipes passed down through two generations with modern techniques.
+                </p>
+                <p className="mt-20">
+                  After a successful career in HR, I decided to follow my heart and turn my passion into a
+                  full-time venture. Every item from our cloud kitchen is made with the same love and care
+                  I put into treats for my own family - because that's what you deserve.
+                </p>
+                <div className="about-features mt-40">
+                  <div className="feature-item">
+                    <i className="flaticon-chef-hat" />
+                    <h5>30+ Years of Expertise</h5>
+                    <p>in artisan chocolates and baking</p>
+                  </div>
+                  <div className="feature-item">
+                    <i className="flaticon-badge" />
+                    <h5>Generational Recipes</h5>
+                    <p>Handed down with love</p>
+                  </div>
+                  <div className="feature-item">
+                    <i className="flaticon-cook" />
+                    <h5>Made to Order</h5>
+                    <p>Fresh, customized, homemade</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* Chefs Area end */}
-      {/* Headline area start */}
+      {/* Our Story Area end */}
       <div className="headline-area mb-105 rmb-85 rel z-1">
         <span className="marquee-wrap">
           <span className="marquee-inner left">
-            <span className="marquee-item">Italian pizza</span>
+            <span className="marquee-item">Korean Buns</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
-            <span className="marquee-item">delicious foods</span>
+            <span className="marquee-item">Artisan Chocolates</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
-            <span className="marquee-item">burger king</span>
-            <span className="marquee-item">
-              <i className="flaticon-star" />
-            </span>
-          </span>
-          <span className="marquee-inner left">
-            <span className="marquee-item">Italian pizza</span>
-            <span className="marquee-item">
-              <i className="flaticon-star" />
-            </span>
-            <span className="marquee-item">delicious foods</span>
-            <span className="marquee-item">
-              <i className="flaticon-star" />
-            </span>
-            <span className="marquee-item">burger king</span>
+            <span className="marquee-item">Custom Cakes</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
           </span>
           <span className="marquee-inner left">
-            <span className="marquee-item">Italian pizza</span>
+            <span className="marquee-item">Korean Buns</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
-            <span className="marquee-item">delicious foods</span>
+            <span className="marquee-item">Artisan Chocolates</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
-            <span className="marquee-item">burger king</span>
+            <span className="marquee-item">Custom Cakes</span>
+            <span className="marquee-item">
+              <i className="flaticon-star" />
+            </span>
+          </span>
+          <span className="marquee-inner left">
+            <span className="marquee-item">Korean Buns</span>
+            <span className="marquee-item">
+              <i className="flaticon-star" />
+            </span>
+            <span className="marquee-item">Artisan Chocolates</span>
+            <span className="marquee-item">
+              <i className="flaticon-star" />
+            </span>
+            <span className="marquee-item">Custom Cakes</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
@@ -334,43 +239,31 @@ const page = () => {
       <div className="headline-area bgc-lighter pt-120 rpt-90 rel z-2">
         <span className="marquee-wrap">
           <span className="marquee-inner left">
-            <span className="marquee-item">Italian pizza</span>
+            <span className="marquee-item">Gourmet Cookies</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
-            <span className="marquee-item">our Testimonials</span>
-            <span className="marquee-item">
-              <i className="flaticon-star" />
-            </span>
-            <span className="marquee-item">burger king</span>
+            <span className="marquee-item">Savory Delights</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
           </span>
           <span className="marquee-inner left">
-            <span className="marquee-item">Italian pizza</span>
+            <span className="marquee-item">Gourmet Cookies</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
-            <span className="marquee-item">our Testimonials</span>
-            <span className="marquee-item">
-              <i className="flaticon-star" />
-            </span>
-            <span className="marquee-item">burger king</span>
+            <span className="marquee-item">Savory Delights</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
           </span>
           <span className="marquee-inner left">
-            <span className="marquee-item">Italian pizza</span>
+            <span className="marquee-item">Gourmet Cookies</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>
-            <span className="marquee-item">our Testimonials</span>
-            <span className="marquee-item">
-              <i className="flaticon-star" />
-            </span>
-            <span className="marquee-item">burger king</span>
+            <span className="marquee-item">Savory Delights</span>
             <span className="marquee-item">
               <i className="flaticon-star" />
             </span>

@@ -1,0 +1,1592 @@
+{
+  "processedAt": "2026-02-10T08:25:08.294Z",
+  "totalImages": 49,
+  "categories": {
+    "cakes": [
+      "DSC09535.jpg",
+      "DSC09546.jpg",
+      "DSC09650.jpg",
+      "DSC09657.jpg",
+      "DSC09660.jpg"
+    ],
+    "desserts": [
+      "DSC09693.jpg",
+      "DSC09709.jpg",
+      "DSC09714.jpg",
+      "DSC09718.jpg"
+    ],
+    "specialties": [
+      "DSC09726.jpg",
+      "DSC09728.jpg",
+      "_DSC4280.jpg",
+      "_DSC4486.jpg",
+      "_DSC4489.jpg",
+      "_DSC4535.jpg",
+      "_DSC4538.jpg",
+      "_DSC4549.jpg",
+      "_DSC4551.jpg",
+      "_DSC4553.jpg",
+      "_DSC4554.jpg",
+      "_DSC4554_1.jpg"
+    ],
+    "buns": [
+      "_DSC4259.jpg",
+      "_DSC4274.jpg",
+      "_DSC4277.jpg",
+      "_DSC4278.jpg"
+    ],
+    "cookies": [
+      "_DSC4287.jpg",
+      "_DSC4294.jpg",
+      "_DSC4305.jpg"
+    ],
+    "chocolates": [
+      "_DSC4309.jpg",
+      "_DSC4321.jpg",
+      "_DSC4344.jpg",
+      "_DSC4350.jpg",
+      "_DSC4368.jpg"
+    ],
+    "savories": [
+      "_DSC4326.jpg",
+      "_DSC4330.jpg",
+      "_DSC4341.jpg"
+    ],
+    "platters": [
+      "_DSC4385.jpg",
+      "_DSC4388.jpg",
+      "_DSC4405.jpg",
+      "_DSC4412.jpg",
+      "_DSC4419.jpg",
+      "_DSC4421.jpg",
+      "_DSC4422.jpg",
+      "_DSC4425.jpg",
+      "_DSC4430.jpg",
+      "_DSC4444.jpg",
+      "_DSC4446.jpg",
+      "_DSC4448.jpg",
+      "_DSC4450.jpg"
+    ]
+  },
+  "images": [
+    {
+      "filename": "DSC09535.jpg",
+      "category": "cakes",
+      "originalSize": 15088288,
+      "originalDimensions": {
+        "width": 4000,
+        "height": 6000
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09535-thumbnail.webp",
+          "size": 24300,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09535-medium.webp",
+          "size": 65638,
+          "compression": "99.6%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09535-large.webp",
+          "size": 119000,
+          "compression": "99.2%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09535-original.webp",
+          "size": 605156,
+          "compression": "96.0%"
+        }
+      }
+    },
+    {
+      "filename": "DSC09546.jpg",
+      "category": "cakes",
+      "originalSize": 15640648,
+      "originalDimensions": {
+        "width": 4000,
+        "height": 6000
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09546-thumbnail.webp",
+          "size": 23676,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09546-medium.webp",
+          "size": 63930,
+          "compression": "99.6%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09546-large.webp",
+          "size": 114370,
+          "compression": "99.3%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09546-original.webp",
+          "size": 591860,
+          "compression": "96.2%"
+        }
+      }
+    },
+    {
+      "filename": "DSC09650.jpg",
+      "category": "cakes",
+      "originalSize": 9348722,
+      "originalDimensions": {
+        "width": 3319,
+        "height": 3319
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09650-thumbnail.webp",
+          "size": 29998,
+          "compression": "99.7%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09650-medium.webp",
+          "size": 83424,
+          "compression": "99.1%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09650-large.webp",
+          "size": 153908,
+          "compression": "98.4%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09650-original.webp",
+          "size": 814394,
+          "compression": "91.3%"
+        }
+      }
+    },
+    {
+      "filename": "DSC09657.jpg",
+      "category": "cakes",
+      "originalSize": 13805086,
+      "originalDimensions": {
+        "width": 3376,
+        "height": 6000
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09657-thumbnail.webp",
+          "size": 31984,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09657-medium.webp",
+          "size": 79320,
+          "compression": "99.4%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09657-large.webp",
+          "size": 139610,
+          "compression": "99.0%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09657-original.webp",
+          "size": 623276,
+          "compression": "95.5%"
+        }
+      }
+    },
+    {
+      "filename": "DSC09660.jpg",
+      "category": "cakes",
+      "originalSize": 16450192,
+      "originalDimensions": {
+        "width": 3376,
+        "height": 6000
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09660-thumbnail.webp",
+          "size": 42892,
+          "compression": "99.7%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09660-medium.webp",
+          "size": 115264,
+          "compression": "99.3%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09660-large.webp",
+          "size": 203888,
+          "compression": "98.8%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cakes\\DSC09660-original.webp",
+          "size": 852188,
+          "compression": "94.8%"
+        }
+      }
+    },
+    {
+      "filename": "DSC09693.jpg",
+      "category": "desserts",
+      "originalSize": 13636260,
+      "originalDimensions": {
+        "width": 3376,
+        "height": 6000
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09693-thumbnail.webp",
+          "size": 34756,
+          "compression": "99.7%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09693-medium.webp",
+          "size": 82164,
+          "compression": "99.4%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09693-large.webp",
+          "size": 140380,
+          "compression": "99.0%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09693-original.webp",
+          "size": 556174,
+          "compression": "95.9%"
+        }
+      }
+    },
+    {
+      "filename": "DSC09709.jpg",
+      "category": "desserts",
+      "originalSize": 16530108,
+      "originalDimensions": {
+        "width": 3376,
+        "height": 6000
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09709-thumbnail.webp",
+          "size": 37562,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09709-medium.webp",
+          "size": 94500,
+          "compression": "99.4%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09709-large.webp",
+          "size": 161416,
+          "compression": "99.0%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09709-original.webp",
+          "size": 796624,
+          "compression": "95.2%"
+        }
+      }
+    },
+    {
+      "filename": "DSC09714.jpg",
+      "category": "desserts",
+      "originalSize": 10141819,
+      "originalDimensions": {
+        "width": 3376,
+        "height": 6000
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09714-thumbnail.webp",
+          "size": 24862,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09714-medium.webp",
+          "size": 62910,
+          "compression": "99.4%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09714-large.webp",
+          "size": 112660,
+          "compression": "98.9%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09714-original.webp",
+          "size": 448738,
+          "compression": "95.6%"
+        }
+      }
+    },
+    {
+      "filename": "DSC09718.jpg",
+      "category": "desserts",
+      "originalSize": 11170279,
+      "originalDimensions": {
+        "width": 3376,
+        "height": 6000
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09718-thumbnail.webp",
+          "size": 22542,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09718-medium.webp",
+          "size": 60910,
+          "compression": "99.5%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09718-large.webp",
+          "size": 109290,
+          "compression": "99.0%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\desserts\\DSC09718-original.webp",
+          "size": 477784,
+          "compression": "95.7%"
+        }
+      }
+    },
+    {
+      "filename": "DSC09726.jpg",
+      "category": "specialties",
+      "originalSize": 7138020,
+      "originalDimensions": {
+        "width": 3376,
+        "height": 3376
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\DSC09726-thumbnail.webp",
+          "size": 18208,
+          "compression": "99.7%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\DSC09726-medium.webp",
+          "size": 44560,
+          "compression": "99.4%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\DSC09726-large.webp",
+          "size": 76504,
+          "compression": "98.9%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\DSC09726-original.webp",
+          "size": 295948,
+          "compression": "95.9%"
+        }
+      }
+    },
+    {
+      "filename": "DSC09728.jpg",
+      "category": "specialties",
+      "originalSize": 8117062,
+      "originalDimensions": {
+        "width": 3376,
+        "height": 3376
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\DSC09728-thumbnail.webp",
+          "size": 25804,
+          "compression": "99.7%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\DSC09728-medium.webp",
+          "size": 71508,
+          "compression": "99.1%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\DSC09728-large.webp",
+          "size": 129218,
+          "compression": "98.4%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\DSC09728-original.webp",
+          "size": 545326,
+          "compression": "93.3%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4259.jpg",
+      "category": "buns",
+      "originalSize": 15732072,
+      "originalDimensions": {
+        "width": 5363,
+        "height": 5363
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4259-thumbnail.webp",
+          "size": 29228,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4259-medium.webp",
+          "size": 81900,
+          "compression": "99.5%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4259-large.webp",
+          "size": 144792,
+          "compression": "99.1%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4259-original.webp",
+          "size": 1105860,
+          "compression": "93.0%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4274.jpg",
+      "category": "buns",
+      "originalSize": 11744504,
+      "originalDimensions": {
+        "width": 5363,
+        "height": 5363
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4274-thumbnail.webp",
+          "size": 10020,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4274-medium.webp",
+          "size": 24864,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4274-large.webp",
+          "size": 43272,
+          "compression": "99.6%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4274-original.webp",
+          "size": 404080,
+          "compression": "96.6%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4277.jpg",
+      "category": "buns",
+      "originalSize": 10857273,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4277-thumbnail.webp",
+          "size": 8222,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4277-medium.webp",
+          "size": 19248,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4277-large.webp",
+          "size": 32466,
+          "compression": "99.7%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4277-original.webp",
+          "size": 299318,
+          "compression": "97.2%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4278.jpg",
+      "category": "buns",
+      "originalSize": 11531269,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4278-thumbnail.webp",
+          "size": 9654,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4278-medium.webp",
+          "size": 23476,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4278-large.webp",
+          "size": 42368,
+          "compression": "99.6%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\buns\\_DSC4278-original.webp",
+          "size": 393592,
+          "compression": "96.6%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4280.jpg",
+      "category": "specialties",
+      "originalSize": 11404439,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4280-thumbnail.webp",
+          "size": 9636,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4280-medium.webp",
+          "size": 23290,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4280-large.webp",
+          "size": 41344,
+          "compression": "99.6%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4280-original.webp",
+          "size": 380888,
+          "compression": "96.7%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4287.jpg",
+      "category": "cookies",
+      "originalSize": 8912238,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4287-thumbnail.webp",
+          "size": 7766,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4287-medium.webp",
+          "size": 18910,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4287-large.webp",
+          "size": 33218,
+          "compression": "99.6%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4287-original.webp",
+          "size": 266996,
+          "compression": "97.0%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4294.jpg",
+      "category": "cookies",
+      "originalSize": 2260717,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4294-thumbnail.webp",
+          "size": 11898,
+          "compression": "99.5%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4294-medium.webp",
+          "size": 27308,
+          "compression": "98.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4294-large.webp",
+          "size": 45844,
+          "compression": "98.0%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4294-original.webp",
+          "size": 358226,
+          "compression": "84.2%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4305.jpg",
+      "category": "cookies",
+      "originalSize": 11183805,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4305-thumbnail.webp",
+          "size": 11652,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4305-medium.webp",
+          "size": 29028,
+          "compression": "99.7%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4305-large.webp",
+          "size": 48698,
+          "compression": "99.6%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\cookies\\_DSC4305-original.webp",
+          "size": 379250,
+          "compression": "96.6%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4309.jpg",
+      "category": "chocolates",
+      "originalSize": 3155266,
+      "originalDimensions": {
+        "width": 5159,
+        "height": 5159
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4309-thumbnail.webp",
+          "size": 15918,
+          "compression": "99.5%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4309-medium.webp",
+          "size": 47078,
+          "compression": "98.5%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4309-large.webp",
+          "size": 89624,
+          "compression": "97.2%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4309-original.webp",
+          "size": 671896,
+          "compression": "78.7%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4321.jpg",
+      "category": "chocolates",
+      "originalSize": 1734584,
+      "originalDimensions": {
+        "width": 3569,
+        "height": 3569
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4321-thumbnail.webp",
+          "size": 18824,
+          "compression": "98.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4321-medium.webp",
+          "size": 49528,
+          "compression": "97.1%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4321-large.webp",
+          "size": 84060,
+          "compression": "95.2%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4321-original.webp",
+          "size": 363212,
+          "compression": "79.1%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4326.jpg",
+      "category": "savories",
+      "originalSize": 11252526,
+      "originalDimensions": {
+        "width": 5366,
+        "height": 5366
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4326-thumbnail.webp",
+          "size": 8966,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4326-medium.webp",
+          "size": 26208,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4326-large.webp",
+          "size": 48878,
+          "compression": "99.6%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4326-original.webp",
+          "size": 403704,
+          "compression": "96.4%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4330.jpg",
+      "category": "savories",
+      "originalSize": 15832030,
+      "originalDimensions": {
+        "width": 5363,
+        "height": 5363
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4330-thumbnail.webp",
+          "size": 14540,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4330-medium.webp",
+          "size": 39680,
+          "compression": "99.7%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4330-large.webp",
+          "size": 70242,
+          "compression": "99.6%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4330-original.webp",
+          "size": 506750,
+          "compression": "96.8%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4341.jpg",
+      "category": "savories",
+      "originalSize": 12114991,
+      "originalDimensions": {
+        "width": 5363,
+        "height": 5363
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4341-thumbnail.webp",
+          "size": 14854,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4341-medium.webp",
+          "size": 39802,
+          "compression": "99.7%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4341-large.webp",
+          "size": 74926,
+          "compression": "99.4%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\savories\\_DSC4341-original.webp",
+          "size": 618452,
+          "compression": "94.9%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4344.jpg",
+      "category": "chocolates",
+      "originalSize": 11376573,
+      "originalDimensions": {
+        "width": 5363,
+        "height": 5363
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4344-thumbnail.webp",
+          "size": 14924,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4344-medium.webp",
+          "size": 39232,
+          "compression": "99.7%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4344-large.webp",
+          "size": 70742,
+          "compression": "99.4%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4344-original.webp",
+          "size": 532608,
+          "compression": "95.3%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4350.jpg",
+      "category": "chocolates",
+      "originalSize": 12143116,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4350-thumbnail.webp",
+          "size": 14240,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4350-medium.webp",
+          "size": 42958,
+          "compression": "99.6%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4350-large.webp",
+          "size": 77786,
+          "compression": "99.4%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4350-original.webp",
+          "size": 596700,
+          "compression": "95.1%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4368.jpg",
+      "category": "chocolates",
+      "originalSize": 11834130,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4368-thumbnail.webp",
+          "size": 14778,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4368-medium.webp",
+          "size": 41362,
+          "compression": "99.7%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4368-large.webp",
+          "size": 74448,
+          "compression": "99.4%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\chocolates\\_DSC4368-original.webp",
+          "size": 558524,
+          "compression": "95.3%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4385.jpg",
+      "category": "platters",
+      "originalSize": 12087102,
+      "originalDimensions": {
+        "width": 4862,
+        "height": 4862
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4385-thumbnail.webp",
+          "size": 23484,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4385-medium.webp",
+          "size": 59764,
+          "compression": "99.5%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4385-large.webp",
+          "size": 99888,
+          "compression": "99.2%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4385-original.webp",
+          "size": 686648,
+          "compression": "94.3%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4388.jpg",
+      "category": "platters",
+      "originalSize": 12952116,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4388-thumbnail.webp",
+          "size": 18080,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4388-medium.webp",
+          "size": 49578,
+          "compression": "99.6%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4388-large.webp",
+          "size": 89038,
+          "compression": "99.3%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4388-original.webp",
+          "size": 684872,
+          "compression": "94.7%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4405.jpg",
+      "category": "platters",
+      "originalSize": 13821810,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4405-thumbnail.webp",
+          "size": 21596,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4405-medium.webp",
+          "size": 54024,
+          "compression": "99.6%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4405-large.webp",
+          "size": 90264,
+          "compression": "99.3%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4405-original.webp",
+          "size": 628088,
+          "compression": "95.5%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4412.jpg",
+      "category": "platters",
+      "originalSize": 14738503,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4412-thumbnail.webp",
+          "size": 22194,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4412-medium.webp",
+          "size": 56200,
+          "compression": "99.6%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4412-large.webp",
+          "size": 93756,
+          "compression": "99.4%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4412-original.webp",
+          "size": 667560,
+          "compression": "95.5%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4419.jpg",
+      "category": "platters",
+      "originalSize": 12878137,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4419-thumbnail.webp",
+          "size": 19612,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4419-medium.webp",
+          "size": 51004,
+          "compression": "99.6%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4419-large.webp",
+          "size": 86772,
+          "compression": "99.3%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4419-original.webp",
+          "size": 626470,
+          "compression": "95.1%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4421.jpg",
+      "category": "platters",
+      "originalSize": 14924894,
+      "originalDimensions": {
+        "width": 5366,
+        "height": 5366
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4421-thumbnail.webp",
+          "size": 24472,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4421-medium.webp",
+          "size": 70634,
+          "compression": "99.5%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4421-large.webp",
+          "size": 129858,
+          "compression": "99.1%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4421-original.webp",
+          "size": 1017670,
+          "compression": "93.2%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4422.jpg",
+      "category": "platters",
+      "originalSize": 16364152,
+      "originalDimensions": {
+        "width": 5504,
+        "height": 5504
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4422-thumbnail.webp",
+          "size": 23266,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4422-medium.webp",
+          "size": 67604,
+          "compression": "99.6%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4422-large.webp",
+          "size": 129976,
+          "compression": "99.2%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4422-original.webp",
+          "size": 1203176,
+          "compression": "92.6%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4425.jpg",
+      "category": "platters",
+      "originalSize": 15484662,
+      "originalDimensions": {
+        "width": 5431,
+        "height": 5431
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4425-thumbnail.webp",
+          "size": 26354,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4425-medium.webp",
+          "size": 76944,
+          "compression": "99.5%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4425-large.webp",
+          "size": 141280,
+          "compression": "99.1%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4425-original.webp",
+          "size": 1115558,
+          "compression": "92.8%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4430.jpg",
+      "category": "platters",
+      "originalSize": 17461011,
+      "originalDimensions": {
+        "width": 5431,
+        "height": 5431
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4430-thumbnail.webp",
+          "size": 22258,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4430-medium.webp",
+          "size": 74760,
+          "compression": "99.6%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4430-large.webp",
+          "size": 154764,
+          "compression": "99.1%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4430-original.webp",
+          "size": 1652416,
+          "compression": "90.5%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4444.jpg",
+      "category": "platters",
+      "originalSize": 15579065,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4444-thumbnail.webp",
+          "size": 10838,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4444-medium.webp",
+          "size": 34618,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4444-large.webp",
+          "size": 67874,
+          "compression": "99.6%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4444-original.webp",
+          "size": 561538,
+          "compression": "96.4%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4446.jpg",
+      "category": "platters",
+      "originalSize": 16816992,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4446-thumbnail.webp",
+          "size": 16032,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4446-medium.webp",
+          "size": 46304,
+          "compression": "99.7%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4446-large.webp",
+          "size": 82144,
+          "compression": "99.5%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4446-original.webp",
+          "size": 593490,
+          "compression": "96.5%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4448.jpg",
+      "category": "platters",
+      "originalSize": 9858787,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4448-thumbnail.webp",
+          "size": 5696,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4448-medium.webp",
+          "size": 16478,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4448-large.webp",
+          "size": 31686,
+          "compression": "99.7%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4448-original.webp",
+          "size": 308442,
+          "compression": "96.9%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4450.jpg",
+      "category": "platters",
+      "originalSize": 15118941,
+      "originalDimensions": {
+        "width": 5370,
+        "height": 5370
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4450-thumbnail.webp",
+          "size": 22936,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4450-medium.webp",
+          "size": 69004,
+          "compression": "99.5%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4450-large.webp",
+          "size": 126664,
+          "compression": "99.2%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\platters\\_DSC4450-original.webp",
+          "size": 1008594,
+          "compression": "93.3%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4486.jpg",
+      "category": "specialties",
+      "originalSize": 14700815,
+      "originalDimensions": {
+        "width": 5363,
+        "height": 5363
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4486-thumbnail.webp",
+          "size": 23600,
+          "compression": "99.8%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4486-medium.webp",
+          "size": 67268,
+          "compression": "99.5%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4486-large.webp",
+          "size": 117070,
+          "compression": "99.2%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4486-original.webp",
+          "size": 839126,
+          "compression": "94.3%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4489.jpg",
+      "category": "specialties",
+      "originalSize": 15199694,
+      "originalDimensions": {
+        "width": 5363,
+        "height": 5363
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4489-thumbnail.webp",
+          "size": 22716,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4489-medium.webp",
+          "size": 61250,
+          "compression": "99.6%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4489-large.webp",
+          "size": 107428,
+          "compression": "99.3%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4489-original.webp",
+          "size": 832506,
+          "compression": "94.5%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4535.jpg",
+      "category": "specialties",
+      "originalSize": 25278144,
+      "originalDimensions": {
+        "width": 5366,
+        "height": 5366
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4535-thumbnail.webp",
+          "size": 13348,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4535-medium.webp",
+          "size": 41202,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4535-large.webp",
+          "size": 79628,
+          "compression": "99.7%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4535-original.webp",
+          "size": 2587042,
+          "compression": "89.8%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4538.jpg",
+      "category": "specialties",
+      "originalSize": 24986039,
+      "originalDimensions": {
+        "width": 5366,
+        "height": 5366
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4538-thumbnail.webp",
+          "size": 16966,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4538-medium.webp",
+          "size": 57992,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4538-large.webp",
+          "size": 114088,
+          "compression": "99.5%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4538-original.webp",
+          "size": 2900566,
+          "compression": "88.4%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4549.jpg",
+      "category": "specialties",
+      "originalSize": 14043852,
+      "originalDimensions": {
+        "width": 5363,
+        "height": 5363
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4549-thumbnail.webp",
+          "size": 14540,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4549-medium.webp",
+          "size": 39978,
+          "compression": "99.7%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4549-large.webp",
+          "size": 72238,
+          "compression": "99.5%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4549-original.webp",
+          "size": 614358,
+          "compression": "95.6%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4551.jpg",
+      "category": "specialties",
+      "originalSize": 19648924,
+      "originalDimensions": {
+        "width": 5279,
+        "height": 7918
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4551-thumbnail.webp",
+          "size": 17890,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4551-medium.webp",
+          "size": 49294,
+          "compression": "99.7%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4551-large.webp",
+          "size": 93596,
+          "compression": "99.5%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4551-original.webp",
+          "size": 842810,
+          "compression": "95.7%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4553.jpg",
+      "category": "specialties",
+      "originalSize": 23057918,
+      "originalDimensions": {
+        "width": 5292,
+        "height": 7938
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4553-thumbnail.webp",
+          "size": 16562,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4553-medium.webp",
+          "size": 44046,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4553-large.webp",
+          "size": 79522,
+          "compression": "99.7%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4553-original.webp",
+          "size": 640118,
+          "compression": "97.2%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4554.jpg",
+      "category": "specialties",
+      "originalSize": 21685692,
+      "originalDimensions": {
+        "width": 5292,
+        "height": 7938
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4554-thumbnail.webp",
+          "size": 13962,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4554-medium.webp",
+          "size": 36144,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4554-large.webp",
+          "size": 61950,
+          "compression": "99.7%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4554-original.webp",
+          "size": 501798,
+          "compression": "97.7%"
+        }
+      }
+    },
+    {
+      "filename": "_DSC4554_1.jpg",
+      "category": "specialties",
+      "originalSize": 21685733,
+      "originalDimensions": {
+        "width": 5292,
+        "height": 7938
+      },
+      "optimizedSizes": {
+        "thumbnail": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4554_1-thumbnail.webp",
+          "size": 14008,
+          "compression": "99.9%"
+        },
+        "medium": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4554_1-medium.webp",
+          "size": 36168,
+          "compression": "99.8%"
+        },
+        "large": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4554_1-large.webp",
+          "size": 61828,
+          "compression": "99.7%"
+        },
+        "original": {
+          "path": "E:\\APTIT\\websites\\Cassendra\\cassandra gourmet\\public\\assets\\images\\webp\\specialties\\_DSC4554_1-original.webp",
+          "size": 502658,
+          "compression": "97.7%"
+        }
+      }
+    }
+  ]
+}

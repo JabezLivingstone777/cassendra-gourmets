@@ -22,11 +22,11 @@ const page = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <span className="sub-title">special for your best choice</span>
-            <h1>Organic Juice &amp; Health Drinks</h1>
+            <span className="sub-title">Good Homebased Bakery, Confectionery & Savories</span>
+            <h1>Cassandra's Gourmet</h1>
             <p>
-              Welcome to our culinary sanctuary, where every dish tells a story
-              every bite is an adventure at our food website
+              Where every creation is made with love from my hearth to your heart.
+              Homemade, fresh, and customized to your taste - because good food brings joy.
             </p>
             <Link href="shop" className="theme-btn mt-25">
               Book now <i className="far fa-arrow-alt-right" />
@@ -51,8 +51,8 @@ const page = () => {
             data-aos-offset={50}
           >
             <img
-              src="assets/images/shapes/hero-five-left.png"
-              alt="Hero Shape"
+              src="/assets/images/webp/buns/_DSC4259-large.webp"
+              alt="Korean Buns"
             />
           </div>
           <div
@@ -63,8 +63,8 @@ const page = () => {
             data-aos-offset={50}
           >
             <img
-              src="assets/images/shapes/hero-five-right.png"
-              alt="Hero Shape"
+              src="/assets/images/webp/chocolates/_DSC4309-large.webp"
+              alt="Artisan Chocolates"
             />
           </div>
         </div>
@@ -82,7 +82,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <span className="sub-title mb-5">popular food category</span>
-                <h2>Explore Our Most Popular Juice &amp; Healthy Drinks</h2>
+                <h2>Explore Our Homemade Specialties</h2>
               </div>
             </div>
           </div>
@@ -96,9 +96,9 @@ const page = () => {
               <div className="icon">
                 <img src="assets/images/shapes/fc-icon1.png" alt="Icon" />
               </div>
-              <h5>Organic Juice</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <h5>Korean Buns</h5>
+              <Link href="menu-restaurant" className="btn">
+                Specialty
               </Link>
             </div>
             <div
@@ -111,9 +111,9 @@ const page = () => {
               <div className="icon">
                 <img src="assets/images/shapes/fc-icon2.png" alt="Icon" />
               </div>
-              <h5>Honey Coffee</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <h5>Artisan Chocolates</h5>
+              <Link href="menu-restaurant" className="btn">
+                Handcrafted
               </Link>
             </div>
             <div
@@ -126,9 +126,9 @@ const page = () => {
               <div className="icon">
                 <img src="assets/images/shapes/fc-icon3.png" alt="Icon" />
               </div>
-              <h5>Milk Shake</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <h5>Custom Cakes</h5>
+              <Link href="menu-restaurant" className="btn">
+                Made to Order
               </Link>
             </div>
             <div
@@ -141,9 +141,9 @@ const page = () => {
               <div className="icon">
                 <img src="assets/images/shapes/fc-icon4.png" alt="Icon" />
               </div>
-              <h5>Cold Ice-cream</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <h5>Gourmet Cookies</h5>
+              <Link href="menu-restaurant" className="btn">
+                Fresh Baked
               </Link>
             </div>
             <div
@@ -156,9 +156,9 @@ const page = () => {
               <div className="icon">
                 <img src="assets/images/shapes/fc-icon5.png" alt="Icon" />
               </div>
-              <h5>Strawberry-juice</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <h5>Savory Delights</h5>
+              <Link href="menu-restaurant" className="btn">
+                Homemade
               </Link>
             </div>
             <div className="fc-two-item">
@@ -288,13 +288,18 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="section-title mb-25">
-                  <span className="sub-title mb-5">learn About wellfood</span>
-                  <h2>Amazing &amp; Quality Food For Your Good Health</h2>
+                  <span className="sub-title mb-5">About Cassandra's Gourmet</span>
+                  <h2>Baking from My Hearth, Cooking from My Heart</h2>
                 </div>
                 <p>
-                  Welcome too restaurant, where culinary excellence meets warm
-                  hospitality in every dish we serve. Nestled in the heart of
-                  City Name our eatery invites you on a journey
+                  My journey began at age 10, learning the art of baking from my Mom.
+                  30 years ago, I started making chocolates when sugar-free options weren't easily available -
+                  my parents were diabetic, and Mom was a chocoholic. What started as a necessity became my passion.
+                </p>
+                <p>
+                  After 20 years as an HR Professional, I quit to follow my true calling - baking from home.
+                  I love the comfort of home, so I continue to do my baking & cooking from my hearth.
+                  My greatest joy comes from seeing people enjoying my food. I love to eat and feed others.
                 </p>
                 <div className="about-btn-author pt-5 mb-45">
                   <Link href="about" className="theme-btn style-two">
@@ -312,10 +317,10 @@ const page = () => {
                         <i className="flaticon-high-quality" />
                       </div>
                       <h5>
-                        <Link href="menu-burger">Best Quality Food</Link>
+                        <Link href="menu-burger">Homemade & Fresh</Link>
                       </h5>
                       <p>
-                        Our talented chefs craft each dish precision sourcing
+                        Made only to order - no premade dishes. Fresh ingredients, carefully chosen.
                       </p>
                     </div>
                   </div>
@@ -325,10 +330,10 @@ const page = () => {
                         <i className="flaticon-chef" />
                       </div>
                       <h5>
-                        <Link href="menu-burger">Experience our Chefs</Link>
+                        <Link href="menu-burger">Generational Recipes</Link>
                       </h5>
                       <p>
-                        Our talented chefs craft each dish precision sourcing
+                        Some recipes handed down through 2 generations, made with love.
                       </p>
                     </div>
                   </div>
@@ -366,17 +371,18 @@ const page = () => {
             <li className="active" data-filter="*">
               Show All
             </li>
-            <li data-filter=".juice">Orange Juice</li>
-            <li data-filter=".shakes">Milk Shakes</li>
-            <li data-filter=".coffee">Coffee</li>
-            <li data-filter=".ice-cream">Ice-cream</li>
+            <li data-filter=".buns">Korean Buns</li>
+            <li data-filter=".chocolates">Chocolates</li>
+            <li data-filter=".cakes">Cakes</li>
+            <li data-filter=".cookies">Cookies</li>
+            <li data-filter=".savories">Savories</li>
           </ul>
           <div className="row product-filter-active">
-            <div className="col-xl-3 col-lg-4 col-sm-6 item shakes ice-cream">
+            <div className="col-xl-3 col-lg-4 col-sm-6 item buns">
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/food/filter-food1.jpg" alt="Food" />
-                  <span className="pizza-badge">-10%</span>
+                  <img src="assets/images/webp/buns/_DSC4259-medium.webp" alt="Korean Buns" />
+                  <span className="pizza-badge">Specialty</span>
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -385,21 +391,20 @@ const page = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
-                    <span>(5k)</span>
                   </div>
                   <h5>
-                    <Link href="product-details">fresh chicken burger</Link>
+                    <Link href="product-details">Smoked Cheese Korean Buns</Link>
                   </h5>
                   <span className="price">
-                    <del>Rs. 4,200</del> Rs. 2,100
+                    ₹250
                   </span>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item juice coffee">
+            <div className="col-xl-3 col-lg-4 col-sm-6 item chocolates">
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/food/filter-food2.jpg" alt="Food" />
+                  <img src="assets/images/webp/chocolates/_DSC4309-medium.webp" alt="Chocolates" />
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -408,22 +413,21 @@ const page = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
-                    <span>(5k)</span>
                   </div>
                   <h5>
-                    <Link href="product-details">fresh chicken burger</Link>
+                    <Link href="product-details">Artisan Chocolate Truffles</Link>
                   </h5>
                   <span className="price">
-                    <del>Rs. 4,200</del> Rs. 2,100
+                    ₹350
                   </span>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item shakes coffee ice-cream">
+            <div className="col-xl-3 col-lg-4 col-sm-6 item cakes">
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/food/filter-food3.jpg" alt="Food" />
-                  <span className="pizza-badge">hot</span>
+                  <img src="assets/images/webp/cakes/DSC09535-medium.webp" alt="Cakes" />
+                  <span className="pizza-badge">Popular</span>
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -432,21 +436,20 @@ const page = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
-                    <span>(5k)</span>
                   </div>
                   <h5>
-                    <Link href="product-details">fresh chicken burger</Link>
+                    <Link href="product-details">Custom Layer Cakes</Link>
                   </h5>
                   <span className="price">
-                    <del>Rs. 4,200</del> Rs. 2,100
+                    ₹800/kg
                   </span>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item juice ice-cream">
+            <div className="col-xl-3 col-lg-4 col-sm-6 item cookies">
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/food/filter-food4.jpg" alt="Food" />
+                  <img src="assets/images/webp/cookies/_DSC4287-medium.webp" alt="Cookies" />
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -455,21 +458,20 @@ const page = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
-                    <span>(5k)</span>
                   </div>
                   <h5>
-                    <Link href="product-details">fresh chicken burger</Link>
+                    <Link href="product-details">Gourmet Cookie Assortment</Link>
                   </h5>
                   <span className="price">
-                    <del>Rs. 4,200</del> Rs. 2,100
+                    ₹300
                   </span>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item shakes">
+            <div className="col-xl-3 col-lg-4 col-sm-6 item savories">
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/food/filter-food5.jpg" alt="Food" />
+                  <img src="assets/images/webp/savories/_DSC4326-medium.webp" alt="Savories" />
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -478,22 +480,20 @@ const page = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
-                    <span>(5k)</span>
                   </div>
                   <h5>
-                    <Link href="product-details">fresh chicken burger</Link>
+                    <Link href="product-details">Savory Baked Goodies</Link>
                   </h5>
                   <span className="price">
-                    <del>Rs. 4,200</del> Rs. 2,100
+                    ₹280
                   </span>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item juice coffee">
+            <div className="col-xl-3 col-lg-4 col-sm-6 item buns">
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/food/filter-food6.jpg" alt="Food" />
-                  <span className="pizza-badge">-10%</span>
+                  <img src="assets/images/webp/buns/_DSC4274-medium.webp" alt="Korean Buns" />
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -502,21 +502,20 @@ const page = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
-                    <span>(5k)</span>
                   </div>
                   <h5>
-                    <Link href="product-details">fresh chicken burger</Link>
+                    <Link href="product-details">Artisan Korean Bun Varieties</Link>
                   </h5>
                   <span className="price">
-                    <del>Rs. 4,200</del> Rs. 2,100
+                    ₹220
                   </span>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item ice-cream juice">
+            <div className="col-xl-3 col-lg-4 col-sm-6 item cakes">
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/food/filter-food7.jpg" alt="Food" />
+                  <img src="assets/images/webp/cakes/DSC09650-medium.webp" alt="Cakes" />
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -525,21 +524,20 @@ const page = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
-                    <span>(5k)</span>
                   </div>
                   <h5>
-                    <Link href="product-details">fresh chicken burger</Link>
+                    <Link href="product-details">Celebration Cakes</Link>
                   </h5>
                   <span className="price">
-                    <del>Rs. 4,200</del> Rs. 2,100
+                    ₹1200/kg
                   </span>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item coffee shakes">
+            <div className="col-xl-3 col-lg-4 col-sm-6 item chocolates">
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/food/filter-food8.jpg" alt="Food" />
+                  <img src="assets/images/webp/chocolates/_DSC4344-medium.webp" alt="Chocolates" />
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -548,13 +546,12 @@ const page = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
-                    <span>(5k)</span>
                   </div>
                   <h5>
-                    <Link href="product-details">fresh chicken burger</Link>
+                    <Link href="product-details">Chocolate Fudge Selection</Link>
                   </h5>
                   <span className="price">
-                    <del>Rs. 4,200</del> Rs. 2,100
+                    ₹400
                   </span>
                 </div>
               </div>
@@ -800,6 +797,175 @@ const page = () => {
         </div>
       </section>
       {/* Popular Menu Area end */}
+      {/* Customer Testimonials Area start */}
+      <section className="testimonials-area pt-130 rpt-100 pb-100 rpb-70 rel z-1">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div
+                className="section-title text-center mb-50"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <span className="sub-title mb-5">What Our Customers Say</span>
+                <h2>Love from Our Happy Customers</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <Slider {...sliderProps.testimonialSlider} className="testimonial-feedback-slider">
+                <div className="testimonial-feedback-item">
+                  <div className="feedback-card">
+                    <img
+                      src="/assets/images/testimonials/uploaded_media_0_1770709477803.png"
+                      alt="Customer Feedback 1"
+                      className="feedback-image"
+                    />
+                  </div>
+                </div>
+                <div className="testimonial-feedback-item">
+                  <div className="feedback-card">
+                    <img
+                      src="/assets/images/testimonials/uploaded_media_1_1770709477803.png"
+                      alt="Customer Feedback 2"
+                      className="feedback-image"
+                    />
+                  </div>
+                </div>
+                <div className="testimonial-feedback-item">
+                  <div className="feedback-card">
+                    <img
+                      src="/assets/images/testimonials/uploaded_media_2_1770709477803.png"
+                      alt="Customer Feedback 3"
+                      className="feedback-image"
+                    />
+                  </div>
+                </div>
+                <div className="testimonial-feedback-item">
+                  <div className="feedback-card">
+                    <img
+                      src="/assets/images/testimonials/uploaded_media_3_1770709477803.png"
+                      alt="Customer Feedback 4"
+                      className="feedback-image"
+                    />
+                  </div>
+                </div>
+                <div className="testimonial-feedback-item">
+                  <div className="feedback-card">
+                    <img
+                      src="/assets/images/testimonials/uploaded_media_4_1770709477803.png"
+                      alt="Customer Feedback 5"
+                      className="feedback-image"
+                    />
+                  </div>
+                </div>
+              </Slider>
+            </div>
+          </div>
+        </div>
+        <style jsx>{`
+          .testimonial-feedback-slider {
+            padding: 20px 0;
+          }
+          
+          .testimonial-feedback-item {
+            padding: 0 15px;
+          }
+          
+          .feedback-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            margin: 0 auto;
+            max-width: 600px;
+          }
+          
+          .feedback-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+          }
+          
+          .feedback-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            object-fit: contain;
+          }
+          
+          .testimonial-feedback-slider :global(.slick-dots) {
+            bottom: -50px;
+          }
+          
+          .testimonial-feedback-slider :global(.slick-dots li button:before) {
+            font-size: 12px;
+            color: #ff6b35;
+          }
+          
+          .testimonial-feedback-slider :global(.slick-dots li.slick-active button:before) {
+            color: #ff6b35;
+            opacity: 1;
+          }
+          
+          .testimonial-feedback-slider :global(.slick-prev),
+          .testimonial-feedback-slider :global(.slick-next) {
+            width: 50px;
+            height: 50px;
+            background: #ff6b35;
+            border-radius: 50%;
+            z-index: 1;
+          }
+          
+          .testimonial-feedback-slider :global(.slick-prev:before),
+          .testimonial-feedback-slider :global(.slick-next:before) {
+            font-size: 24px;
+            opacity: 1;
+          }
+          
+          .testimonial-feedback-slider :global(.slick-prev) {
+            left: -60px;
+          }
+          
+          .testimonial-feedback-slider :global(.slick-next) {
+            right: -60px;
+          }
+          
+          @media (max-width: 991px) {
+            .testimonial-feedback-slider :global(.slick-prev) {
+              left: -30px;
+            }
+            
+            .testimonial-feedback-slider :global(.slick-next) {
+              right: -30px;
+            }
+          }
+          
+          @media (max-width: 767px) {
+            .feedback-card {
+              padding: 15px;
+            }
+            
+            .testimonial-feedback-slider :global(.slick-prev),
+            .testimonial-feedback-slider :global(.slick-next) {
+              width: 40px;
+              height: 40px;
+            }
+            
+            .testimonial-feedback-slider :global(.slick-prev) {
+              left: -20px;
+            }
+            
+            .testimonial-feedback-slider :global(.slick-next) {
+              right: -20px;
+            }
+          }
+        `}</style>
+      </section>
+      {/* Customer Testimonials Area end */}
       {/* Section Devider Area start */}
       <div className="section-devider d-flex">
         <img
@@ -822,12 +988,12 @@ const page = () => {
               >
                 <div className="section-title mb-25">
                   <span className="sub-title mb-5">Why Choose Us</span>
-                  <h2>We Offer Quality Foods &amp; Customers Service</h2>
+                  <h2>Quality, Tradition & Customization in Every Bite</h2>
                 </div>
                 <p>
-                  Welcome too restaurant, where culinary excellence meets warm
-                  hospitality in every dish we serve. Nestled in the heart of
-                  City Name our eatery invites you on a journey
+                  At Cassandra's Gourmet, we maintain separate kitchens for Veg & Non-Veg preparations.
+                  Every ingredient is hand-picked & carefully chosen. We make them the way I make for my children -
+                  with love, care, and attention to detail. Every order is customized to your taste.
                 </p>
               </div>
             </div>
@@ -889,10 +1055,10 @@ const page = () => {
                     <i className="flaticon-broccoli" />
                   </div>
                   <div className="content">
-                    <h4>100% Organic Food</h4>
+                    <h4>100% Homemade</h4>
                     <p>
-                      Welcome too restaurant, where culinary excellence meets
-                      warm hospitality in every dish we servce
+                      Everything is homemade from scratch with carefully hand-picked ingredients.
+                      Made with the same care and love as I would for my own family.
                     </p>
                   </div>
                 </div>
@@ -901,10 +1067,10 @@ const page = () => {
                     <i className="flaticon-broccoli" />
                   </div>
                   <div className="content">
-                    <h4>Natural &amp; Fresh Food</h4>
+                    <h4>Fresh & Customized</h4>
                     <p>
-                      Welcome too restaurant, where culinary excellence meets
-                      warm hospitality in every dish we servce
+                      Made only to order - no premade dishes. Every creation is fresh and
+                      customized to your taste preferences.
                     </p>
                   </div>
                 </div>
@@ -913,10 +1079,10 @@ const page = () => {
                     <i className="flaticon-broccoli" />
                   </div>
                   <div className="content">
-                    <h4>Natural Sugar</h4>
+                    <h4>Made to Order</h4>
                     <p>
-                      Welcome too restaurant, where culinary excellence meets
-                      warm hospitality in every dish we servce
+                      Each dish is prepared fresh when you order. We don't believe in pre-made items -
+                      your food is made specially for you.
                     </p>
                   </div>
                 </div>
