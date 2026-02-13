@@ -941,7 +941,7 @@ a.theme-btn.style-three:hover {
   line-height: 80px;
   border-radius: 50%;
   background-color: transparent;
-  background-image: url(../images/shapes/scroll-top-bg.png);
+  background-image: url(../images/shapes/scroll-top-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-animation: pulse 2s infinite;
@@ -5550,7 +5550,7 @@ h6,
   position: relative;
   text-align: center;
   background-color: var(--primary-color);
-  background-image: url(../images/offer/offer-card-bg.png);
+  background-image: url(../images/offer/offer-card-bg.webp);
 }
 .offer-card-item .badge {
   width: 90px;
@@ -5560,7 +5560,7 @@ h6,
   right: 15%;
   top: 18%;
   line-height: 72px;
-  background-image: url(../images/offer/badge-bg.png);
+  background-image: url(../images/offer/badge-bg.webp);
 }
 .offer-card-item .image {
   position: relative;
@@ -5616,7 +5616,7 @@ h6,
 }
 .offer-card-item.style-two .badge {
   color: white;
-  background-image: url(../images/offer/badge-bg-two.png);
+  background-image: url(../images/offer/badge-bg-two.webp);
 }
 
 .offer-area .marquee-wrap.style-two {
@@ -6131,7 +6131,7 @@ h6,
   font-size: 25px;
   font-weight: 400;
   line-height: 72px;
-  background-image: url(../images/offer/badge-bg-two.png);
+  background-image: url(../images/offer/badge-bg-two.webp);
   background-size: cover;
 }
 .category-banner-item.style-five .price {
@@ -7206,7 +7206,7 @@ h6,
 .food-item:hover {
   color: white;
   background-color: var(--primary-color);
-  background-image: url(../images/shapes/food-shape.png);
+  background-image: url(../images/shapes/food-shape.webp);
 }
 .food-item:hover .content h5,
 .food-item:hover .content .price span {
@@ -7406,7 +7406,7 @@ h6,
   content: "";
   width: 38%;
   height: 73%;
-  background-image: url(../images/shapes/special-pizza-shape.png);
+  background-image: url(../images/shapes/special-pizza-shape.webp);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -2;
@@ -7583,7 +7583,7 @@ h6,
   width: 50vw;
   height: 100%;
   background-color: var(--primary-color);
-  background-image: url(../images/background/cta-dot-bg.png);
+  background-image: url(../images/background/cta-dot-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -7771,7 +7771,7 @@ h6,
   top: 2px;
   width: 65px;
   height: 65px;
-  background-image: url(../images/shapes/pizza-badge-shape.png);
+  background-image: url(../images/shapes/pizza-badge-shape.webp);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -7839,7 +7839,7 @@ h6,
   top: 20px;
   width: 65px;
   height: 65px;
-  background-image: url(../images/shapes/pizza-badge-shape.png);
+  background-image: url(../images/shapes/pizza-badge-shape.webp);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -10866,5 +10866,5 @@ blockquote .blockquote-footer:before {
   left: auto;
   top: -65px;
   color: var(--heading-color);
-  background-image: url(../images/shapes/scroll-top-yellow-bg.png);
+  background-image: url(../images/shapes/scroll-top-yellow-bg.webp);
 }
