@@ -476,10 +476,10 @@ const RestaurantMenu = ({ menus }) => {
       </div>
       <div className="testimonials-shapes">
         <div className="shape one">
-          <img src="/assets/images/shapes/chicken-menu1.png" alt="Shape" />
+          <img src="/assets/images/shapes/chicken-menu1.webp" alt="Shape" />
         </div>
         <div className="shape two">
-          <img src="/assets/images/shapes/chicken-menu2.png" alt="Shape" />
+          <img src="/assets/images/shapes/chicken-menu2.webp" alt="Shape" />
         </div>
       </div>
     </section>

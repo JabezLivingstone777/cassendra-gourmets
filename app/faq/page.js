@@ -99,7 +99,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/about/faq.jpg" alt="FAQ" />
+                  <img src="assets/images/about/faq.webp" alt="FAQ" />
                 </div>
               </div>
             </div>

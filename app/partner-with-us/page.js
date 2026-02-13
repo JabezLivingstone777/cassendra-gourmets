@@ -49,7 +49,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/features/feature1.jpg" alt="Business Partnership" />
+                <img src="assets/images/features/feature1.webp" alt="Business Partnership" />
               </div>
             </div>
           </div>
@@ -236,7 +236,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="story-image">
-                  <img src="assets/images/gallery/gallery3.jpg" alt="Corporate Event" />
+                  <img src="assets/images/gallery/gallery3.webp" alt="Corporate Event" />
                 </div>
                 <div className="story-content">
                   <h4>Tech Innovations Inc.</h4>
@@ -260,7 +260,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="story-image">
-                  <img src="assets/images/gallery/gallery4.jpg" alt="Wine Festival" />
+                  <img src="assets/images/gallery/gallery4.webp" alt="Wine Festival" />
                 </div>
                 <div className="story-content">
                   <h4>City Wine Festival</h4>
@@ -284,7 +284,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="story-image">
-                  <img src="assets/images/gallery/gallery5.jpg" alt="Local Farm Partnership" />
+                  <img src="assets/images/gallery/gallery5.webp" alt="Local Farm Partnership" />
                 </div>
                 <div className="story-content">
                   <h4>Green Valley Farms</h4>
@@ -362,7 +362,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/features/feature2.jpg" alt="Partnership Standards" />
+                <img src="assets/images/features/feature2.webp" alt="Partnership Standards" />
               </div>
             </div>
           </div>
@@ -470,7 +470,7 @@ const page = () => {
       {/* Call to Action */}
       <section 
         className="cta-area overlay pt-130 rpt-100 pb-130 rpb-100 rel z-1 bgs-cover"
-        style={{ backgroundImage: "url(assets/images/background/cta-bg.jpg)" }}
+        style={{ backgroundImage: "url(assets/images/background/cta-bg.webp)" }}
       >
         <div className="container">
           <div className="row justify-content-center">

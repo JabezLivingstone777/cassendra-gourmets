@@ -59,25 +59,25 @@ function TestimonialSlider() {
             >
               <div className="testimonial-five-author-item">
                 <img
-                  src="assets/images/testimonials/testi-author-five1.jpg"
+                  src="assets/images/testimonials/testi-author-five1.webp"
                   alt="Author"
                 />
               </div>
               <div className="testimonial-five-author-item">
                 <img
-                  src="assets/images/testimonials/testi-author-five2.jpg"
+                  src="assets/images/testimonials/testi-author-five2.webp"
                   alt="Author"
                 />
               </div>
               <div className="testimonial-five-author-item">
                 <img
-                  src="assets/images/testimonials/testi-author-five3.jpg"
+                  src="assets/images/testimonials/testi-author-five3.webp"
                   alt="Author"
                 />
               </div>
               <div className="testimonial-five-author-item">
                 <img
-                  src="assets/images/testimonials/testi-author-five2.jpg"
+                  src="assets/images/testimonials/testi-author-five2.webp"
                   alt="Author"
                 />
               </div>
@@ -140,7 +140,7 @@ function TestimonialSlider() {
             data-aos-offset={50}
           >
             <img
-              src="assets/images/testimonials/testi-five-left.png"
+              src="assets/images/testimonials/testi-five-left.webp"
               alt="Left"
             />
           </div>
@@ -152,7 +152,7 @@ function TestimonialSlider() {
             data-aos-offset={50}
           >
             <img
-              src="assets/images/testimonials/testi-five-right.png"
+              src="assets/images/testimonials/testi-five-right.webp"
               alt="Left"
             />
           </div>
@@ -161,19 +161,19 @@ function TestimonialSlider() {
       <div className="testimonials-shapes">
         <div className="shape one">
           <img
-            src="assets/images/testimonials/testi-five-shape3.png"
+            src="assets/images/testimonials/testi-five-shape3.webp"
             alt="Shape"
           />
         </div>
         <div className="shape three">
           <img
-            src="assets/images/testimonials/testi-five-shape1.png"
+            src="assets/images/testimonials/testi-five-shape1.webp"
             alt="Shape"
           />
         </div>
         <div className="shape four">
           <img
-            src="assets/images/testimonials/testi-five-shape2.png"
+            src="assets/images/testimonials/testi-five-shape2.webp"
             alt="Shape"
           />
         </div>
@@ -202,7 +202,7 @@ export const TestimonialSlider2 = () => {
           preparations such as grilling incorporating
         </div>
         <div className="author">
-          <img src="assets/images/testimonials/author1.jpg" alt="Author" />
+          <img src="assets/images/testimonials/author1.webp" alt="Author" />
           <div className="description">
             <h5>Steven H. Paxson</h5>
             <span>CEO &amp; Founder</span>
@@ -225,7 +225,7 @@ export const TestimonialSlider2 = () => {
           preparations such as grilling incorporating
         </div>
         <div className="author">
-          <img src="assets/images/testimonials/author2.jpg" alt="Author" />
+          <img src="assets/images/testimonials/author2.webp" alt="Author" />
           <div className="description">
             <h5>Steven H. Paxson</h5>
             <span>CEO &amp; Founder</span>
@@ -248,7 +248,7 @@ export const TestimonialSlider2 = () => {
           preparations such as grilling incorporating
         </div>
         <div className="author">
-          <img src="assets/images/testimonials/author3.jpg" alt="Author" />
+          <img src="assets/images/testimonials/author3.webp" alt="Author" />
           <div className="description">
             <h5>Steven H. Paxson</h5>
             <span>CEO &amp; Founder</span>
@@ -265,7 +265,7 @@ export const TestimonialSlider2 = () => {
           preparations such as grilling incorporating
         </div>
         <div className="author">
-          <img src="assets/images/testimonials/author1.jpg" alt="Author" />
+          <img src="assets/images/testimonials/author1.webp" alt="Author" />
           <div className="description">
             <h5>Steven H. Paxson</h5>
             <span>CEO &amp; Founder</span>
@@ -282,7 +282,7 @@ export const TestimonialSlider2 = () => {
           preparations such as grilling incorporating
         </div>
         <div className="author">
-          <img src="assets/images/testimonials/author2.jpg" alt="Author" />
+          <img src="assets/images/testimonials/author2.webp" alt="Author" />
           <div className="description">
             <h5>Steven H. Paxson</h5>
             <span>CEO &amp; Founder</span>
@@ -299,7 +299,7 @@ export const TestimonialSlider2 = () => {
           preparations such as grilling incorporating
         </div>
         <div className="author">
-          <img src="assets/images/testimonials/author3.jpg" alt="Author" />
+          <img src="assets/images/testimonials/author3.webp" alt="Author" />
           <div className="description">
             <h5>Steven H. Paxson</h5>
             <span>CEO &amp; Founder</span>

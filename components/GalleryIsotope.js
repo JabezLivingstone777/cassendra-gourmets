@@ -100,7 +100,7 @@ const GalleryIsotope = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="assets/images/gallery/gallery-three1.jpg" alt="Gallery" />
+            <img src="assets/images/gallery/gallery-three1.webp" alt="Gallery" />
             <h3>Chicken burger</h3>
             <span className="category">Delicious food</span>
           </div>
@@ -113,7 +113,7 @@ const GalleryIsotope = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="assets/images/gallery/gallery-three2.jpg" alt="Gallery" />
+            <img src="assets/images/gallery/gallery-three2.webp" alt="Gallery" />
             <h3>yamee Chicken fry</h3>
             <span className="category">Delicious food</span>
           </div>
@@ -126,7 +126,7 @@ const GalleryIsotope = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="assets/images/gallery/gallery-three3.jpg" alt="Gallery" />
+            <img src="assets/images/gallery/gallery-three3.webp" alt="Gallery" />
             <h3>beef vegetable hot dog</h3>
             <span className="category">Delicious food</span>
           </div>
@@ -138,7 +138,7 @@ const GalleryIsotope = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="assets/images/gallery/gallery-three4.jpg" alt="Gallery" />
+            <img src="assets/images/gallery/gallery-three4.webp" alt="Gallery" />
             <h3>hot dog with mustard</h3>
             <span className="category">Delicious food</span>
           </div>
@@ -151,7 +151,7 @@ const GalleryIsotope = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="assets/images/gallery/gallery-three5.jpg" alt="Gallery" />
+            <img src="assets/images/gallery/gallery-three5.webp" alt="Gallery" />
             <h3>traditional Italian pizza</h3>
             <span className="category">Delicious food</span>
           </div>
@@ -164,7 +164,7 @@ const GalleryIsotope = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="assets/images/gallery/gallery-three6.jpg" alt="Gallery" />
+            <img src="assets/images/gallery/gallery-three6.webp" alt="Gallery" />
             <h3>Chicken burger</h3>
             <span className="category">Delicious food</span>
           </div>
@@ -176,7 +176,7 @@ const GalleryIsotope = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="assets/images/gallery/gallery-three7.jpg" alt="Gallery" />
+            <img src="assets/images/gallery/gallery-three7.webp" alt="Gallery" />
             <h3>Chicken burger</h3>
             <span className="category">Delicious food</span>
           </div>
@@ -189,7 +189,7 @@ const GalleryIsotope = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="assets/images/gallery/gallery-three8.jpg" alt="Gallery" />
+            <img src="assets/images/gallery/gallery-three8.webp" alt="Gallery" />
             <h3>Chicken burger</h3>
             <span className="category">Delicious food</span>
           </div>
@@ -202,7 +202,7 @@ const GalleryIsotope = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="assets/images/gallery/gallery-three9.jpg" alt="Gallery" />
+            <img src="assets/images/gallery/gallery-three9.webp" alt="Gallery" />
             <h3>Chicken burger</h3>
             <span className="category">Delicious food</span>
           </div>

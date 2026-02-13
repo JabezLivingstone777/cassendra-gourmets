@@ -49,7 +49,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/gallery/gallery1.jpg" alt="Supper Club Experience" />
+                <img src="assets/images/gallery/gallery1.webp" alt="Supper Club Experience" />
               </div>
             </div>
           </div>
@@ -273,7 +273,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/gallery/gallery2.jpg" alt="Private Dining Room" />
+                <img src="assets/images/gallery/gallery2.webp" alt="Private Dining Room" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -333,7 +333,7 @@ const page = () => {
       {/* Call to Action */}
       <section 
         className="cta-area overlay pt-130 rpt-100 pb-130 rpb-100 rel z-1 bgs-cover"
-        style={{ backgroundImage: "url(assets/images/background/cta-bg.jpg)" }}
+        style={{ backgroundImage: "url(assets/images/background/cta-bg.webp)" }}
       >
         <div className="container">
           <div className="row justify-content-center">

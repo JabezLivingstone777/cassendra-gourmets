@@ -21,7 +21,7 @@ const page = () => {
                 <div className="food-review">
                   <div className="author">
                     <img
-                      src="assets/images/about/review-author.png"
+                      src="assets/images/about/review-author.webp"
                       alt="Author"
                     />
                   </div>
@@ -31,7 +31,7 @@ const page = () => {
                     <i className="fas fa-star" />
                   </div>
                 </div>
-                <img src="assets/images/about/about.jpg" alt="About" />
+                <img src="assets/images/about/about.webp" alt="About" />
                 <div
                   className="quality-food"
                   style={{
@@ -91,7 +91,7 @@ const page = () => {
         </div>
         <div className="about-shapes">
           <div className="shape one">
-            <img src="assets/images/shapes/pizza-three.png" alt="Shape" />
+            <img src="assets/images/shapes/pizza-three.webp" alt="Shape" />
           </div>
         </div>
       </section>
@@ -120,7 +120,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="image">
-                  <img src="assets/images/chefs/chef1.jpg" alt="Chef" />
+                  <img src="assets/images/chefs/chef1.webp" alt="Chef" />
                 </div>
                 <div className="description">
                   <h5>
@@ -142,7 +142,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="image">
-                  <img src="assets/images/chefs/chef2.jpg" alt="Chef" />
+                  <img src="assets/images/chefs/chef2.webp" alt="Chef" />
                 </div>
                 <div className="description">
                   <h5>
@@ -164,7 +164,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="image">
-                  <img src="assets/images/chefs/chef3.jpg" alt="Chef" />
+                  <img src="assets/images/chefs/chef3.webp" alt="Chef" />
                 </div>
                 <div className="description">
                   <h5>
@@ -186,7 +186,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="image">
-                  <img src="assets/images/chefs/chef4.jpg" alt="Chef" />
+                  <img src="assets/images/chefs/chef4.webp" alt="Chef" />
                 </div>
                 <div className="description">
                   <h5>
@@ -207,7 +207,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="image">
-                  <img src="assets/images/chefs/chef5.jpg" alt="Chef" />
+                  <img src="assets/images/chefs/chef5.webp" alt="Chef" />
                 </div>
                 <div className="description">
                   <h5>
@@ -229,7 +229,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="image">
-                  <img src="assets/images/chefs/chef6.jpg" alt="Chef" />
+                  <img src="assets/images/chefs/chef6.webp" alt="Chef" />
                 </div>
                 <div className="description">
                   <h5>
@@ -251,7 +251,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="image">
-                  <img src="assets/images/chefs/chef7.jpg" alt="Chef" />
+                  <img src="assets/images/chefs/chef7.webp" alt="Chef" />
                 </div>
                 <div className="description">
                   <h5>
@@ -273,7 +273,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="image">
-                  <img src="assets/images/chefs/chef8.jpg" alt="Chef" />
+                  <img src="assets/images/chefs/chef8.webp" alt="Chef" />
                 </div>
                 <div className="description">
                   <h5>

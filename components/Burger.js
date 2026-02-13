@@ -28,7 +28,7 @@ const Burger = () => {
             data-aos-offset={50}
           >
             <div className="image">
-              <img src="assets/images/products/burger1.jpg" alt="Burger" />
+              <img src="assets/images/products/burger1.webp" alt="Burger" />
               <span className="pizza-badge">hot</span>
             </div>
             <div className="content">
@@ -56,7 +56,7 @@ const Burger = () => {
             data-aos-offset={50}
           >
             <div className="image">
-              <img src="assets/images/products/burger2.jpg" alt="Burger" />
+              <img src="assets/images/products/burger2.webp" alt="Burger" />
               <span className="pizza-badge">-10%</span>
             </div>
             <div className="content">
@@ -84,7 +84,7 @@ const Burger = () => {
             data-aos-offset={50}
           >
             <div className="image">
-              <img src="assets/images/products/burger3.jpg" alt="Burger" />
+              <img src="assets/images/products/burger3.webp" alt="Burger" />
             </div>
             <div className="content">
               <div className="ratting">
@@ -111,7 +111,7 @@ const Burger = () => {
             data-aos-offset={50}
           >
             <div className="image">
-              <img src="assets/images/products/burger4.jpg" alt="Burger" />
+              <img src="assets/images/products/burger4.webp" alt="Burger" />
               <span className="pizza-badge">new</span>
             </div>
             <div className="content">
@@ -133,7 +133,7 @@ const Burger = () => {
           </div>
           <div className="product-item">
             <div className="image">
-              <img src="assets/images/products/burger1.jpg" alt="Burger" />
+              <img src="assets/images/products/burger1.webp" alt="Burger" />
               <span className="pizza-badge">hot</span>
             </div>
             <div className="content">
@@ -155,7 +155,7 @@ const Burger = () => {
           </div>
           <div className="product-item">
             <div className="image">
-              <img src="assets/images/products/burger2.jpg" alt="Burger" />
+              <img src="assets/images/products/burger2.webp" alt="Burger" />
               <span className="pizza-badge">-10%</span>
             </div>
             <div className="content">
@@ -177,7 +177,7 @@ const Burger = () => {
           </div>
           <div className="product-item">
             <div className="image">
-              <img src="assets/images/products/burger3.jpg" alt="Burger" />
+              <img src="assets/images/products/burger3.webp" alt="Burger" />
             </div>
             <div className="content">
               <div className="ratting">

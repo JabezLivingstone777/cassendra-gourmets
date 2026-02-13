@@ -19,7 +19,7 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="chef-image-part mb-55">
-                <img src="assets/images/chefs/chef-details.jpg" alt="Chef" />
+                <img src="assets/images/chefs/chef-details.webp" alt="Chef" />
               </div>
             </div>
             <div
@@ -179,7 +179,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/about/skills.jpg" alt="Skills" />
+                <img src="assets/images/about/skills.webp" alt="Skills" />
               </div>
             </div>
           </div>

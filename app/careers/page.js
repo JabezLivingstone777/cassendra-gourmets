@@ -48,7 +48,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/about/about-two1.jpg" alt="Career at Cassandra" />
+                <img src="assets/images/about/about-two1.webp" alt="Career at Cassandra" />
               </div>
             </div>
           </div>

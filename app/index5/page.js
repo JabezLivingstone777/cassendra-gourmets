@@ -21,7 +21,7 @@ const Index5 = () => {
               {/* Orange Juice */}
               <div className="food-menu-item wow fadeInUp delay-0-2s">
                 <div className="food-image">
-                  <img src="assets/images/dishes/dish1.png" alt="Orange Juice" />
+                  <img src="assets/images/dishes/dish1.webp" alt="Orange Juice" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -40,7 +40,7 @@ const Index5 = () => {
               {/* Apple Juice */}
               <div className="food-menu-item wow fadeInUp delay-0-4s">
                 <div className="food-image">
-                  <img src="assets/images/dishes/dish2.png" alt="Apple Juice" />
+                  <img src="assets/images/dishes/dish2.webp" alt="Apple Juice" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -59,7 +59,7 @@ const Index5 = () => {
               {/* Mango Juice */}
               <div className="food-menu-item wow fadeInUp delay-0-2s">
                 <div className="food-image">
-                  <img src="assets/images/dishes/dish3.png" alt="Mango Juice" />
+                  <img src="assets/images/dishes/dish3.webp" alt="Mango Juice" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -78,7 +78,7 @@ const Index5 = () => {
               {/* Mixed Fruit Juice */}
               <div className="food-menu-item wow fadeInUp delay-0-4s">
                 <div className="food-image">
-                  <img src="assets/images/dishes/dish4.png" alt="Mixed Fruit Juice" />
+                  <img src="assets/images/dishes/dish4.webp" alt="Mixed Fruit Juice" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -101,7 +101,7 @@ const Index5 = () => {
               {/* Fresh Lime Soda */}
               <div className="food-menu-item wow fadeInUp delay-0-2s">
                 <div className="food-image">
-                  <img src="assets/images/dishes/dish5.png" alt="Fresh Lime Soda" />
+                  <img src="assets/images/dishes/dish5.webp" alt="Fresh Lime Soda" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -120,7 +120,7 @@ const Index5 = () => {
               {/* Iced Coffee */}
               <div className="food-menu-item wow fadeInUp delay-0-4s">
                 <div className="food-image">
-                  <img src="assets/images/dishes/dish6.png" alt="Iced Coffee" />
+                  <img src="assets/images/dishes/dish6.webp" alt="Iced Coffee" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -139,7 +139,7 @@ const Index5 = () => {
               {/* Masala Chai */}
               <div className="food-menu-item wow fadeInUp delay-0-2s">
                 <div className="food-image">
-                  <img src="assets/images/dishes/dish7.png" alt="Masala Chai" />
+                  <img src="assets/images/dishes/dish7.webp" alt="Masala Chai" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -158,7 +158,7 @@ const Index5 = () => {
               {/* Smoothies */}
               <div className="food-menu-item wow fadeInUp delay-0-4s">
                 <div className="food-image">
-                  <img src="assets/images/dishes/dish8.png" alt="Smoothies" />
+                  <img src="assets/images/dishes/dish8.webp" alt="Smoothies" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">

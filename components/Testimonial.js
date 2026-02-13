@@ -15,7 +15,7 @@ const Testimonial = () => {
         <div className="col-lg-6">
           <div className="why-choose-two-image">
             <img
-              src="assets/images/testimonials/testimonials-two.jpg"
+              src="assets/images/testimonials/testimonials-two.webp"
               alt="Testimonials"
             />
           </div>
@@ -98,7 +98,7 @@ const Testimonial = () => {
               </div>
             </Slider>
             <div className="shape">
-              <img src="assets/images/shapes/tomato.png" alt="Shape" />
+              <img src="assets/images/shapes/tomato.webp" alt="Shape" />
             </div>
           </div>
         </div>

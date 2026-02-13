@@ -15,7 +15,7 @@ const CategoryBanner = () => {
               className="category-banner-item style-two"
               style={{
                 backgroundImage:
-                  "url(assets/images/banner/category-banner-two1.png)",
+                  "url(assets/images/banner/category-banner-two1.webp)",
               }}
             >
               <span className="price">only Rs. 4,950</span>
@@ -33,7 +33,7 @@ const CategoryBanner = () => {
               </Link>
               <div className="food-image">
                 <img
-                  src="assets/images/banner/category-banner-food1.png"
+                  src="assets/images/banner/category-banner-food1.webp"
                   alt="Food"
                 />
               </div>
@@ -50,7 +50,7 @@ const CategoryBanner = () => {
               className="category-banner-item style-two color-black"
               style={{
                 backgroundImage:
-                  "url(assets/images/banner/category-banner-two2.png)",
+                  "url(assets/images/banner/category-banner-two2.webp)",
               }}
             >
               <span className="price">only Rs. 3,600</span>
@@ -68,7 +68,7 @@ const CategoryBanner = () => {
               </Link>
               <div className="food-image">
                 <img
-                  src="assets/images/banner/category-banner-food2.png"
+                  src="assets/images/banner/category-banner-food2.webp"
                   alt="Food"
                 />
               </div>
@@ -85,7 +85,7 @@ const CategoryBanner = () => {
               className="category-banner-item style-two"
               style={{
                 backgroundImage:
-                  "url(assets/images/banner/category-banner-two1.png)",
+                  "url(assets/images/banner/category-banner-two1.webp)",
               }}
             >
               <span className="price">only Rs. 2,950</span>
@@ -103,7 +103,7 @@ const CategoryBanner = () => {
               </Link>
               <div className="food-image">
                 <img
-                  src="assets/images/banner/category-banner-food3.png"
+                  src="assets/images/banner/category-banner-food3.webp"
                   alt="Food"
                 />
               </div>

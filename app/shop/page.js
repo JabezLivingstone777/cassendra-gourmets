@@ -89,7 +89,7 @@ const page = () => {
                     <li>
                       <div className="image">
                         <img
-                          src="assets/images/widgets/product1.jpg"
+                          src="assets/images/widgets/product1.webp"
                           alt="Product"
                         />
                       </div>
@@ -112,7 +112,7 @@ const page = () => {
                     <li>
                       <div className="image">
                         <img
-                          src="assets/images/widgets/product2.jpg"
+                          src="assets/images/widgets/product2.webp"
                           alt="Product"
                         />
                       </div>
@@ -135,7 +135,7 @@ const page = () => {
                     <li>
                       <div className="image">
                         <img
-                          src="assets/images/widgets/product3.jpg"
+                          src="assets/images/widgets/product3.webp"
                           alt="Product"
                         />
                       </div>
@@ -183,7 +183,7 @@ const page = () => {
                     className="category-banner-item"
                     style={{
                       backgroundImage:
-                        "url(assets/images/widgets/banner-bg.jpg)",
+                        "url(assets/images/widgets/banner-bg.webp)",
                     }}
                   >
                     <span className="price">only Rs. 4,950</span>
@@ -240,7 +240,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish1.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish1.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -274,7 +274,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish2.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish2.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -308,7 +308,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish3.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish3.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -341,7 +341,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish5.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish5.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -373,7 +373,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish6.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish6.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -407,7 +407,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish4.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish4.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -440,7 +440,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish7.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish7.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -474,7 +474,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish8.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish8.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -508,7 +508,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish9.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish9.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -539,7 +539,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish10.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish10.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -571,7 +571,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish11.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish11.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">
@@ -603,7 +603,7 @@ const page = () => {
                   >
                     <div className="product-item-two">
                       <div className="image">
-                        <img src="assets/images/dishes/dish12.png" alt="Dish" />
+                        <img src="assets/images/dishes/dish12.webp" alt="Dish" />
                       </div>
                       <div className="content">
                         <div className="ratting">

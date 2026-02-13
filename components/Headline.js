@@ -47,10 +47,10 @@ const Headline = ({ mb = "105" }) => {
       </span>
       <div className="headline-shapes">
         <div className="shape one">
-          <img src="assets/images/shapes/tomato.png" alt="Shape" />
+          <img src="assets/images/shapes/tomato.webp" alt="Shape" />
         </div>
         <div className="shape two">
-          <img src="assets/images/shapes/burger.png" alt="Shape" />
+          <img src="assets/images/shapes/burger.webp" alt="Shape" />
         </div>
       </div>
     </div>

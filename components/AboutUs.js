@@ -72,7 +72,7 @@ const AboutRight = () => {
 };
 
 const AboutUs = ({
-  productImage = "/assets/images/about/pizza.png",
+  productImage = "/assets/images/about/pizza.webp",
   title = "Italian pizza",
   product = "Pizza",
 }) => {
@@ -113,8 +113,8 @@ const AboutUs = ({
 export default AboutUs;
 
 export const AboutUs2 = ({
-  aboutImg1 = "/assets/images/about/about-four3.jpg",
-  aboutImg2 = "/assets/images/about/about-four4.jpg",
+  aboutImg1 = "/assets/images/about/about-four3.webp",
+  aboutImg2 = "/assets/images/about/about-four4.webp",
 }) => {
   return (
     <section className="about-us-area pt-130 rpt-100 pb-150 rpb-60 rel z-1">
@@ -137,7 +137,7 @@ export const AboutUs2 = ({
               </div>
               <div className="badge">
                 <img
-                  src="assets/images/about/about-four-badge.jpg"
+                  src="assets/images/about/about-four-badge.webp"
                   alt="Badge"
                 />
               </div>
@@ -238,7 +238,7 @@ export const AboutUs3 = ({
               </div>
               <div className="badge">
                 <img
-                  src="assets/images/about/about-four-badge.jpg"
+                  src="assets/images/about/about-four-badge.webp"
                   alt="Quality Badge"
                 />
               </div>
@@ -263,7 +263,7 @@ export const AboutUs4 = ({ }) => {
               data-aos-offset={50}
             >
               <img
-                src="assets/images/about/menu-restaurant.jpg"
+                src="assets/images/about/menu-restaurant.webp"
                 alt="Menu Restaurant"
               />
               <div className="experience-year">

@@ -12,7 +12,7 @@ const OfferCard = () => {
             <img src="assets/images/offer/good-food.png" alt="Good Food" />
             <div className="badge">Hot</div>
             <div className="image">
-              <img src="assets/images/offer/offer-card1.png" alt="Food" />
+              <img src="assets/images/offer/offer-card1.webp" alt="Food" />
             </div>
             <span className="title">Burger</span>
             <span className="available-item">35+ Burger menu items</span>
@@ -32,7 +32,7 @@ const OfferCard = () => {
             <img src="assets/images/offer/good-food.png" alt="Good Food" />
             <div className="badge">-10%</div>
             <div className="image">
-              <img src="assets/images/offer/offer-card2.png" alt="Food" />
+              <img src="assets/images/offer/offer-card2.webp" alt="Food" />
             </div>
             <span className="title">Pizza</span>
             <span className="available-item">35+ Burger menu items</span>
@@ -52,7 +52,7 @@ const OfferCard = () => {
             <img src="assets/images/offer/good-food.png" alt="Good Food" />
             <div className="badge">Hot</div>
             <div className="image">
-              <img src="assets/images/offer/offer-card3.png" alt="Food" />
+              <img src="assets/images/offer/offer-card3.webp" alt="Food" />
             </div>
             <span className="title">hotdog</span>
             <span className="available-item">35+ Burger menu items</span>
@@ -72,7 +72,7 @@ const OfferCard = () => {
             <img src="assets/images/offer/good-food.png" alt="Good Food" />
             <div className="badge">-15%</div>
             <div className="image">
-              <img src="assets/images/offer/offer-card4.png" alt="Food" />
+              <img src="assets/images/offer/offer-card4.webp" alt="Food" />
             </div>
             <span className="title">chickens</span>
             <span className="available-item">35+ Burger menu items</span>
@@ -92,7 +92,7 @@ const OfferCard = () => {
             <img src="assets/images/offer/good-food.png" alt="Good Food" />
             <div className="badge">Hot</div>
             <div className="image">
-              <img src="assets/images/offer/offer-card5.png" alt="Food" />
+              <img src="assets/images/offer/offer-card5.webp" alt="Food" />
             </div>
             <span className="title">seafood</span>
             <span className="available-item">35+ Burger menu items</span>

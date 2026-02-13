@@ -24,7 +24,7 @@ const page = () => {
               <tbody>
                 <tr>
                   <td>
-                    <img src="assets/images/widgets/news1.jpg" alt="Product" />
+                    <img src="assets/images/widgets/news1.webp" alt="Product" />
                   </td>
                   <td>
                     <span className="title">Shopping Cart</span>
@@ -46,7 +46,7 @@ const page = () => {
                 </tr>
                 <tr>
                   <td>
-                    <img src="assets/images/widgets/news2.jpg" alt="Product" />
+                    <img src="assets/images/widgets/news2.webp" alt="Product" />
                   </td>
                   <td>
                     <span className="title">Chicken Soup</span>
@@ -68,7 +68,7 @@ const page = () => {
                 </tr>
                 <tr>
                   <td>
-                    <img src="assets/images/widgets/news3.jpg" alt="Product" />
+                    <img src="assets/images/widgets/news3.webp" alt="Product" />
                   </td>
                   <td>
                     <span className="title">Red king Crab</span>

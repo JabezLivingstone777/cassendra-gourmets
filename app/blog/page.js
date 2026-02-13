@@ -18,7 +18,7 @@ const page = () => {
                 >
                   <div className="image">
                     <img
-                      src="assets/images/blog/blog-standard1.jpg"
+                      src="assets/images/blog/blog-standard1.webp"
                       alt="Blog Standard"
                     />
                   </div>
@@ -72,7 +72,7 @@ const page = () => {
                 >
                   <div className="image">
                     <img
-                      src="assets/images/blog/blog-standard2.jpg"
+                      src="assets/images/blog/blog-standard2.webp"
                       alt="Blog Standard"
                     />
                   </div>
@@ -126,7 +126,7 @@ const page = () => {
                 >
                   <div className="image">
                     <img
-                      src="assets/images/blog/blog-standard3.jpg"
+                      src="assets/images/blog/blog-standard3.webp"
                       alt="Blog Standard"
                     />
                   </div>
@@ -253,7 +253,7 @@ const page = () => {
                   <ul>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widgets/news1.jpg" alt="News" />
+                        <img src="assets/images/widgets/news1.webp" alt="News" />
                       </div>
                       <div className="content">
                         <span className="date">April 25, 2024</span>
@@ -267,7 +267,7 @@ const page = () => {
                     </li>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widgets/news2.jpg" alt="News" />
+                        <img src="assets/images/widgets/news2.webp" alt="News" />
                       </div>
                       <div className="content">
                         <span className="date">April 25, 2024</span>
@@ -281,7 +281,7 @@ const page = () => {
                     </li>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widgets/news3.jpg" alt="News" />
+                        <img src="assets/images/widgets/news3.webp" alt="News" />
                       </div>
                       <div className="content">
                         <span className="date">April 25, 2024</span>
@@ -295,7 +295,7 @@ const page = () => {
                     </li>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widgets/news4.jpg" alt="News" />
+                        <img src="assets/images/widgets/news4.webp" alt="News" />
                       </div>
                       <div className="content">
                         <span className="date">April 25, 2024</span>
@@ -337,7 +337,7 @@ const page = () => {
                     className="category-banner-item"
                     style={{
                       backgroundImage:
-                        "url(assets/images/widgets/banner-bg.jpg)",
+                        "url(assets/images/widgets/banner-bg.webp)",
                     }}
                   >
                     <span className="price">only Rs. 4,950</span>

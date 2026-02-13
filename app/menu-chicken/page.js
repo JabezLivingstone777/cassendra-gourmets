@@ -19,7 +19,7 @@ const MenuChicken = () => {
             <div className="col-xl-6">
               <div className="food-menu-item wow fadeInUp delay-0-2s">
                 <div className="food-image">
-                  <img src="assets/images/food/chicken-menu1.png" alt="Butter Chicken" />
+                  <img src="assets/images/food/chicken-menu1.webp" alt="Butter Chicken" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -40,7 +40,7 @@ const MenuChicken = () => {
             <div className="col-xl-6">
               <div className="food-menu-item wow fadeInUp delay-0-4s">
                 <div className="food-image">
-                  <img src="assets/images/food/chicken-menu2.png" alt="Chicken Tikka Masala" />
+                  <img src="assets/images/food/chicken-menu2.webp" alt="Chicken Tikka Masala" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -61,7 +61,7 @@ const MenuChicken = () => {
             <div className="col-xl-6">
               <div className="food-menu-item wow fadeInUp delay-0-2s">
                 <div className="food-image">
-                  <img src="assets/images/food/chicken-menu3.png" alt="Tandoori Chicken" />
+                  <img src="assets/images/food/chicken-menu3.webp" alt="Tandoori Chicken" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -82,7 +82,7 @@ const MenuChicken = () => {
             <div className="col-xl-6">
               <div className="food-menu-item wow fadeInUp delay-0-4s">
                 <div className="food-image">
-                  <img src="assets/images/food/chicken-menu4.png" alt="Chicken Biryani" />
+                  <img src="assets/images/food/chicken-menu4.webp" alt="Chicken Biryani" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -103,7 +103,7 @@ const MenuChicken = () => {
             <div className="col-xl-6">
               <div className="food-menu-item wow fadeInUp delay-0-2s">
                 <div className="food-image">
-                  <img src="assets/images/food/chicken-menu5.png" alt="Chicken Curry" />
+                  <img src="assets/images/food/chicken-menu5.webp" alt="Chicken Curry" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">
@@ -124,7 +124,7 @@ const MenuChicken = () => {
             <div className="col-xl-6">
               <div className="food-menu-item wow fadeInUp delay-0-4s">
                 <div className="food-image">
-                  <img src="assets/images/food/chicken-menu6.png" alt="Chicken Korma" />
+                  <img src="assets/images/food/chicken-menu6.webp" alt="Chicken Korma" />
                 </div>
                 <div className="food-content">
                   <div className="ratting">

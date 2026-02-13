@@ -69,7 +69,7 @@ const DefaultFooter = () => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-25">
                   <Link href="/">
-                    <img src="/assets/images/logos/logodark.png" alt="Logo" />
+                    <img src="/assets/images/logos/logodark.webp" alt="Logo" />
                   </Link>
                 </div>
                 <p>
@@ -228,13 +228,13 @@ const DefaultFooter = () => {
       </div>
       <div className="footer-shapes">
         <div className="shape one">
-          <img src="assets/images/shapes/hero-shape5.png" alt="Shape" />
+          <img src="assets/images/shapes/hero-shape5.webp" alt="Shape" />
         </div>
         <div className="shape two">
-          <img src="assets/images/shapes/tomato.png" alt="Shape" />
+          <img src="assets/images/shapes/tomato.webp" alt="Shape" />
         </div>
         <div className="shape three">
-          <img src="assets/images/shapes/pizza-two.png" alt="Shape" />
+          <img src="assets/images/shapes/pizza-two.webp" alt="Shape" />
         </div>
       </div>
     </footer>
@@ -259,7 +259,7 @@ const Footer2 = () => {
               >
                 <div className="footer-logo mb-25">
                   <Link href="/">
-                    <img src="assets/images/logos/logo-white.png" alt="Logo" />
+                    <img src="assets/images/logos/logo-white.webp" alt="Logo" />
                   </Link>
                 </div>
                 <p>

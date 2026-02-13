@@ -18,7 +18,7 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <img
-                      src="assets/images/blog/blog-standard1.jpg"
+                      src="assets/images/blog/blog-standard1.webp"
                       alt="Blog Standard"
                     />
                   </div>
@@ -62,7 +62,7 @@ const page = () => {
                       <div className="col-sm-6">
                         <div className="image mb-30">
                           <img
-                            src="assets/images/blog/blog-middle1.jpg"
+                            src="assets/images/blog/blog-middle1.webp"
                             alt="Blog Middle"
                           />
                         </div>
@@ -70,7 +70,7 @@ const page = () => {
                       <div className="col-sm-6">
                         <div className="image mb-30">
                           <img
-                            src="assets/images/blog/blog-middle2.jpg"
+                            src="assets/images/blog/blog-middle2.webp"
                             alt="Blog Middle"
                           />
                         </div>
@@ -145,7 +145,7 @@ const page = () => {
                   <div className="comment-body">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/blog/admin-comment.jpg"
+                        src="assets/images/blog/admin-comment.webp"
                         alt="Author"
                       />
                     </div>
@@ -182,7 +182,7 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <img src="assets/images/blog/prev-post.jpg" alt="News" />
+                      <img src="assets/images/blog/prev-post.webp" alt="News" />
                     </div>
                     <div className="content">
                       <span className="date">April 25, 2024</span>
@@ -201,7 +201,7 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <img src="assets/images/blog/next-post.jpg" alt="News" />
+                      <img src="assets/images/blog/next-post.webp" alt="News" />
                     </div>
                     <div className="content">
                       <span className="date">April 25, 2024</span>
@@ -225,7 +225,7 @@ const page = () => {
                   <div className="comment-body">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/products/product-comment1.jpg"
+                        src="assets/images/products/product-comment1.webp"
                         alt="Author"
                       />
                     </div>
@@ -250,7 +250,7 @@ const page = () => {
                   <div className="comment-body comment-child">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/blog/blog-comment2.jpg"
+                        src="assets/images/blog/blog-comment2.webp"
                         alt="Author"
                       />
                     </div>
@@ -274,7 +274,7 @@ const page = () => {
                   <div className="comment-body">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/blog/blog-comment3.jpg"
+                        src="assets/images/blog/blog-comment3.webp"
                         alt="Author"
                       />
                     </div>
@@ -425,7 +425,7 @@ const page = () => {
                   <ul>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widgets/news1.jpg" alt="News" />
+                        <img src="assets/images/widgets/news1.webp" alt="News" />
                       </div>
                       <div className="content">
                         <span className="date">April 25, 2024</span>
@@ -439,7 +439,7 @@ const page = () => {
                     </li>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widgets/news2.jpg" alt="News" />
+                        <img src="assets/images/widgets/news2.webp" alt="News" />
                       </div>
                       <div className="content">
                         <span className="date">April 25, 2024</span>
@@ -453,7 +453,7 @@ const page = () => {
                     </li>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widgets/news3.jpg" alt="News" />
+                        <img src="assets/images/widgets/news3.webp" alt="News" />
                       </div>
                       <div className="content">
                         <span className="date">April 25, 2024</span>
@@ -467,7 +467,7 @@ const page = () => {
                     </li>
                     <li>
                       <div className="image">
-                        <img src="assets/images/widgets/news4.jpg" alt="News" />
+                        <img src="assets/images/widgets/news4.webp" alt="News" />
                       </div>
                       <div className="content">
                         <span className="date">April 25, 2024</span>
@@ -509,7 +509,7 @@ const page = () => {
                     className="category-banner-item"
                     style={{
                       backgroundImage:
-                        "url(assets/images/widgets/banner-bg.jpg)",
+                        "url(assets/images/widgets/banner-bg.webp)",
                     }}
                   >
                     <span className="price">only Rs. 4,950</span>

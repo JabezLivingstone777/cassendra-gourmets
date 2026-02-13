@@ -19,7 +19,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/products/product-details.jpg"
+                  src="assets/images/products/product-details.webp"
                   alt="Product Details"
                 />
               </div>
@@ -186,7 +186,7 @@ const page = () => {
                   <div className="comment-body">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/products/product-comment1.jpg"
+                        src="assets/images/products/product-comment1.webp"
                         alt="Author"
                       />
                     </div>
@@ -215,7 +215,7 @@ const page = () => {
                   <div className="comment-body">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/products/product-comment2.jpg"
+                        src="assets/images/products/product-comment2.webp"
                         alt="Author"
                       />
                     </div>
@@ -244,7 +244,7 @@ const page = () => {
                   <div className="comment-body">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/products/product-comment3.jpg"
+                        src="assets/images/products/product-comment3.webp"
                         alt="Author"
                       />
                     </div>
@@ -389,7 +389,7 @@ const page = () => {
             >
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/dishes/dish1.png" alt="Dish" />
+                  <img src="assets/images/dishes/dish1.webp" alt="Dish" />
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -418,7 +418,7 @@ const page = () => {
             >
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/dishes/dish2.png" alt="Dish" />
+                  <img src="assets/images/dishes/dish2.webp" alt="Dish" />
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -447,7 +447,7 @@ const page = () => {
             >
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/dishes/dish3.png" alt="Dish" />
+                  <img src="assets/images/dishes/dish3.webp" alt="Dish" />
                 </div>
                 <div className="content">
                   <div className="ratting">
@@ -478,7 +478,7 @@ const page = () => {
             >
               <div className="product-item-two">
                 <div className="image">
-                  <img src="assets/images/dishes/dish4.png" alt="Dish" />
+                  <img src="assets/images/dishes/dish4.webp" alt="Dish" />
                 </div>
                 <div className="content">
                   <div className="ratting">

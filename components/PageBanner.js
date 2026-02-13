@@ -4,7 +4,7 @@ const PageBanner = ({ pageTitle, pageName }) => {
   return (
     <section
       className="page-banner-area overlay pt-160 rpt-150 pb-100 rpb-120 rel z-1 bgs-cover text-center"
-      style={{ backgroundImage: "url(assets/images/background/banner.jpg)" }}
+      style={{ backgroundImage: "url(assets/images/background/banner.webp)" }}
     >
       <div className="container">
         <div className="banner-inner text-white">

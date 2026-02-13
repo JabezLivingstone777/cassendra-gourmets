@@ -9,8 +9,8 @@ const InstagramArea = () => {
           data-aos-offset={50}
         >
           <div className="instagram-item">
-            <img src="assets/images/instagram/instagram1.jpg" alt="Instagram" />
-            <a href="assets/images/instagram/instagram1.jpg">
+            <img src="assets/images/instagram/instagram1.webp" alt="Instagram" />
+            <a href="assets/images/instagram/instagram1.webp">
               <i className="fab fa-instagram" />
             </a>
           </div>
@@ -23,8 +23,8 @@ const InstagramArea = () => {
           data-aos-offset={50}
         >
           <div className="instagram-item">
-            <img src="assets/images/instagram/instagram2.jpg" alt="Instagram" />
-            <a href="assets/images/instagram/instagram2.jpg">
+            <img src="assets/images/instagram/instagram2.webp" alt="Instagram" />
+            <a href="assets/images/instagram/instagram2.webp">
               <i className="fab fa-instagram" />
             </a>
           </div>
@@ -37,8 +37,8 @@ const InstagramArea = () => {
           data-aos-offset={50}
         >
           <div className="instagram-item">
-            <img src="assets/images/instagram/instagram3.jpg" alt="Instagram" />
-            <a href="assets/images/instagram/instagram3.jpg">
+            <img src="assets/images/instagram/instagram3.webp" alt="Instagram" />
+            <a href="assets/images/instagram/instagram3.webp">
               <i className="fab fa-instagram" />
             </a>
           </div>
@@ -51,8 +51,8 @@ const InstagramArea = () => {
           data-aos-offset={50}
         >
           <div className="instagram-item">
-            <img src="assets/images/instagram/instagram4.jpg" alt="Instagram" />
-            <a href="assets/images/instagram/instagram4.jpg">
+            <img src="assets/images/instagram/instagram4.webp" alt="Instagram" />
+            <a href="assets/images/instagram/instagram4.webp">
               <i className="fab fa-instagram" />
             </a>
           </div>
@@ -65,8 +65,8 @@ const InstagramArea = () => {
           data-aos-offset={50}
         >
           <div className="instagram-item">
-            <img src="assets/images/instagram/instagram5.jpg" alt="Instagram" />
-            <a href="assets/images/instagram/instagram5.jpg">
+            <img src="assets/images/instagram/instagram5.webp" alt="Instagram" />
+            <a href="assets/images/instagram/instagram5.webp">
               <i className="fab fa-instagram" />
             </a>
           </div>

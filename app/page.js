@@ -12,7 +12,7 @@ const page = () => {
       <section
         className="hero-area-five bgs-cover pt-185 rpt-145 pb-250 rel z-1"
         style={{
-          backgroundImage: "url(assets/images/background/hero-five.jpg)",
+          backgroundImage: "url(assets/images/background/hero-five.webp)",
         }}
       >
         <div className="container">
@@ -35,13 +35,13 @@ const page = () => {
         </div>
         <div className="hero-shapes">
           <div className="shape one">
-            <img src="assets/images/shapes/hero-shape1.png" alt="Hero Shape" />
+            <img src="assets/images/shapes/hero-shape1.webp" alt="Hero Shape" />
           </div>
           <div className="shape two">
-            <img src="assets/images/shapes/hero-shape2.png" alt="Hero Shape" />
+            <img src="assets/images/shapes/hero-shape2.webp" alt="Hero Shape" />
           </div>
           <div className="shape five">
-            <img src="assets/images/shapes/hero-shape5.png" alt="Hero Shape" />
+            <img src="assets/images/shapes/hero-shape5.webp" alt="Hero Shape" />
           </div>
           <div
             className="hero-left"
@@ -258,10 +258,10 @@ const page = () => {
         </span>
         <div className="headline-shapes">
           <div className="shape one">
-            <img src="assets/images/shapes/heading1.png" alt="Shape" />
+            <img src="assets/images/shapes/heading1.webp" alt="Shape" />
           </div>
           <div className="shape two">
-            <img src="assets/images/shapes/heading2.png" alt="Shape" />
+            <img src="assets/images/shapes/heading2.webp" alt="Shape" />
           </div>
         </div>
       </div>
@@ -277,7 +277,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/about/about-five.jpg" alt="About" />
+                <img src="assets/images/about/about-five.webp" alt="About" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -574,7 +574,7 @@ const page = () => {
                 className="category-banner-item style-three gradient-two"
                 style={{
                   backgroundImage:
-                    "url(assets/images/banner/category-banner-five1.jpg)",
+                    "url(assets/images/banner/category-banner-five1.webp)",
                 }}
               >
                 <span className="quality">Quality Food</span>
@@ -595,7 +595,7 @@ const page = () => {
                 className="category-banner-item style-four"
                 style={{
                   backgroundImage:
-                    "url(assets/images/banner/category-banner-five2.jpg)",
+                    "url(assets/images/banner/category-banner-five2.webp)",
                 }}
               >
                 <h3>buy 1</h3>
@@ -616,7 +616,7 @@ const page = () => {
                 className="category-banner-item style-three gradient-three"
                 style={{
                   backgroundImage:
-                    "url(assets/images/banner/category-banner-five3.jpg)",
+                    "url(assets/images/banner/category-banner-five3.webp)",
                 }}
               >
                 <span className="quality">Quality Food</span>
@@ -678,10 +678,10 @@ const page = () => {
         </span>
         <div className="headline-shapes">
           <div className="shape one">
-            <img src="assets/images/shapes/heading1.png" alt="Shape" />
+            <img src="assets/images/shapes/heading1.webp" alt="Shape" />
           </div>
           <div className="shape two">
-            <img src="assets/images/shapes/heading2.png" alt="Shape" />
+            <img src="assets/images/shapes/heading2.webp" alt="Shape" />
           </div>
         </div>
       </div>
@@ -701,7 +701,7 @@ const page = () => {
                   <span className="sub-title mb-5">Popular Menu</span>
                   <h2>We Provide Exclusive Food Explore Popular Food</h2>
                 </div>
-                <img src="assets/images/food/food-menu.jpg" alt="Food Menu" />
+                <img src="assets/images/food/food-menu.webp" alt="Food Menu" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -714,7 +714,7 @@ const page = () => {
                 <div className="food-menu-item style-two">
                   <div className="image">
                     <img
-                      src="assets/images/food/fm-five1.jpg"
+                      src="assets/images/food/fm-five1.webp"
                       alt="Food Menu"
                     />
                   </div>
@@ -730,7 +730,7 @@ const page = () => {
                 <div className="food-menu-item style-two">
                   <div className="image">
                     <img
-                      src="assets/images/food/fm-five2.jpg"
+                      src="assets/images/food/fm-five2.webp"
                       alt="Food Menu"
                     />
                   </div>
@@ -746,7 +746,7 @@ const page = () => {
                 <div className="food-menu-item style-two">
                   <div className="image">
                     <img
-                      src="assets/images/food/fm-five3.jpg"
+                      src="assets/images/food/fm-five3.webp"
                       alt="Food Menu"
                     />
                   </div>
@@ -762,7 +762,7 @@ const page = () => {
                 <div className="food-menu-item style-two">
                   <div className="image">
                     <img
-                      src="assets/images/food/fm-five4.jpg"
+                      src="assets/images/food/fm-five4.webp"
                       alt="Food Menu"
                     />
                   </div>
@@ -778,7 +778,7 @@ const page = () => {
                 <div className="food-menu-item style-two">
                   <div className="image">
                     <img
-                      src="assets/images/food/fm-five5.jpg"
+                      src="assets/images/food/fm-five5.webp"
                       alt="Food Menu"
                     />
                   </div>
@@ -819,7 +819,7 @@ const page = () => {
                 <div className="testimonial-feedback-item">
                   <div className="feedback-card">
                     <img
-                      src="/assets/images/testimonials/uploaded_media_0_1770709477803.png"
+                      src="/assets/images/testimonials/uploaded_media_0_1770709477803.webp"
                       alt="Customer Feedback 1"
                       className="feedback-image"
                     />
@@ -828,7 +828,7 @@ const page = () => {
                 <div className="testimonial-feedback-item">
                   <div className="feedback-card">
                     <img
-                      src="/assets/images/testimonials/uploaded_media_1_1770709477803.png"
+                      src="/assets/images/testimonials/uploaded_media_1_1770709477803.webp"
                       alt="Customer Feedback 2"
                       className="feedback-image"
                     />
@@ -837,7 +837,7 @@ const page = () => {
                 <div className="testimonial-feedback-item">
                   <div className="feedback-card">
                     <img
-                      src="/assets/images/testimonials/uploaded_media_2_1770709477803.png"
+                      src="/assets/images/testimonials/uploaded_media_2_1770709477803.webp"
                       alt="Customer Feedback 3"
                       className="feedback-image"
                     />
@@ -846,7 +846,7 @@ const page = () => {
                 <div className="testimonial-feedback-item">
                   <div className="feedback-card">
                     <img
-                      src="/assets/images/testimonials/uploaded_media_3_1770709477803.png"
+                      src="/assets/images/testimonials/uploaded_media_3_1770709477803.webp"
                       alt="Customer Feedback 4"
                       className="feedback-image"
                     />
@@ -855,7 +855,7 @@ const page = () => {
                 <div className="testimonial-feedback-item">
                   <div className="feedback-card">
                     <img
-                      src="/assets/images/testimonials/uploaded_media_4_1770709477803.png"
+                      src="/assets/images/testimonials/uploaded_media_4_1770709477803.webp"
                       alt="Customer Feedback 5"
                       className="feedback-image"
                     />
@@ -1005,7 +1005,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/about/why-choose-five.jpg"
+                  src="assets/images/about/why-choose-five.webp"
                   alt="Why Choose Us"
                 />
               </div>
@@ -1026,7 +1026,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/features/features-five.jpg"
+                  src="assets/images/features/features-five.webp"
                   alt="Features"
                 />
                 <div
@@ -1140,10 +1140,10 @@ const page = () => {
         </span>
         <div className="headline-shapes">
           <div className="shape one">
-            <img src="assets/images/shapes/heading1.png" alt="Shape" />
+            <img src="assets/images/shapes/heading1.webp" alt="Shape" />
           </div>
           <div className="shape two">
-            <img src="assets/images/shapes/heading2.png" alt="Shape" />
+            <img src="assets/images/shapes/heading2.webp" alt="Shape" />
           </div>
         </div>
       </div>
@@ -1160,7 +1160,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four2.jpg"
+                  src="assets/images/gallery/gallery-four2.webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1174,7 +1174,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four1.jpg"
+                  src="assets/images/gallery/gallery-four1.webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1188,7 +1188,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four3.jpg"
+                  src="assets/images/gallery/gallery-four3.webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1202,7 +1202,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four4.jpg"
+                  src="assets/images/gallery/gallery-four4.webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1216,7 +1216,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four5.jpg"
+                  src="assets/images/gallery/gallery-four5.webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1230,7 +1230,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four6.jpg"
+                  src="assets/images/gallery/gallery-four6.webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1269,7 +1269,7 @@ const page = () => {
               >
                 <div className="image">
                   <span className="date">Mar 25</span>
-                  <img src="assets/images/blog/blog-three1.jpg" alt="Blog" />
+                  <img src="assets/images/blog/blog-three1.webp" alt="Blog" />
                 </div>
                 <div className="content">
                   <a href="#" className="tag">
@@ -1304,7 +1304,7 @@ const page = () => {
               >
                 <div className="image">
                   <span className="date">Mar 25</span>
-                  <img src="assets/images/blog/blog-three2.jpg" alt="Blog" />
+                  <img src="assets/images/blog/blog-three2.webp" alt="Blog" />
                 </div>
                 <div className="content">
                   <a href="#" className="tag">
@@ -1339,7 +1339,7 @@ const page = () => {
               >
                 <div className="image">
                   <span className="date">Mar 25</span>
-                  <img src="assets/images/blog/blog-three3.jpg" alt="Blog" />
+                  <img src="assets/images/blog/blog-three3.webp" alt="Blog" />
                 </div>
                 <div className="content">
                   <a href="#" className="tag">
@@ -1387,7 +1387,7 @@ const page = () => {
               </a>
               <a href="#" className="client-item">
                 <img
-                  src="assets/images/clients/client3.png"
+                  src="assets/images/clients/client3.webp"
                   alt="Client Logo"
                 />
               </a>
@@ -1423,7 +1423,7 @@ const page = () => {
               </a>
               <a href="#" className="client-item">
                 <img
-                  src="assets/images/clients/client3.png"
+                  src="assets/images/clients/client3.webp"
                   alt="Client Logo"
                 />
               </a>
@@ -1498,10 +1498,10 @@ const page = () => {
         </span>
         <div className="headline-shapes">
           <div className="shape one">
-            <img src="assets/images/shapes/heading1.png" alt="Shape" />
+            <img src="assets/images/shapes/heading1.webp" alt="Shape" />
           </div>
           <div className="shape two">
-            <img src="assets/images/shapes/heading2.png" alt="Shape" />
+            <img src="assets/images/shapes/heading2.webp" alt="Shape" />
           </div>
         </div>
       </div>

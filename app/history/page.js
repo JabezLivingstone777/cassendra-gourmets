@@ -18,7 +18,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/about/history.jpg" alt="History" />
+                <img src="assets/images/about/history.webp" alt="History" />
               </div>
             </div>
             <div className="col-xl-6">
@@ -96,7 +96,7 @@ const page = () => {
                   <div className="history-item">
                     <div className="image">
                       <img
-                        src="assets/images/history/history1.jpg"
+                        src="assets/images/history/history1.webp"
                         alt="History"
                       />
                     </div>
@@ -123,7 +123,7 @@ const page = () => {
                   <div className="history-item">
                     <div className="image">
                       <img
-                        src="assets/images/history/history2.jpg"
+                        src="assets/images/history/history2.webp"
                         alt="History"
                       />
                     </div>
@@ -149,7 +149,7 @@ const page = () => {
                   <div className="history-item">
                     <div className="image">
                       <img
-                        src="assets/images/history/history3.jpg"
+                        src="assets/images/history/history3.webp"
                         alt="History"
                       />
                     </div>
@@ -176,7 +176,7 @@ const page = () => {
                   <div className="history-item">
                     <div className="image">
                       <img
-                        src="assets/images/history/history4.jpg"
+                        src="assets/images/history/history4.webp"
                         alt="History"
                       />
                     </div>
@@ -202,7 +202,7 @@ const page = () => {
                   <div className="history-item">
                     <div className="image">
                       <img
-                        src="assets/images/history/history5.jpg"
+                        src="assets/images/history/history5.webp"
                         alt="History"
                       />
                     </div>
@@ -229,7 +229,7 @@ const page = () => {
                   <div className="history-item">
                     <div className="image">
                       <img
-                        src="assets/images/history/history6.jpg"
+                        src="assets/images/history/history6.webp"
                         alt="History"
                       />
                     </div>
@@ -274,7 +274,7 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="award-item">
-                <img src="assets/images/awards/award1.png" alt="Award" />
+                <img src="assets/images/awards/award1.webp" alt="Award" />
                 <h5>World #1 restaurant</h5>
                 <span className="year">Awards - 1995</span>
               </div>
@@ -287,7 +287,7 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="award-item">
-                <img src="assets/images/awards/award2.png" alt="Award" />
+                <img src="assets/images/awards/award2.webp" alt="Award" />
                 <h5>World #1 restaurant</h5>
                 <span className="year">Awards - 2000</span>
               </div>

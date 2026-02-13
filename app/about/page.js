@@ -120,10 +120,10 @@ const page = () => {
         </span>
         <div className="headline-shapes">
           <div className="shape one">
-            <img src="assets/images/shapes/tomato.png" alt="Shape" />
+            <img src="assets/images/shapes/tomato.webp" alt="Shape" />
           </div>
           <div className="shape two">
-            <img src="assets/images/shapes/burger.png" alt="Shape" />
+            <img src="assets/images/shapes/burger.webp" alt="Shape" />
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/features/feature1.jpg" alt="Feature" />
+                <img src="assets/images/features/feature1.webp" alt="Feature" />
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">
@@ -173,7 +173,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/features/feature2.jpg" alt="Feature" />
+                <img src="assets/images/features/feature2.webp" alt="Feature" />
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">
@@ -205,7 +205,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/features/feature3.jpg" alt="Feature" />
+                <img src="assets/images/features/feature3.webp" alt="Feature" />
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">
@@ -271,10 +271,10 @@ const page = () => {
         </span>
         <div className="headline-shapes">
           <div className="shape one">
-            <img src="assets/images/shapes/chillies.png" alt="Shape" />
+            <img src="assets/images/shapes/chillies.webp" alt="Shape" />
           </div>
           <div className="shape two">
-            <img src="assets/images/shapes/tomato.png" alt="Shape" />
+            <img src="assets/images/shapes/tomato.webp" alt="Shape" />
           </div>
         </div>
       </div>
@@ -302,7 +302,7 @@ const page = () => {
             <img src="assets/images/shapes/hero-shape4.png" alt="Shape" />
           </div>
           <div className="shape two">
-            <img src="assets/images/shapes/tomato.png" alt="Shape" />
+            <img src="assets/images/shapes/tomato.webp" alt="Shape" />
           </div>
         </div>
       </section>
