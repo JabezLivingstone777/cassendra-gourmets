@@ -319,17 +319,32 @@ const MobileMenu = () => {
                 Call : <a href="callto:+88012345688">+880 123 456 88</a>
               </div>
               {/* Nav Search */}
-              <SearchBtn />
+              {/* <SearchBtn /> */}
               {/* Menu Button */}
               <div className="menu-btns">
-                <Link href="cart" className="cart-btn" style={{ color: 'white', marginRight: '20px' }}>
+                <Link href="cart" className="cart-btn" style={{ color: 'white', marginRight: '20px', display: 'none' }}>
                   <i className="far fa-shopping-cart" /> <span>2</span>
                 </Link>
-                <Link href="contact" className="theme-btn">
+                <Link href="contact" className="theme-btn" style={{ display: 'none' }}>
                   Book now <i className="far fa-arrow-alt-right" />
                 </Link>
+                {/* Social Media Icons */}
+                <div className="social-style-one" style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
+                  <a href="#" style={{ color: 'white', fontSize: '18px' }}>
+                    <i className="fab fa-facebook-f" />
+                  </a>
+                  <a href="#" style={{ color: 'white', fontSize: '18px' }}>
+                    <i className="fab fa-instagram" />
+                  </a>
+                  <a href="#" style={{ color: 'white', fontSize: '18px' }}>
+                    <i className="fab fa-twitter" />
+                  </a>
+                  <a href="#" style={{ color: 'white', fontSize: '18px' }}>
+                    <i className="fab fa-pinterest-p" />
+                  </a>
+                </div>
                 {/* menu sidbar */}
-                <div className="menu-sidebar">
+                <div className="menu-sidebar" style={{ display: 'none' }}>
                   <button
                     className="bg-transparent"
                     onClick={() =>
@@ -473,17 +488,34 @@ const Header = () => {
                 Call : <a href="callto:+88012345688">+91 9866142982</a>
               </div>
               {/* Nav Search */}
-              <SearchBtn />
+              <div style={{ display: 'none' }}>
+                <SearchBtn />
+              </div>
               {/* Menu Button */}
               <div className="menu-btns">
-                <Link href="cart" className="cart-btn" style={{ color: 'white', marginRight: '20px', marginLeft: '20px' }}>
+                <Link href="cart" className="cart-btn" style={{ color: 'white', marginRight: '20px', marginLeft: '20px', display: 'none' }}>
                   <i className="far fa-shopping-cart" /><span>2</span>
                 </Link>
-                <Link href="contact" className="theme-btn">
+                <Link href="contact" className="theme-btn" style={{ display: 'none' }}>
                   Book now <i className="far fa-arrow-alt-right" />
                 </Link>
+                {/* Social Media Icons */}
+                <div className="social-style-one" style={{ display: 'flex', gap: '15px', alignItems: 'center', marginLeft: '20px' }}>
+                  <a href="#" style={{ color: 'white', fontSize: '18px' }}>
+                    <i className="fab fa-facebook-f" />
+                  </a>
+                  <a href="#" style={{ color: 'white', fontSize: '18px' }}>
+                    <i className="fab fa-instagram" />
+                  </a>
+                  <a href="#" style={{ color: 'white', fontSize: '18px' }}>
+                    <i className="fab fa-twitter" />
+                  </a>
+                  <a href="#" style={{ color: 'white', fontSize: '18px' }}>
+                    <i className="fab fa-pinterest-p" />
+                  </a>
+                </div>
                 {/* menu sidbar */}
-                <div className="menu-sidebar">
+                <div className="menu-sidebar" style={{ display: 'none' }}>
                   <button
                     className="bg-transparent"
                     onClick={() =>

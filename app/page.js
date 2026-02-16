@@ -4,7 +4,140 @@ import WellFoodLayout from "@/layout/WellFoodLayout";
 import { sliderProps } from "@/utility/sliderProps";
 import Link from "next/link";
 import Slider from "react-slick";
+import { useState } from "react";
+
 const page = () => {
+  const [activeFilter, setActiveFilter] = useState("*");
+
+  // Menu data from RestaurantMenu
+  const menuData = [
+    {
+      category: "chocolates",
+      title: "Chocolates & Rum",
+      items: [
+        { id: 1, title: "Rum Ball (Per Piece)", price: "45", img: "/assets/images/webp/productgallery/_DSC4535-thumbnail-removebg-preview.webp" },
+        { id: 2, title: "Rum Balls (Box of 6)", price: "260", img: "/assets/images/webp/productgallery/shopping__1_-removebg-preview.webp" },
+        { id: 3, title: "Chocolate Liquor (10-12 Pieces)", price: "300", img: "/assets/images/webp/chocolates/_DSC4309-medium.webp" },
+        { id: 4, title: "Assorted Chocolates - Box of 12", price: "250", img: "/assets/images/webp/chocolates/_DSC4344-medium.webp" },
+      ]
+    },
+    {
+      category: "desserts",
+      title: "Desserts & Sweets",
+      items: [
+        { id: 1, title: "Caramel Custard", price: "70", img: "/assets/images/webp/cakes/DSC09535-medium.webp", badge: "Popular" },
+        { id: 2, title: "Date Pudding with Toffee Sauce", price: "100", img: "/assets/images/webp/cakes/DSC09650-medium.webp" },
+        { id: 3, title: "Trifle Pudding", price: "60", img: "/assets/images/webp/cakes/DSC09674-medium.webp" },
+        { id: 4, title: "Cheesecake (per kg)", price: "1750", img: "/assets/images/webp/cakes/DSC09650-medium.webp" },
+      ]
+    },
+    {
+      category: "cupcakes",
+      title: "Cupcakes & Bakes",
+      items: [
+        { id: 1, title: "Mini Cupcakes", price: "20", img: "/assets/images/webp/cakes/DSC09535-medium.webp" },
+        { id: 2, title: "Medium Cupcakes", price: "40", img: "/assets/images/webp/cakes/DSC09650-medium.webp" },
+        { id: 3, title: "Plain Brownie", price: "110", img: "/assets/images/webp/productgallery/plainBrownie.webp" },
+        { id: 4, title: "Blondies", price: "120", img: "/assets/images/webp/productgallery/blondies.webp" },
+      ]
+    },
+    {
+      category: "cookies",
+      title: "Cookies",
+      items: [
+        { id: 1, title: "Choco Chip Cookie", price: "18", img: "/assets/images/webp/productgallery/ChocoChipCookie.webp" },
+        { id: 2, title: "Oat & Raisin Cookie", price: "15", img: "/assets/images/webp/productgallery/oatCookie.webp" },
+        { id: 3, title: "Peanut Butter Cookie", price: "18", img: "/assets/images/webp/productgallery/peanutCookie.webp" },
+        { id: 4, title: "Shortbread Cookie", price: "18", img: "/assets/images/webp/productgallery/shortBreadCookie.webp" },
+      ]
+    },
+    {
+      category: "breads",
+      title: "Breads & Pizza",
+      items: [
+        { id: 1, title: "Korean Cheese Bun (Small)", price: "80", img: "/assets/images/webp/buns/_DSC4259-medium.webp", badge: "Specialty" },
+        { id: 2, title: "Korean Cheese Bun (Regular)", price: "200", img: "/assets/images/webp/buns/_DSC4274-medium.webp" },
+        { id: 3, title: "Margherita Pizza", price: "160", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
+        { id: 4, title: "Veg Burger", price: "190", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+      ]
+    },
+    {
+      category: "croissants",
+      title: "Croissants",
+      items: [
+        { id: 1, title: "Butter Croissant", price: "125", img: "/assets/images/webp/buns/_DSC4274-medium.webp" },
+        { id: 2, title: "Chocolate Croissant", price: "250", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 3, title: "Chicken Ham & Cheese Croissant", price: "275", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 4, title: "Coleslaw Croissant", price: "175", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+      ]
+    },
+    {
+      category: "puffs",
+      title: "Puffs & Momos",
+      items: [
+        { id: 1, title: "Chicken Puff", price: "60", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 2, title: "Paneer Puff", price: "60", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 3, title: "Veg Momos (6 Pieces)", price: "65", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 4, title: "Chicken Momos (6 Pieces)", price: "75", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+      ]
+    },
+    {
+      category: "sandwiches",
+      title: "Sandwiches",
+      items: [
+        { id: 1, title: "Chicken Sandwich", price: "90", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 2, title: "Coleslaw Sandwich", price: "60", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 3, title: "Chicken with Cheese Sandwich", price: "100", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 4, title: "Egg with Cheese Sandwich", price: "75", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+      ]
+    },
+    {
+      category: "tarts",
+      title: "Tarts",
+      items: [
+        { id: 1, title: "Chocolate Tart", price: "115", img: "/assets/images/webp/chocolates/_DSC4344-medium.webp" },
+        { id: 2, title: "Lemon Tart", price: "90", img: "/assets/images/webp/cakes/DSC09535-medium.webp" },
+        { id: 3, title: "Salted Caramel Tart", price: "110", img: "/assets/images/webp/cakes/DSC09650-medium.webp" },
+        { id: 4, title: "Chicken & Mushroom Tart", price: "140", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+      ]
+    },
+    {
+      category: "quiches",
+      title: "Quiches & Bakes",
+      items: [
+        { id: 1, title: "Mushroom & Cheese Quiche", price: "115", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 2, title: "Bacon Mushroom Cheese Quiche", price: "125", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 3, title: "Baked Vegetable", price: "300", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
+        { id: 4, title: "Spinach & Corn", price: "300", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
+      ]
+    },
+    {
+      category: "pasta",
+      title: "Pasta",
+      items: [
+        { id: 1, title: "Veg Pasta", price: "275", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
+        { id: 2, title: "Chicken Pasta", price: "325", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
+        { id: 3, title: "Veg Lasagna", price: "325", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
+        { id: 4, title: "Spaghetti with Meat Balls", price: "350", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
+      ]
+    }
+  ];
+
+  // Get filtered items
+  const getFilteredItems = () => {
+    if (activeFilter === "*") {
+      // Return all items from all categories
+      return menuData.flatMap(cat => 
+        cat.items.map(item => ({ ...item, category: cat.category }))
+      );
+    }
+    // Return items from selected category
+    const category = menuData.find(cat => cat.category === activeFilter.replace('.', ''));
+    return category ? category.items.map(item => ({ ...item, category: category.category })) : [];
+  };
+
+  const filteredItems = getFilteredItems();
+
   return (
     <WellFoodLayout footer={5}>
       {" "}
@@ -24,7 +157,7 @@ const page = () => {
           >
             <span className="sub-title">Good Homebased Bakery, Confectionery & Savories</span>
             <h1>Cassandra's Gourmet</h1>
-            <p>
+            <p style={{ fontSize: '14px', paddingLeft: '20px', paddingRight: '20px' }}>
               Where every creation is made with love from my hearth to your heart.
               Homemade, fresh, and customized to your taste - because good food brings joy.
             </p>
@@ -51,7 +184,7 @@ const page = () => {
             data-aos-offset={50}
           >
             <img
-              src="/assets/images/webp/buns/_DSC4259-large.webp"
+              src="/assets/images/webp/Hero/Cake – 1.webp"
               alt="Korean Buns"
             />
           </div>
@@ -63,7 +196,7 @@ const page = () => {
             data-aos-offset={50}
           >
             <img
-              src="/assets/images/webp/chocolates/_DSC4309-large.webp"
+              src="/assets/images/webp/Hero/Cake1.webp"
               alt="Artisan Chocolates"
             />
           </div>
@@ -94,9 +227,9 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="icon">
-                <img src="assets/images/shapes/fc-icon1.png" alt="Icon" />
+                <img src="/assets/images/webp/special/rumballs.webp" alt="Icon" />
               </div>
-              <h5>Korean Buns</h5>
+              <h5>Rumballs</h5>
               <Link href="menu-restaurant" className="btn">
                 Specialty
               </Link>
@@ -109,9 +242,9 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="icon">
-                <img src="assets/images/shapes/fc-icon2.png" alt="Icon" />
+                <img src="/assets/images/webp/special/chocoLiquor.webp" alt="Icon" />
               </div>
-              <h5>Artisan Chocolates</h5>
+              <h5>Chocolate liquor</h5>
               <Link href="menu-restaurant" className="btn">
                 Handcrafted
               </Link>
@@ -123,10 +256,10 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="icon">
+              {/* <div className="icon">
                 <img src="assets/images/shapes/fc-icon3.png" alt="Icon" />
               </div>
-              <h5>Custom Cakes</h5>
+              <h5>Assorted chocolates</h5>
               <Link href="menu-restaurant" className="btn">
                 Made to Order
               </Link>
@@ -137,11 +270,11 @@ const page = () => {
               data-aos-delay={150}
               data-aos-duration={1500}
               data-aos-offset={50}
-            >
+            > */}
               <div className="icon">
-                <img src="assets/images/shapes/fc-icon4.png" alt="Icon" />
+                <img src="/assets/images/webp/special/brownies.webp" alt="Icon" />
               </div>
-              <h5>Gourmet Cookies</h5>
+              <h5>Brownies</h5>
               <Link href="menu-restaurant" className="btn">
                 Fresh Baked
               </Link>
@@ -154,54 +287,117 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="icon">
-                <img src="assets/images/shapes/fc-icon5.png" alt="Icon" />
+                <img src="/assets/images/webp/special/cookies.webp" alt="Icon" />
               </div>
-              <h5>Savory Delights</h5>
+              <h5>Cookies</h5>
               <Link href="menu-restaurant" className="btn">
                 Homemade
               </Link>
             </div>
             <div className="fc-two-item">
               <div className="icon">
-                <img src="assets/images/shapes/fc-icon1.png" alt="Icon" />
+                <img src="/assets/images/webp/special/fudge.webp" alt="Icon" />
               </div>
-              <h5>Organic Juice</h5>
+              <h5>Fudge</h5>
               <Link href="menu-burger" className="btn">
                 15 Items
               </Link>
             </div>
             <div className="fc-two-item">
               <div className="icon">
-                <img src="assets/images/shapes/fc-icon2.png" alt="Icon" />
+                <img src="/assets/images/webp/special/desserts.webp" alt="Icon" />
               </div>
-              <h5>Honey Coffee</h5>
+              <h5>Desserts</h5>
               <Link href="menu-burger" className="btn">
                 15 Items
               </Link>
             </div>
             <div className="fc-two-item">
               <div className="icon">
-                <img src="assets/images/shapes/fc-icon3.png" alt="Icon" />
+                <img src="/assets/images/webp/special/cupcakes.webp" alt="Icon" />
               </div>
-              <h5>Milk Shake</h5>
+              <h5>Cupcakes</h5>
               <Link href="menu-burger" className="btn">
                 15 Items
               </Link>
             </div>
             <div className="fc-two-item">
               <div className="icon">
-                <img src="assets/images/shapes/fc-icon4.png" alt="Icon" />
+                <img src="/assets/images/webp/special/quiches.webp" alt="Icon" />
               </div>
-              <h5>Cold Ice-cream</h5>
+              <h5>Quiches</h5>
               <Link href="menu-burger" className="btn">
                 15 Items
               </Link>
             </div>
             <div className="fc-two-item">
               <div className="icon">
-                <img src="assets/images/shapes/fc-icon5.png" alt="Icon" />
+                <img src="/assets/images/webp/special/pasta.webp" alt="Icon" />
               </div>
-              <h5>Strawberry-juice</h5>
+              <h5>Pasta</h5>
+              <Link href="menu-burger" className="btn">
+                15 Items
+              </Link>
+            </div>
+            <div className="fc-two-item">
+              <div className="icon">
+                <img src="/assets/images/webp/special/breads.webp" alt="Icon" />
+              </div>
+              <h5>Breads</h5>
+              <Link href="menu-burger" className="btn">
+                15 Items
+              </Link>
+            </div>
+            <div className="fc-two-item">
+              <div className="icon">
+                <img src="/assets/images/webp/special/croissants.webp" alt="Icon" />
+              </div>
+              <h5>Croissants</h5>
+              <Link href="menu-burger" className="btn">
+                15 Items
+              </Link>
+            </div>
+            <div className="fc-two-item">
+              <div className="icon">
+                <img src="/assets/images/webp/special/puffs.webp" alt="Icon" />
+              </div>
+              <h5>Puffs</h5>
+              <Link href="menu-burger" className="btn">
+                15 Items
+              </Link>
+            </div>
+            <div className="fc-two-item">
+              <div className="icon">
+                <img src="/assets/images/webp/special/momos.webp" alt="Icon" />
+              </div>
+              <h5>Momos</h5>
+              <Link href="menu-burger" className="btn">
+                15 Items
+              </Link>
+            </div>
+            <div className="fc-two-item">
+              <div className="icon">
+                <img src="/assets/images/webp/special/sandwich.webp" alt="Icon" />
+              </div>
+              <h5>Sandwiches</h5>
+              <Link href="menu-burger" className="btn">
+                15 Items
+              </Link>
+            </div>
+            <div className="fc-two-item">
+              <div className="icon">
+                <img src="/assets/images/webp/special/vegbakes.webp" alt="Icon" />
+              </div>
+              <h5>Veg Bakes</h5>
+              <Link href="menu-burger" className="btn">
+                15 Items
+              </Link>
+            </div>
+            <div className="fc-two-item">
+              <div className="icon">
+                <img src="/assets/images/webp/special/tarts.webp" alt="Icon" />
+              </div>
+              <h5>Tarts</h5>
               <Link href="menu-burger" className="btn">
                 15 Items
               </Link>
@@ -271,12 +467,7 @@ const page = () => {
         <div className="container">
           <div className="row align-items-end">
             <div className="col-lg-6">
-              <div
-                className="about-image-five mb-30 rmb-55"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
+              <div className="about-image-five mb-30 rmb-55">
                 <img src="assets/images/about/about-five.webp" alt="About" />
               </div>
             </div>
@@ -368,194 +559,117 @@ const page = () => {
             className="nav product-filter-nav filter-btns-one justify-content-center mb-40"
             role="tablist"
           >
-            <li className="active" data-filter="*">
+            <li 
+              className={activeFilter === "*" ? "active" : ""} 
+              onClick={() => setActiveFilter("*")}
+              style={{ cursor: "pointer" }}
+            >
               Show All
             </li>
-            <li data-filter=".buns">Korean Buns</li>
-            <li data-filter=".chocolates">Chocolates</li>
-            <li data-filter=".cakes">Cakes</li>
-            <li data-filter=".cookies">Cookies</li>
-            <li data-filter=".savories">Savories</li>
+            <li 
+              className={activeFilter === "chocolates" ? "active" : ""}
+              onClick={() => setActiveFilter("chocolates")}
+              style={{ cursor: "pointer" }}
+            >
+              Chocolates & Rum
+            </li>
+            <li 
+              className={activeFilter === "desserts" ? "active" : ""}
+              onClick={() => setActiveFilter("desserts")}
+              style={{ cursor: "pointer" }}
+            >
+              Desserts & Sweets
+            </li>
+            <li 
+              className={activeFilter === "cupcakes" ? "active" : ""}
+              onClick={() => setActiveFilter("cupcakes")}
+              style={{ cursor: "pointer" }}
+            >
+              Cupcakes & Bakes
+            </li>
+            <li 
+              className={activeFilter === "cookies" ? "active" : ""}
+              onClick={() => setActiveFilter("cookies")}
+              style={{ cursor: "pointer" }}
+            >
+              Cookies
+            </li>
+            <li 
+              className={activeFilter === "breads" ? "active" : ""}
+              onClick={() => setActiveFilter("breads")}
+              style={{ cursor: "pointer" }}
+            >
+              Breads & Pizza
+            </li>
+            <li 
+              className={activeFilter === "croissants" ? "active" : ""}
+              onClick={() => setActiveFilter("croissants")}
+              style={{ cursor: "pointer" }}
+            >
+              Croissants
+            </li>
+            <li 
+              className={activeFilter === "puffs" ? "active" : ""}
+              onClick={() => setActiveFilter("puffs")}
+              style={{ cursor: "pointer" }}
+            >
+              Puffs & Momos
+            </li>
+            <li 
+              className={activeFilter === "sandwiches" ? "active" : ""}
+              onClick={() => setActiveFilter("sandwiches")}
+              style={{ cursor: "pointer" }}
+            >
+              Sandwiches
+            </li>
+            <li 
+              className={activeFilter === "tarts" ? "active" : ""}
+              onClick={() => setActiveFilter("tarts")}
+              style={{ cursor: "pointer" }}
+            >
+              Tarts
+            </li>
+            <li 
+              className={activeFilter === "quiches" ? "active" : ""}
+              onClick={() => setActiveFilter("quiches")}
+              style={{ cursor: "pointer" }}
+            >
+              Quiches & Bakes
+            </li>
+            <li 
+              className={activeFilter === "pasta" ? "active" : ""}
+              onClick={() => setActiveFilter("pasta")}
+              style={{ cursor: "pointer" }}
+            >
+              Pasta
+            </li>
           </ul>
           <div className="row product-filter-active">
-            <div className="col-xl-3 col-lg-4 col-sm-6 item buns">
-              <div className="product-item-two">
-                <div className="image">
-                  <img src="assets/images/webp/buns/_DSC4259-medium.webp" alt="Korean Buns" />
-                  <span className="pizza-badge">Specialty</span>
-                </div>
-                <div className="content">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
+            {filteredItems.map((item) => (
+              <div key={`${item.category}-${item.id}`} className={`col-xl-3 col-lg-4 col-sm-6 item ${item.category}`}>
+                <div className="product-item-two">
+                  <div className="image">
+                    <img src={item.img} alt={item.title} />
+                    {item.badge && <span className="pizza-badge">{item.badge}</span>}
                   </div>
-                  <h5>
-                    <Link href="product-details">Smoked Cheese Korean Buns</Link>
-                  </h5>
-                  <span className="price">
-                    ₹250
-                  </span>
+                  <div className="content">
+                    <div className="ratting">
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                    </div>
+                    <h5>
+                      <Link href="product-details">{item.title}</Link>
+                    </h5>
+                    <span className="price">
+                      ₹{item.price}
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item chocolates">
-              <div className="product-item-two">
-                <div className="image">
-                  <img src="assets/images/webp/chocolates/_DSC4309-medium.webp" alt="Chocolates" />
-                </div>
-                <div className="content">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                  </div>
-                  <h5>
-                    <Link href="product-details">Artisan Chocolate Truffles</Link>
-                  </h5>
-                  <span className="price">
-                    ₹350
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item cakes">
-              <div className="product-item-two">
-                <div className="image">
-                  <img src="assets/images/webp/cakes/DSC09535-medium.webp" alt="Cakes" />
-                  <span className="pizza-badge">Popular</span>
-                </div>
-                <div className="content">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                  </div>
-                  <h5>
-                    <Link href="product-details">Custom Layer Cakes</Link>
-                  </h5>
-                  <span className="price">
-                    ₹800/kg
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item cookies">
-              <div className="product-item-two">
-                <div className="image">
-                  <img src="assets/images/webp/cookies/_DSC4287-medium.webp" alt="Cookies" />
-                </div>
-                <div className="content">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                  </div>
-                  <h5>
-                    <Link href="product-details">Gourmet Cookie Assortment</Link>
-                  </h5>
-                  <span className="price">
-                    ₹300
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item savories">
-              <div className="product-item-two">
-                <div className="image">
-                  <img src="assets/images/webp/savories/_DSC4326-medium.webp" alt="Savories" />
-                </div>
-                <div className="content">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                  </div>
-                  <h5>
-                    <Link href="product-details">Savory Baked Goodies</Link>
-                  </h5>
-                  <span className="price">
-                    ₹280
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item buns">
-              <div className="product-item-two">
-                <div className="image">
-                  <img src="assets/images/webp/buns/_DSC4274-medium.webp" alt="Korean Buns" />
-                </div>
-                <div className="content">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                  </div>
-                  <h5>
-                    <Link href="product-details">Artisan Korean Bun Varieties</Link>
-                  </h5>
-                  <span className="price">
-                    ₹220
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item cakes">
-              <div className="product-item-two">
-                <div className="image">
-                  <img src="assets/images/webp/cakes/DSC09650-medium.webp" alt="Cakes" />
-                </div>
-                <div className="content">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                  </div>
-                  <h5>
-                    <Link href="product-details">Celebration Cakes</Link>
-                  </h5>
-                  <span className="price">
-                    ₹1200/kg
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6 item chocolates">
-              <div className="product-item-two">
-                <div className="image">
-                  <img src="assets/images/webp/chocolates/_DSC4344-medium.webp" alt="Chocolates" />
-                </div>
-                <div className="content">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                  </div>
-                  <h5>
-                    <Link href="product-details">Chocolate Fudge Selection</Link>
-                  </h5>
-                  <span className="price">
-                    ₹400
-                  </span>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -701,7 +815,7 @@ const page = () => {
                   <span className="sub-title mb-5">Popular Menu</span>
                   <h2>We Provide Exclusive Food Explore Popular Food</h2>
                 </div>
-                <img src="assets/images/food/food-menu.webp" alt="Food Menu" />
+                <img src="/assets/images/webp/home/best.webp" alt="Food Menu" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -1005,7 +1119,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/about/why-choose-five.webp"
+                  src="assets/images/webp/home/Food.webp"
                   alt="Why Choose Us"
                 />
               </div>
@@ -1026,7 +1140,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/features/features-five.webp"
+                  src="/assets/images/webp/home/food2.webp"
                   alt="Features"
                 />
                 <div
@@ -1160,7 +1274,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four2.webp"
+                  src="/assets/images/webp/home/Adobe Express - file (1).webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1174,7 +1288,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four1.webp"
+                  src="/assets/images/webp/home/Adobe Express - file (2).webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1188,7 +1302,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four3.webp"
+                  src="/assets/images/webp/home/Adobe Express - file (3).webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1202,7 +1316,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four4.webp"
+                  src="/assets/images/webp/home/Adobe Express - file (4).webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1216,7 +1330,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four5.webp"
+                  src="/assets/images/webp/home/Adobe Express - file (5).webp"
                   alt="Gallery Image"
                 />
               </div>
@@ -1230,7 +1344,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <img
-                  src="assets/images/gallery/gallery-four6.webp"
+                  src="/assets/images/webp/home/Adobe Express - file (6).webp"
                   alt="Gallery Image"
                 />
               </div>
