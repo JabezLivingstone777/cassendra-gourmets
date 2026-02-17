@@ -18,8 +18,8 @@ const CategoryBanner = () => {
                   "url(assets/images/banner/category-banner-two1.webp)",
               }}
             >
-              <span className="price">only Rs. 4,950</span>
-              <h3>SPECIALTY Beef steak</h3>
+              {/* <span className="price">only Rs. 4,950</span> */}
+              <h3> Chicken steak</h3>
               <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -28,9 +28,9 @@ const CategoryBanner = () => {
                 <i className="fas fa-star" />
                 <span>(5k)</span>
               </div>
-              <Link href="shop" className="theme-btn style-two">
+              {/* <Link href="shop" className="theme-btn style-two">
                 Order now <i className="far fa-arrow-alt-right" />
-              </Link>
+              </Link> */}
               <div className="food-image">
                 <img
                   src="assets/images/banner/category-banner-food1.webp"
@@ -53,7 +53,7 @@ const CategoryBanner = () => {
                   "url(assets/images/banner/category-banner-two2.webp)",
               }}
             >
-              <span className="price">only Rs. 3,600</span>
+              {/* <span className="price">only Rs. 3,600</span> */}
               <h3>SPECIALTY Italian pizza</h3>
               <div className="ratting">
                 <i className="fas fa-star" />
@@ -63,9 +63,9 @@ const CategoryBanner = () => {
                 <i className="fas fa-star" />
                 <span>(5k)</span>
               </div>
-              <Link href="shop" className="theme-btn">
+              {/* <Link href="shop" className="theme-btn">
                 Order now <i className="far fa-arrow-alt-right" />
-              </Link>
+              </Link> */}
               <div className="food-image">
                 <img
                   src="assets/images/banner/category-banner-food2.webp"
@@ -88,7 +88,7 @@ const CategoryBanner = () => {
                   "url(assets/images/banner/category-banner-two1.webp)",
               }}
             >
-              <span className="price">only Rs. 2,950</span>
+              {/* <span className="price">only Rs. 2,950</span> */}
               <h3>vegetable burger</h3>
               <div className="ratting">
                 <i className="fas fa-star" />
@@ -98,9 +98,9 @@ const CategoryBanner = () => {
                 <i className="fas fa-star" />
                 <span>(5k)</span>
               </div>
-              <Link href="shop" className="theme-btn style-two">
+              {/* <Link href="shop" className="theme-btn style-two">
                 Order now <i className="far fa-arrow-alt-right" />
-              </Link>
+              </Link> */}
               <div className="food-image">
                 <img
                   src="assets/images/banner/category-banner-food3.webp"

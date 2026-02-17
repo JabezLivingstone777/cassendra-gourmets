@@ -140,7 +140,7 @@ function TestimonialSlider() {
             data-aos-offset={50}
           >
             <img
-              src="assets/images/testimonials/testi-five-left.webp"
+              src="/assets/images/webp/home/leftImage.webp"
               alt="Left"
             />
           </div>
@@ -152,8 +152,8 @@ function TestimonialSlider() {
             data-aos-offset={50}
           >
             <img
-              src="assets/images/testimonials/testi-five-right.webp"
-              alt="Left"
+              src="/assets/images/webp/home/rightImage.webp"
+              alt="Right"
             />
           </div>
         </div>

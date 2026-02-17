@@ -152,16 +152,15 @@ const DefaultFooter = () => {
                     </div>
                     <ul>
                       <li>
-                        1403 Washington Ave, New Orlea ns, LA 70130, United
-                        States
+                        Hyderabad, Telangana, India
                       </li>
                       <li>
-                        <a href="mailto:wellfood@gmail.com">
-                          <u>wellfood@gmail.com</u>
+                        <a href="mailto:cassendragourmets@gmail.com">
+                          <u>cassendragourmets@gmail.com</u>
                         </a>
                       </li>
                       <li>
-                        <a href="callto:+(1)0987654321">+(1) 098 765 4321</a>
+                        <a href="callto:+919866142982">+91 9866142982</a>
                       </li>
                     </ul>
                   </div>
@@ -204,8 +203,7 @@ const DefaultFooter = () => {
             <div className="col-lg-5">
               <div className="copyright-text text-center text-lg-start">
                 <p>
-                  Copyright 2024 <Link href="/">Wellfood</Link>. All Rights
-                  Reserved{" "}
+                  Copyright 2024 <Link href="/">Cassendra Gourmets</Link> and Developed by <Link href="https://www.aptitps.com/">APTIT</Link>
                 </p>
               </div>
             </div>
@@ -342,16 +340,15 @@ const Footer2 = () => {
                     </div>
                     <ul>
                       <li>
-                        1403 Washington Ave, New Orlea ns, LA 70130, United
-                        States
+                        Hyderabad, Telangana, India
                       </li>
                       <li>
-                        <a href="mailto:wellfood@gmail.com">
-                          <u>wellfood@gmail.com</u>
+                        <a href="mailto:cassendragourmets@gmail.com">
+                          <u>cassendragourmets@gmail.com</u>
                         </a>
                       </li>
                       <li>
-                        <a href="callto:+(1)0987654321">+(1) 098 765 4321</a>
+                        <a href="callto:+919866142982">+91 9866142982</a>
                       </li>
                     </ul>
                   </div>
@@ -754,12 +751,12 @@ const Footer6 = () => {
                 </div>
                 <ul>
                   <li>
-                    <a href="mailto:wellfood@gmail.com">
-                      <u>wellfood@gmail.com</u>
+                    <a href="mailto:cassendragourmets@gmail.com">
+                      <u>cassendragourmets@gmail.com</u>
                     </a>
                   </li>
                   <li>
-                    <a href="callto:+(1)0987654321">+(1) 098 765 4321</a>
+                    <a href="callto:+919866142982">+91 9866142982</a>
                   </li>
                 </ul>
               </div>

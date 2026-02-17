@@ -150,8 +150,8 @@ export const AboutUs2 = ({
   );
 };
 export const AboutUs3 = ({
-  aboutImg1 = "/assets/images/webp/cakes/DSC09535-large.webp",
-  aboutImg2 = "/assets/images/webp/chocolates/_DSC4309-large.webp",
+  aboutImg1 = "/assets/images/webp/about/about.webp",
+  aboutImg2 = "/assets/images/webp/about/about1.webp",
 }) => {
   return (
     <section className="about-us-area-four pt-130 rpt-100 pb-85 rpb-55 rel z-1">

@@ -17,26 +17,26 @@ const page = () => {
       items: [
         { id: 1, title: "Rum Ball (Per Piece)", price: "45", img: "/assets/images/webp/productgallery/_DSC4535-thumbnail-removebg-preview.webp" },
         { id: 2, title: "Rum Balls (Box of 6)", price: "260", img: "/assets/images/webp/productgallery/shopping__1_-removebg-preview.webp" },
-        { id: 3, title: "Chocolate Liquor (10-12 Pieces)", price: "300", img: "/assets/images/webp/chocolates/_DSC4309-medium.webp" },
-        { id: 4, title: "Assorted Chocolates - Box of 12", price: "250", img: "/assets/images/webp/chocolates/_DSC4344-medium.webp" },
+        { id: 3, title: "Chocolate Liquors 10P", price: "300", img: "/assets/images/webp/productgallery/liquorChoco-1.webp" },
+        { id: 4, title: "Assorted Chocolates 12P", price: "250", img: "/assets/images/webp/productgallery/assortedChoco-1.webp" },
       ]
     },
     {
       category: "desserts",
       title: "Desserts & Sweets",
       items: [
-        { id: 1, title: "Caramel Custard", price: "70", img: "/assets/images/webp/cakes/DSC09535-medium.webp", badge: "Popular" },
-        { id: 2, title: "Date Pudding with Toffee Sauce", price: "100", img: "/assets/images/webp/cakes/DSC09650-medium.webp" },
-        { id: 3, title: "Trifle Pudding", price: "60", img: "/assets/images/webp/cakes/DSC09674-medium.webp" },
-        { id: 4, title: "Cheesecake (per kg)", price: "1750", img: "/assets/images/webp/cakes/DSC09650-medium.webp" },
+        { id: 1, title: "Caramel Custard", price: "70", img: "/assets/images/webp/productgallery/caramelCustard.webp", badge: "Popular" },
+        { id: 2, title: "Date Pudding Toffee Sauce", price: "100", img: "/assets/images/webp/productgallery/datePudding.webp" },
+        { id: 3, title: "Trifle Pudding", price: "60", img: "/assets/images/webp/productgallery/triflePudding.webp" },
+        { id: 4, title: "Cheesecake (per kg)", price: "1750", img: "/assets/images/webp/productgallery/cheesecake.webp" },
       ]
     },
     {
       category: "cupcakes",
       title: "Cupcakes & Bakes",
       items: [
-        { id: 1, title: "Mini Cupcakes", price: "20", img: "/assets/images/webp/cakes/DSC09535-medium.webp" },
-        { id: 2, title: "Medium Cupcakes", price: "40", img: "/assets/images/webp/cakes/DSC09650-medium.webp" },
+        { id: 1, title: "Mini Cupcakes", price: "20", img: "/assets/images/webp/productgallery/miniCupcake.webp" },
+        { id: 2, title: "Medium Cupcakes", price: "40", img: "/assets/images/webp/productgallery/mediumCupcakes.webp" },
         { id: 3, title: "Plain Brownie", price: "110", img: "/assets/images/webp/productgallery/plainBrownie.webp" },
         { id: 4, title: "Blondies", price: "120", img: "/assets/images/webp/productgallery/blondies.webp" },
       ]
@@ -55,70 +55,74 @@ const page = () => {
       category: "breads",
       title: "Breads & Pizza",
       items: [
-        { id: 1, title: "Korean Cheese Bun (Small)", price: "80", img: "/assets/images/webp/buns/_DSC4259-medium.webp", badge: "Specialty" },
-        { id: 2, title: "Korean Cheese Bun (Regular)", price: "200", img: "/assets/images/webp/buns/_DSC4274-medium.webp" },
-        { id: 3, title: "Margherita Pizza", price: "160", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
-        { id: 4, title: "Veg Burger", price: "190", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 1, title: "Korean Cheese Bun (Small)", price: "80", img: "/assets/images/webp/productgallery/KRCBun.webp", badge: "Specialty" },
+        { id: 2, title: "Korean Cheese Bun (Rg)", price: "200", img: "/assets/images/webp/productgallery/KLCBun.webp" },
+        { id: 3, title: "Margherita Pizza", price: "160", img: "/assets/images/webp/productgallery/margheritaPizza.webp" },
+        { id: 4, title: "Veg Burger", price: "190", img: "/assets/images/webp/productgallery/vegBurger.webp" },
       ]
     },
     {
       category: "croissants",
       title: "Croissants",
       items: [
-        { id: 1, title: "Butter Croissant", price: "125", img: "/assets/images/webp/buns/_DSC4274-medium.webp" },
-        { id: 2, title: "Chocolate Croissant", price: "250", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
-        { id: 3, title: "Chicken Ham & Cheese Croissant", price: "275", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
-        { id: 4, title: "Coleslaw Croissant", price: "175", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 1, title: "Butter Croissant", price: "125", img: "/assets/images/webp/productgallery/butterCroissant.webp" },
+        { id: 2, title: "Chocolate Croissant", price: "250", img: "/assets/images/webp/productgallery/chocoCroissant.webp" },
+        { id: 3, title: "Chicken Cheese Croissant", price: "275", img: "/assets/images/webp/productgallery/chickenCroissant.webp" },
+        { id: 4, title: "Coleslaw Croissant", price: "175", img: "/assets/images/webp/productgallery/coleslawCroissant.webp" },
       ]
     },
     {
       category: "puffs",
       title: "Puffs & Momos",
       items: [
-        { id: 1, title: "Chicken Puff", price: "60", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
-        { id: 2, title: "Paneer Puff", price: "60", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
-        { id: 3, title: "Veg Momos (6 Pieces)", price: "65", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
-        { id: 4, title: "Chicken Momos (6 Pieces)", price: "75", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 1, title: "Chicken Puff", price: "60", img: "/assets/images/webp/productgallery/chickenPuff.webp" },
+        { id: 2, title: "Paneer Puff", price: "60", img: "/assets/images/webp/productgallery/paneerPuff.webp" },
+        { id: 3, title: "Egg Puff ", price: "65", img: "/assets/images/webp/productgallery/eggpuff.webp" },
+        { id: 4, title: "Veg Puff", price: "65", img: "/assets/images/webp/productgallery/vegPuff.webp" },
+        { id: 5, title: "Veg Momos (6 Pieces)", price: "65", img: "/assets/images/webp/productgallery/vegmomos.webp" },
+        { id: 6, title: "Chicken Momos (6 Pieces)", price: "75", img: "/assets/images/webp/productgallery/chickenmomos.webp" },
       ]
     },
     {
       category: "sandwiches",
       title: "Sandwiches",
       items: [
-        { id: 1, title: "Chicken Sandwich", price: "90", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
-        { id: 2, title: "Coleslaw Sandwich", price: "60", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
-        { id: 3, title: "Chicken with Cheese Sandwich", price: "100", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
-        { id: 4, title: "Egg with Cheese Sandwich", price: "75", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 1, title: "Chicken Sandwich", price: "90", img: "/assets/images/webp/productgallery/chickenSandwich.webp" },
+        { id: 2, title: "Coleslaw Sandwich", price: "60", img: "/assets/images/webp/productgallery/coleslawSandwich.webp" },
+        { id: 3, title: "Chicken Cheese Sandwich", price: "100", img: "/assets/images/webp/productgallery/cheesesandwich.webp" },
+        { id: 4, title: "Egg with Cheese Sandwich", price: "75", img: "/assets/images/webp/productgallery/eggsandwich.webp" },
       ]
     },
     {
       category: "tarts",
       title: "Tarts",
       items: [
-        { id: 1, title: "Chocolate Tart", price: "115", img: "/assets/images/webp/chocolates/_DSC4344-medium.webp" },
-        { id: 2, title: "Lemon Tart", price: "90", img: "/assets/images/webp/cakes/DSC09535-medium.webp" },
-        { id: 3, title: "Salted Caramel Tart", price: "110", img: "/assets/images/webp/cakes/DSC09650-medium.webp" },
-        { id: 4, title: "Chicken & Mushroom Tart", price: "140", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
+        { id: 1, title: "Chocolate Tart", price: "115", img: "/assets/images/webp/productgallery/chocoTart.webp" },
+        { id: 2, title: "Lemon Tart", price: "90", img: "/assets/images/webp/productgallery/lemonTart.webp" },
+        { id: 3, title: "Salted Caramel Tart", price: "110", img: "/assets/images/webp/productgallery/caramelTart.webp" },
+        { id: 4, title: "Chicken & Mushroom Tart", price: "140", img: "/assets/images/webp/productgallery/chickenTart.webp" },
       ]
     },
     {
       category: "quiches",
       title: "Quiches & Bakes",
       items: [
-        { id: 1, title: "Mushroom & Cheese Quiche", price: "115", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
-        { id: 2, title: "Bacon Mushroom Cheese Quiche", price: "125", img: "/assets/images/webp/savories/_DSC4326-medium.webp" },
-        { id: 3, title: "Baked Vegetable", price: "300", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
-        { id: 4, title: "Spinach & Corn", price: "300", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
+        { id: 1, title: "Mushroom & Cheese Quiche", price: "115", img: "/assets/images/webp/productgallery/mushroomQuiche.webp" },
+        { id: 2, title: "Bacon Mushroom  Quiche", price: "125", img: "/assets/images/webp/productgallery/baconmushroomQuiche.webp" },
+        { id: 3, title: "Chicken Quiche", price: "125", img: "/assets/images/webp/productgallery/chickenQuiche.webp" },
+        { id: 4, title: "Plain Quiche", price: "125", img: "/assets/images/webp/productgallery/plainQuiche.webp" },
+        { id: 5, title: "Baked Vegetable", price: "300", img: "/assets/images/webp/productgallery/bakedVegetables.webp" },
+        { id: 6, title: "Spinach & Corn", price: "300", img: "/assets/images/webp/productgallery/SpinachCorn.webp" },
       ]
     },
     {
       category: "pasta",
       title: "Pasta",
       items: [
-        { id: 1, title: "Veg Pasta", price: "275", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
-        { id: 2, title: "Chicken Pasta", price: "325", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
-        { id: 3, title: "Veg Lasagna", price: "325", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
-        { id: 4, title: "Spaghetti with Meat Balls", price: "350", img: "/assets/images/webp/platters/_DSC4385-medium.webp" },
+        { id: 1, title: "Veg Pasta", price: "275", img: "/assets/images/webp/productgallery/vegPasta.webp" },
+        { id: 2, title: "Chicken Pasta", price: "325", img: "/assets/images/webp/productgallery/chickenPasta.webp" },
+        { id: 3, title: "Veg Lasagna", price: "325", img: "/assets/images/webp/productgallery/vegLasagna.webp" },
+        { id: 4, title: "Spaghetti with Meat Balls", price: "350", img: "/assets/images/webp/productgallery/vegetableBalls.webp" },
       ]
     }
   ];
@@ -127,7 +131,7 @@ const page = () => {
   const getFilteredItems = () => {
     if (activeFilter === "*") {
       // Return all items from all categories
-      return menuData.flatMap(cat => 
+      return menuData.flatMap(cat =>
         cat.items.map(item => ({ ...item, category: cat.category }))
       );
     }
@@ -161,9 +165,9 @@ const page = () => {
               Where every creation is made with love from my hearth to your heart.
               Homemade, fresh, and customized to your taste - because good food brings joy.
             </p>
-            <Link href="shop" className="theme-btn mt-25">
+            {/* <Link href="shop" className="theme-btn mt-25">
               Book now <i className="far fa-arrow-alt-right" />
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="hero-shapes">
@@ -559,84 +563,84 @@ const page = () => {
             className="nav product-filter-nav filter-btns-one justify-content-center mb-40"
             role="tablist"
           >
-            <li 
-              className={activeFilter === "*" ? "active" : ""} 
+            <li
+              className={activeFilter === "*" ? "active" : ""}
               onClick={() => setActiveFilter("*")}
               style={{ cursor: "pointer" }}
             >
               Show All
             </li>
-            <li 
+            <li
               className={activeFilter === "chocolates" ? "active" : ""}
               onClick={() => setActiveFilter("chocolates")}
               style={{ cursor: "pointer" }}
             >
               Chocolates & Rum
             </li>
-            <li 
+            <li
               className={activeFilter === "desserts" ? "active" : ""}
               onClick={() => setActiveFilter("desserts")}
               style={{ cursor: "pointer" }}
             >
               Desserts & Sweets
             </li>
-            <li 
+            <li
               className={activeFilter === "cupcakes" ? "active" : ""}
               onClick={() => setActiveFilter("cupcakes")}
               style={{ cursor: "pointer" }}
             >
               Cupcakes & Bakes
             </li>
-            <li 
+            <li
               className={activeFilter === "cookies" ? "active" : ""}
               onClick={() => setActiveFilter("cookies")}
               style={{ cursor: "pointer" }}
             >
               Cookies
             </li>
-            <li 
+            <li
               className={activeFilter === "breads" ? "active" : ""}
               onClick={() => setActiveFilter("breads")}
               style={{ cursor: "pointer" }}
             >
               Breads & Pizza
             </li>
-            <li 
+            <li
               className={activeFilter === "croissants" ? "active" : ""}
               onClick={() => setActiveFilter("croissants")}
               style={{ cursor: "pointer" }}
             >
               Croissants
             </li>
-            <li 
+            <li
               className={activeFilter === "puffs" ? "active" : ""}
               onClick={() => setActiveFilter("puffs")}
               style={{ cursor: "pointer" }}
             >
               Puffs & Momos
             </li>
-            <li 
+            <li
               className={activeFilter === "sandwiches" ? "active" : ""}
               onClick={() => setActiveFilter("sandwiches")}
               style={{ cursor: "pointer" }}
             >
               Sandwiches
             </li>
-            <li 
+            <li
               className={activeFilter === "tarts" ? "active" : ""}
               onClick={() => setActiveFilter("tarts")}
               style={{ cursor: "pointer" }}
             >
               Tarts
             </li>
-            <li 
+            <li
               className={activeFilter === "quiches" ? "active" : ""}
               onClick={() => setActiveFilter("quiches")}
               style={{ cursor: "pointer" }}
             >
               Quiches & Bakes
             </li>
-            <li 
+            <li
               className={activeFilter === "pasta" ? "active" : ""}
               onClick={() => setActiveFilter("pasta")}
               style={{ cursor: "pointer" }}
@@ -688,11 +692,11 @@ const page = () => {
                 className="category-banner-item style-three gradient-two"
                 style={{
                   backgroundImage:
-                    "url(assets/images/banner/category-banner-five1.webp)",
+                    "url(/assets/images/webp/productgallery/left.webp)",
                 }}
               >
                 <span className="quality">Quality Food</span>
-                <h2>Strawberry Juice &amp; slices</h2>
+                <h2>Cake Quite Sweet, Made with Love</h2>
                 <Link href="shop" className="theme-btn style-two">
                   Shop now <i className="far fa-arrow-alt-right" />
                 </Link>
@@ -709,14 +713,11 @@ const page = () => {
                 className="category-banner-item style-four"
                 style={{
                   backgroundImage:
-                    "url(assets/images/banner/category-banner-five2.webp)",
+                    "url(/assets/images/webp/productgallery/middle.webp)",
                 }}
               >
-                <h3>buy 1</h3>
-                <span className="get-one">get free 1</span>
-                <Link href="shop" className="theme-btn">
-                  Shop now <i className="far fa-arrow-alt-right" />
-                </Link>
+               
+                
               </div>
             </div>
             <div
@@ -730,14 +731,12 @@ const page = () => {
                 className="category-banner-item style-three gradient-three"
                 style={{
                   backgroundImage:
-                    "url(assets/images/banner/category-banner-five3.webp)",
+                    "url(/assets/images/webp/productgallery/right.webp)",
                 }}
               >
                 <span className="quality">Quality Food</span>
-                <h2>Fresh Orange Juice &amp; slices</h2>
-                <Link href="shop" className="theme-btn">
-                  Shop now <i className="far fa-arrow-alt-right" />
-                </Link>
+                <h2>Fresh Pizza</h2>
+                
               </div>
             </div>
           </div>
@@ -828,15 +827,15 @@ const page = () => {
                 <div className="food-menu-item style-two">
                   <div className="image">
                     <img
-                      src="assets/images/food/fm-five1.webp"
+                      src="/assets/images/webp/home/browine.webp"
                       alt="Food Menu"
                     />
                   </div>
                   <div className="content">
                     <h5>
-                      <span className="title">Orange Juice</span>{" "}
+                      <span className="title">Brownie</span>{" "}
                       <span className="dots" />{" "}
-                      <span className="price">Rs. 2,750</span>
+                      <span className="price">Rs.₹110</span>
                     </h5>
                     <p>Diverse menu features array of delectable</p>
                   </div>
@@ -844,15 +843,15 @@ const page = () => {
                 <div className="food-menu-item style-two">
                   <div className="image">
                     <img
-                      src="assets/images/food/fm-five2.webp"
+                      src="/assets/images/webp/home/pizza.webp"
                       alt="Food Menu"
                     />
                   </div>
                   <div className="content">
                     <h5>
-                      <span className="title">Mango Juice</span>{" "}
+                      <span className="title">Margherita Pizza</span>{" "}
                       <span className="dots" />{" "}
-                      <span className="price">Rs. 2,350</span>
+                      <span className="price">Rs.₹160</span>
                     </h5>
                     <p>Diverse menu features array of delectable</p>
                   </div>
@@ -860,15 +859,15 @@ const page = () => {
                 <div className="food-menu-item style-two">
                   <div className="image">
                     <img
-                      src="assets/images/food/fm-five3.webp"
+                      src="/assets/images/webp/home/cake.webp"
                       alt="Food Menu"
                     />
                   </div>
                   <div className="content">
                     <h5>
-                      <span className="title">Strawberry Juice</span>{" "}
+                      <span className="title">Mini Cupcakes</span>{" "}
                       <span className="dots" />{" "}
-                      <span className="price">Rs. 2,100</span>
+                      <span className="price">Rs.₹20</span>
                     </h5>
                     <p>Diverse menu features array of delectable</p>
                   </div>
@@ -876,15 +875,15 @@ const page = () => {
                 <div className="food-menu-item style-two">
                   <div className="image">
                     <img
-                      src="assets/images/food/fm-five4.webp"
+                      src="/assets/images/webp/home/burger.webp"
                       alt="Food Menu"
                     />
                   </div>
                   <div className="content">
                     <h5>
-                      <span className="title">Pineapple Juice</span>{" "}
+                      <span className="title">Chicken Burger</span>{" "}
                       <span className="dots" />{" "}
-                      <span className="price">Rs. 3,350</span>
+                      <span className="price">Rs. ₹325</span>
                     </h5>
                     <p>Diverse menu features array of delectable</p>
                   </div>
@@ -892,15 +891,15 @@ const page = () => {
                 <div className="food-menu-item style-two">
                   <div className="image">
                     <img
-                      src="assets/images/food/fm-five5.webp"
+                      src="/assets/images/webp/home/dessert.webp"
                       alt="Food Menu"
                     />
                   </div>
                   <div className="content">
                     <h5>
-                      <span className="title">Delicious Ice-cream</span>{" "}
+                      <span className="title">Trifle Pudding</span>{" "}
                       <span className="dots" />{" "}
-                      <span className="price">Rs. 1,920</span>
+                      <span className="price">Rs. ₹60</span>
                     </h5>
                     <p>Diverse menu features array of delectable</p>
                   </div>

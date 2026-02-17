@@ -427,15 +427,15 @@ const Header = () => {
                         <Link href="menu-restaurant">Menu</Link>
                       </li>
                       <li className="dropdown">
-                        <a href="#">pages</a>
-                        <ul>
+                        <a href="gallery">Gallery</a>
+                        {/* <ul>
                           <li>
                             <Link href="about">About Us</Link>
                           </li>
                           <li>
                             <Link href="history">Our History</Link>
-                          </li>
-                          <li>
+                            </li>
+                            <li>
                             <Link href="faq">faqs</Link>
                           </li>
                           <li className="dropdown">
@@ -464,8 +464,8 @@ const Header = () => {
                           <li>
                             <Link href="partner-with-us">Partner With Us</Link>
                           </li>
-                        </ul>
-                        <div className="dropdown-btn">
+                         </ul> */}
+                        <div className="dropdown-btn" style={{ display: 'none' }}>
                           <span className="far fa-angle-down" />
                         </div>
                       </li>
@@ -473,7 +473,7 @@ const Header = () => {
                         <Link href="blog">blog</Link>
                       </li>
                       <li className="dropdown">
-                        <Link href="shop">shop</Link>
+                        <Link href="about">about</Link>
                       </li>
                       <li>
                         <Link href="contact">Contact</Link>

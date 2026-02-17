@@ -9,7 +9,7 @@ const page = () => {
   return (
     <WellFoodLayout>
       {/* Page Banner Start */}
-      <PageBanner pageTitle={"Menu Restaurant"} />
+      <PageBanner pageTitle={"Cassendra's Menu"} />
       {/* Page Banner End */}
       {/* About Us Area start 
       <AboutUs4 /> */}

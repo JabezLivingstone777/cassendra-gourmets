@@ -127,7 +127,7 @@ const page = () => {
                       <Link href="contact">
                         <i className="fab fa-facebook-f" />
                       </Link>
-                      <Link href="contact">
+                      <Link href="https://www.instagram.com/cassandras_gourmet?igsh=dzN5c3ZmY2Fmd24z">
                         <i className="fab fa-instagram" />
                       </Link>
                       <a href="#">

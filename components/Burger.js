@@ -15,8 +15,8 @@ const Burger = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <span className="sub-title mb-5">popular burger</span>
-              <h2>popular delicious burger</h2>
+              <span className="sub-title mb-5">Cassendra's</span>
+              <h2>popular delicious Items</h2>
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@ const Burger = () => {
             data-aos-offset={50}
           >
             <div className="image">
-              <img src="assets/images/products/burger1.webp" alt="Burger" />
+              <img src="/assets/images/webp/sp/sp1.webp" alt="Burger" />
               <span className="pizza-badge">hot</span>
             </div>
             <div className="content">
@@ -43,9 +43,7 @@ const Burger = () => {
               <h5>
                 <Link href="product-details">vegetable beef Burger</Link>
               </h5>
-              <span className="price">
-                <del>Rs. 4,200</del> Rs. 2,100
-              </span>
+              
             </div>
           </div>
           <div
@@ -56,7 +54,7 @@ const Burger = () => {
             data-aos-offset={50}
           >
             <div className="image">
-              <img src="assets/images/products/burger2.webp" alt="Burger" />
+              <img src="/assets/images/webp/sp/sp2.webp" alt="Burger" />
               <span className="pizza-badge">-10%</span>
             </div>
             <div className="content">
@@ -71,9 +69,7 @@ const Burger = () => {
               <h5>
                 <Link href="product-details">beef checken burger</Link>
               </h5>
-              <span className="price">
-                <del>Rs. 4,200</del> Rs. 2,100
-              </span>
+              
             </div>
           </div>
           <div
@@ -84,7 +80,7 @@ const Burger = () => {
             data-aos-offset={50}
           >
             <div className="image">
-              <img src="assets/images/products/burger3.webp" alt="Burger" />
+              <img src="/assets/images/webp/sp/sp3.webp" alt="Burger" />
             </div>
             <div className="content">
               <div className="ratting">
@@ -98,9 +94,7 @@ const Burger = () => {
               <h5>
                 <Link href="product-details">burgers black bread</Link>
               </h5>
-              <span className="price">
-                <del>Rs. 4,200</del> Rs. 2,100
-              </span>
+              
             </div>
           </div>
           <div
@@ -111,7 +105,7 @@ const Burger = () => {
             data-aos-offset={50}
           >
             <div className="image">
-              <img src="assets/images/products/burger4.webp" alt="Burger" />
+              <img src="/assets/images/webp/sp/sp4.webp" alt="Burger" />
               <span className="pizza-badge">new</span>
             </div>
             <div className="content">
@@ -126,14 +120,12 @@ const Burger = () => {
               <h5>
                 <Link href="product-details">delicious burger with beef</Link>
               </h5>
-              <span className="price">
-                <del>Rs. 4,200</del> Rs. 2,100
-              </span>
+              
             </div>
           </div>
           <div className="product-item">
             <div className="image">
-              <img src="assets/images/products/burger1.webp" alt="Burger" />
+              <img src="/assets/images/webp/sp/sp6.webp" alt="Burger" />
               <span className="pizza-badge">hot</span>
             </div>
             <div className="content">
@@ -148,14 +140,12 @@ const Burger = () => {
               <h5>
                 <Link href="product-details">vegetable beef Burger</Link>
               </h5>
-              <span className="price">
-                <del>Rs. 4,200</del> Rs. 2,100
-              </span>
+              
             </div>
           </div>
           <div className="product-item">
             <div className="image">
-              <img src="assets/images/products/burger2.webp" alt="Burger" />
+              <img src="/assets/images/webp/sp/sp7.webp" alt="Burger" />
               <span className="pizza-badge">-10%</span>
             </div>
             <div className="content">
@@ -170,14 +160,12 @@ const Burger = () => {
               <h5>
                 <Link href="product-details">beef checken burger</Link>
               </h5>
-              <span className="price">
-                <del>Rs. 4,200</del> Rs. 2,100
-              </span>
+              
             </div>
           </div>
           <div className="product-item">
             <div className="image">
-              <img src="assets/images/products/burger3.webp" alt="Burger" />
+              <img src="/assets/images/webp/sp/sp8.webp" alt="Burger" />
             </div>
             <div className="content">
               <div className="ratting">
@@ -191,9 +179,7 @@ const Burger = () => {
               <h5>
                 <Link href="product-details">burgers black bread</Link>
               </h5>
-              <span className="price">
-                <del>Rs. 4,200</del> Rs. 2,100
-              </span>
+              
             </div>
           </div>
         </Slider>

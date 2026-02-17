@@ -16,7 +16,7 @@ const page = () => {
               >
                 <div className="section-title mb-35">
                   <span className="sub-title mb-10">contact us</span>
-                  <h2>ready to contact us</h2>
+                  <h2></h2>
                 </div>
                 <div className="contact-info-wrap">
                   <div className="contact-info-item">
@@ -26,7 +26,7 @@ const page = () => {
                     <div className="content">
                       <span className="title">Locations</span>
                       <h6>
-                        38 Sardinella, 2nd Eden walk, Orchard view, London, UK
+                        Hyderabad, Telangana, India <br /> 
                       </h6>
                     </div>
                   </div>
@@ -38,10 +38,10 @@ const page = () => {
                       <span className="title">Email Address</span>
                       <h6>
                         <a href="mailto:supportinfo@gmail.com">
-                          supportinfo@gmail.com
+                          cassendragourmets@gmail.com
                         </a>
                         <br />{" "}
-                        <a href="mailto:finslaninfo.com">finslaninfo.com</a>
+                        
                       </h6>
                     </div>
                   </div>
@@ -52,9 +52,8 @@ const page = () => {
                     <div className="content">
                       <span className="title">Phone No</span>
                       <h6>
-                        <a href="callto:+88012345688">+880 (123) 456 88</a>
+                        <a href="callto:+88012345688">+91 9866142982</a>
                         <br />{" "}
-                        <a href="callto:+00045685999">+000 (456) 859 99</a>
                       </h6>
                     </div>
                   </div>
