@@ -1,24 +1,27 @@
-import { AboutUs4 } from "@/components/AboutUs";
+"use client";
 import Burger from "@/components/Burger";
 import CategoryBanner from "@/components/CategoryBanner";
 import Headline from "@/components/Headline";
 import PageBanner from "@/components/PageBanner";
 import RestaurantMenu from "@/components/RestaurantMenu";
 import WellFoodLayout from "@/layout/WellFoodLayout";
-const page = () => {
+import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
+
+const MenuPageContent = () => {
+  const searchParams = useSearchParams();
+  const activeTab = searchParams.get("tab") || "food-tab1";
+
   return (
     <WellFoodLayout>
       {/* Page Banner Start */}
       <PageBanner pageTitle={"Cassendra's Menu"} />
       {/* Page Banner End */}
-      {/* About Us Area start 
-      <AboutUs4 /> */}
-      {/* About Us Area end */}
       {/* Headline area start */}
       <Headline />
       {/* Headline Area end */}
       {/* Restaurant Menu Area start */}
-      <RestaurantMenu />
+      <RestaurantMenu activeTab={activeTab} />
       {/* Restaurant Menu Area end */}
       {/* Category Banner area start */}
       <CategoryBanner />
@@ -33,4 +36,13 @@ const page = () => {
     </WellFoodLayout>
   );
 };
+
+const page = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <MenuPageContent />
+    </Suspense>
+  );
+};
+
 export default page;

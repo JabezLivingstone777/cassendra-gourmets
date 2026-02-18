@@ -26,7 +26,7 @@ const DefaultFooter = () => {
         backgroundImage: "url(assets/images/background/footer-bg.png)",
       }}
     >
-      <div className="footer-top py-130 rpy-100">
+      {/* <div className="footer-top py-130 rpy-100">
         <div className="container">
           <div className="row justify-content-center">
             <div
@@ -56,8 +56,8 @@ const DefaultFooter = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="widget-area pb-70">
+      </div> */}
+      <div className="widget-area pt-80 pb-70">
         <div className="container">
           <div className="row justify-content-between">
             <div
@@ -73,22 +73,37 @@ const DefaultFooter = () => {
                   </Link>
                 </div>
                 <p>
-                  Temporibus autem quibusdam officiis aut rerum necessitatibus
-                  eveniet voluta repudiandae molestiae recusandae
+                  Homemade with love — artisan chocolates, baked goods &amp;
+                  gourmet meals delivered fresh across Hyderabad.
                 </p>
-                <div className="social-style-one mt-15">
-                  <Link href="contact">
-                    <i className="fab fa-facebook-f" />
-                  </Link>
-                  <Link href="contact">
-                    <i className="fab fa-twitter" />
-                  </Link>
-                  <Link href="contact">
+                <div className="social-style-one mt-15" style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+                  <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                    style={{
+                      display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                      width: '38px', height: '38px', borderRadius: '50%',
+                      background: 'linear-gradient(135deg,#e8a87c,#c0392b)',
+                      color: '#fff', fontSize: '15px', flexShrink: 0
+                    }}>
                     <i className="fab fa-linkedin-in" />
-                  </Link>
-                  <Link href="contact">
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                    style={{
+                      display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                      width: '38px', height: '38px', borderRadius: '50%',
+                      background: 'linear-gradient(135deg,#e8a87c,#c0392b)',
+                      color: '#fff', fontSize: '15px', flexShrink: 0
+                    }}>
                     <i className="fab fa-instagram" />
-                  </Link>
+                  </a>
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                    style={{
+                      display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                      width: '38px', height: '38px', borderRadius: '50%',
+                      background: 'linear-gradient(135deg,#e8a87c,#c0392b)',
+                      color: '#fff', fontSize: '15px', flexShrink: 0
+                    }}>
+                    <i className="fab fa-facebook-f" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -226,13 +241,13 @@ const DefaultFooter = () => {
       </div>
       <div className="footer-shapes">
         <div className="shape one">
-          <img src="assets/images/shapes/hero-shape5.webp" alt="Shape" />
+          <img src="assets/images/shapes/hero-shape5.webp" alt="Shape" style={{ maxWidth: '160px', width: '100%' }} />
         </div>
         <div className="shape two">
-          <img src="assets/images/shapes/tomato.webp" alt="Shape" />
+          <img src="assets/images/shapes/tomato.webp" alt="Shape" style={{ maxWidth: '80px', width: '100%' }} />
         </div>
         <div className="shape three">
-          <img src="assets/images/shapes/pizza-two.webp" alt="Shape" />
+          <img src="assets/images/shapes/pizza-two.webp" alt="Shape" style={{ maxWidth: '70px', width: '100%' }} />
         </div>
       </div>
     </footer>
@@ -669,7 +684,7 @@ const Footer5 = () => {
       </div>
       <div className="footer-bottom pt-30 pb-15">
         <div className="container rel text-center">
-          <ul className="footer-bottom-nav">
+          {/* <ul className="footer-bottom-nav">
             <li>
               <Link href="product-details">Hamburger</Link>
             </li>
@@ -691,7 +706,7 @@ const Footer5 = () => {
             <li>
               <a href="#">Saladr</a>
             </li>
-          </ul>
+          </ul> */}
           {/* Scroll Top Button */}
           <button className="scroll-top scroll-to-target" data-target="html">
             <i className="fas fa-arrow-alt-up" />

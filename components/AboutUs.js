@@ -1,6 +1,18 @@
 import Link from "next/link";
 import Counter from "./Counter";
 
+const BadgeSpinStyle = () => (
+  <style>{`
+    @keyframes badgeSpin {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+    .badge-spin {
+      animation: badgeSpin 10s linear infinite;
+    }
+  `}</style>
+);
+
 const AboutRight = () => {
   return (
     <div className="col-lg-6">
@@ -135,10 +147,12 @@ export const AboutUs2 = ({
                   <img src={aboutImg2} alt="About" />
                 </div>
               </div>
+              <BadgeSpinStyle />
               <div className="badge">
                 <img
                   src="assets/images/about/about-four-badge.webp"
                   alt="Badge"
+                  className="badge-spin"
                 />
               </div>
             </div>
@@ -236,10 +250,12 @@ export const AboutUs3 = ({
                   <img src={aboutImg2} alt="Artisan Chocolates" />
                 </div>
               </div>
+              <BadgeSpinStyle />
               <div className="badge">
                 <img
                   src="assets/images/about/about-four-badge.webp"
                   alt="Quality Badge"
+                  className="badge-spin"
                 />
               </div>
             </div>

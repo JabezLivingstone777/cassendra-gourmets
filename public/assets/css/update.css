@@ -3303,7 +3303,7 @@ h6, .h6, .offer-card-item .available-item, .about-image-part .food-review .text,
       transition: all 500ms ease; }
       @media only screen and (min-width: 376px) {
         .main-menu .navbar-collapse li a {
-          font-size: 18px; } }
+          font-size: 16px; } }
       @media only screen and (max-width: 991px) {
         .main-menu .navbar-collapse li a {
           padding: 10px 10px;
@@ -3415,7 +3415,7 @@ h6, .h6, .offer-card-item .available-item, .about-image-part .food-review .text,
       margin: 7px 0; }
 
 .header-number {
-  font-size: 18px;
+  font-size: 16px;
   margin-left: auto;
   font-family: var(--heading-font); }
   @media only screen and (max-width: 991px) {

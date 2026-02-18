@@ -3,7 +3,7 @@ import BookTableForm from "@/components/BookTableForm";
 import FoodCategory from "@/components/FoodCategory";
 import Headline from "@/components/Headline";
 import PageBanner from "@/components/PageBanner";
-import { TestimonialSlider2 } from "@/components/TestimonialSlider";
+import TestimonialSlider from "@/components/TestimonialSlider";
 import WellFoodLayout from "@/layout/WellFoodLayout";
 import Link from "next/link";
 const page = () => {
@@ -139,7 +139,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/features/feature1.webp" alt="Feature" />
+                <img src="assets/images/webp/about/HomestyleDishes.webp" alt="Feature" />
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">
@@ -150,19 +150,16 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h3>Private dining</h3>
+                <h3>Homestyle Dishes</h3>
                 <p>
-                  The duration of a consulting engagement varies depending on
-                  the scope and complexity of the project.
+                  Because good food begins at home and ends with a smile.
                 </p>
                 <ul className="list-style-one pt-5 mb-30">
-                  <li>Testy and quality food</li>
-                  <li>Fast food delivery</li>
-                  <li>Awards winning restuarent</li>
+                  <li>Quality ingredients</li>
+                  <li>Authentic Flavours</li>
+                  <li>Both veg and Nonveg options</li>
                 </ul>
-                <Link href="shop" className="theme-btn style-two">
-                  book now <i className="far fa-arrow-alt-right" />
-                </Link>
+
               </div>
             </div>
             <div className="col-xl-4 col-lg-6 offset-xl-4">
@@ -173,7 +170,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/features/feature2.webp" alt="Feature" />
+                <img src="assets/images/webp/about/TheCloudKitchen.webp" alt="Feature" />
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">
@@ -183,19 +180,16 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h3>The Raw Bar</h3>
+                <h3>The Cloud Kitchen</h3>
                 <p>
-                  The duration of a consulting engagement varies depending on
-                  the scope and complexity of the project.
+                  The cloud kitchen brings our signature dishes straight to your doorstep- fresh, fast and favourable
                 </p>
                 <ul className="list-style-one pt-5 mb-30">
-                  <li>Testy and quality food</li>
-                  <li>Fast food delivery</li>
-                  <li>Awards winning restuarent</li>
+                  <li>Seamless Delivery</li>
+                  <li>Loved by Customers</li>
+                  <li>Pure homemade dishes</li>
                 </ul>
-                <Link href="shop" className="theme-btn style-two">
-                  book now <i className="far fa-arrow-alt-right" />
-                </Link>
+
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">
@@ -205,7 +199,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/features/feature3.webp" alt="Feature" />
+                <img src="assets/images/webp/about/DeliveryAcrossHyderabad – 1.webp" alt="Feature" />
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">
@@ -216,19 +210,16 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h3>Outdoor catering</h3>
+                <h3>Delivery across Hyderabad</h3>
                 <p>
-                  The duration of a consulting engagement varies depending on
-                  the scope and complexity of the project.
+                  Cassandra’s Gourmet brings delicious meals to every corner of Hyderabad, fresh and on time.
                 </p>
                 <ul className="list-style-one pt-5 mb-30">
-                  <li>Testy and quality food</li>
-                  <li>Fast food delivery</li>
-                  <li>Awards winning restuarent</li>
+                  <li>Fresh and fast delivery</li>
+                  <li>Reliable delivery</li>
+                  <li>From kitchen to table</li>
                 </ul>
-                <Link href="shop" className="theme-btn style-two">
-                  book now <i className="far fa-arrow-alt-right" />
-                </Link>
+
               </div>
             </div>
           </div>
@@ -280,32 +271,7 @@ const page = () => {
       </div>
       {/* Headline Area end */}
       {/* Testimonials Area start */}
-      <section className="testimonials-area bgc-lighter pt-105 rpt-85 pb-130 rpb-100 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-7 col-lg-8">
-              <div
-                className="section-title text-center mb-50"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <span className="sub-title mb-5">customer feedback</span>
-                <h2>what have lot’s off happy customer explore feedback</h2>
-              </div>
-            </div>
-          </div>
-          <TestimonialSlider2 />
-        </div>
-        <div className="testimonials-shapes">
-          <div className="shape one">
-            <img src="assets/images/shapes/hero-shape4.png" alt="Shape" />
-          </div>
-          <div className="shape two">
-            <img src="assets/images/shapes/tomato.webp" alt="Shape" />
-          </div>
-        </div>
-      </section>
+      <TestimonialSlider />
       {/* Testimonials Area end */}
     </WellFoodLayout>
   );

@@ -18,7 +18,7 @@ const Item = ({ item }) => {
   );
 };
 
-const RestaurantMenu = ({ menus }) => {
+const RestaurantMenu = ({ menus, activeTab }) => {
   const items = menus
     ? menus
     : [
@@ -641,7 +641,7 @@ const RestaurantMenu = ({ menus }) => {
             </div>
           </div>
         </div>
-        <Tab.Container defaultActiveKey={"food-tab1"}>
+        <Tab.Container defaultActiveKey={activeTab || "food-tab1"}>
           <Nav
             as={"ul"}
             className="nav food-menu-tab mb-40"

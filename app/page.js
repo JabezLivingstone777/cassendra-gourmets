@@ -234,7 +234,7 @@ const page = () => {
                 <img src="/assets/images/webp/special/rumballs.webp" alt="Icon" />
               </div>
               <h5>Rumballs</h5>
-              <Link href="menu-restaurant" className="btn">
+              <Link href="/menu-restaurant?tab=food-tab1" className="btn">
                 Specialty
               </Link>
             </div>
@@ -249,7 +249,7 @@ const page = () => {
                 <img src="/assets/images/webp/special/chocoLiquor.webp" alt="Icon" />
               </div>
               <h5>Chocolate liquor</h5>
-              <Link href="menu-restaurant" className="btn">
+              <Link href="/menu-restaurant?tab=food-tab1" className="btn">
                 Handcrafted
               </Link>
             </div>
@@ -279,7 +279,7 @@ const page = () => {
                 <img src="/assets/images/webp/special/brownies.webp" alt="Icon" />
               </div>
               <h5>Brownies</h5>
-              <Link href="menu-restaurant" className="btn">
+              <Link href="/menu-restaurant?tab=food-tab3" className="btn">
                 Fresh Baked
               </Link>
             </div>
@@ -294,7 +294,7 @@ const page = () => {
                 <img src="/assets/images/webp/special/cookies.webp" alt="Icon" />
               </div>
               <h5>Cookies</h5>
-              <Link href="menu-restaurant" className="btn">
+              <Link href="/menu-restaurant?tab=food-tab4" className="btn">
                 Homemade
               </Link>
             </div>
@@ -303,8 +303,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/fudge.webp" alt="Icon" />
               </div>
               <h5>Fudge</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab3" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -312,8 +312,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/desserts.webp" alt="Icon" />
               </div>
               <h5>Desserts</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab2" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -321,8 +321,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/cupcakes.webp" alt="Icon" />
               </div>
               <h5>Cupcakes</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab3" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -330,8 +330,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/quiches.webp" alt="Icon" />
               </div>
               <h5>Quiches</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab10" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -339,8 +339,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/pasta.webp" alt="Icon" />
               </div>
               <h5>Pasta</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab11" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -348,8 +348,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/breads.webp" alt="Icon" />
               </div>
               <h5>Breads</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab5" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -357,8 +357,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/croissants.webp" alt="Icon" />
               </div>
               <h5>Croissants</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab6" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -366,8 +366,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/puffs.webp" alt="Icon" />
               </div>
               <h5>Puffs</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab7" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -375,8 +375,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/momos.webp" alt="Icon" />
               </div>
               <h5>Momos</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab7" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -384,8 +384,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/sandwich.webp" alt="Icon" />
               </div>
               <h5>Sandwiches</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab8" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -393,8 +393,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/vegbakes.webp" alt="Icon" />
               </div>
               <h5>Veg Bakes</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab10" className="btn">
+                View Items
               </Link>
             </div>
             <div className="fc-two-item">
@@ -402,8 +402,8 @@ const page = () => {
                 <img src="/assets/images/webp/special/tarts.webp" alt="Icon" />
               </div>
               <h5>Tarts</h5>
-              <Link href="menu-burger" className="btn">
-                15 Items
+              <Link href="/menu-restaurant?tab=food-tab9" className="btn">
+                View Items
               </Link>
             </div>
           </Slider>
@@ -716,8 +716,8 @@ const page = () => {
                     "url(/assets/images/webp/productgallery/middle.webp)",
                 }}
               >
-               
-                
+
+
               </div>
             </div>
             <div
@@ -736,7 +736,7 @@ const page = () => {
               >
                 <span className="quality">Quality Food</span>
                 <h2>Fresh Pizza</h2>
-                
+
               </div>
             </div>
           </div>
@@ -800,7 +800,7 @@ const page = () => {
       </div>
       {/* Headline Area end */}
       {/* Popular Menu Area start */}
-      <section className="popular-area pt-110 rpt-85 pb-130 rpb-100 rel z-1">
+      <section className="popular-area pt-110 rpt-85 pb-130 rpb-100 rel z-1" style={{ paddingBottom: 'px' }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -910,175 +910,10 @@ const page = () => {
         </div>
       </section>
       {/* Popular Menu Area end */}
-      {/* Customer Testimonials Area start */}
+      {/* Customer Testimonials Area (old inline section — hidden, replaced by TestimonialSlider component)
       <section className="testimonials-area pt-130 rpt-100 pb-100 rpb-70 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <div
-                className="section-title text-center mb-50"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <span className="sub-title mb-5">What Our Customers Say</span>
-                <h2>Love from Our Happy Customers</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <Slider {...sliderProps.testimonialSlider} className="testimonial-feedback-slider">
-                <div className="testimonial-feedback-item">
-                  <div className="feedback-card">
-                    <img
-                      src="/assets/images/testimonials/uploaded_media_0_1770709477803.webp"
-                      alt="Customer Feedback 1"
-                      className="feedback-image"
-                    />
-                  </div>
-                </div>
-                <div className="testimonial-feedback-item">
-                  <div className="feedback-card">
-                    <img
-                      src="/assets/images/testimonials/uploaded_media_1_1770709477803.webp"
-                      alt="Customer Feedback 2"
-                      className="feedback-image"
-                    />
-                  </div>
-                </div>
-                <div className="testimonial-feedback-item">
-                  <div className="feedback-card">
-                    <img
-                      src="/assets/images/testimonials/uploaded_media_2_1770709477803.webp"
-                      alt="Customer Feedback 3"
-                      className="feedback-image"
-                    />
-                  </div>
-                </div>
-                <div className="testimonial-feedback-item">
-                  <div className="feedback-card">
-                    <img
-                      src="/assets/images/testimonials/uploaded_media_3_1770709477803.webp"
-                      alt="Customer Feedback 4"
-                      className="feedback-image"
-                    />
-                  </div>
-                </div>
-                <div className="testimonial-feedback-item">
-                  <div className="feedback-card">
-                    <img
-                      src="/assets/images/testimonials/uploaded_media_4_1770709477803.webp"
-                      alt="Customer Feedback 5"
-                      className="feedback-image"
-                    />
-                  </div>
-                </div>
-              </Slider>
-            </div>
-          </div>
-        </div>
-        <style jsx>{`
-          .testimonial-feedback-slider {
-            padding: 20px 0;
-          }
-          
-          .testimonial-feedback-item {
-            padding: 0 15px;
-          }
-          
-          .feedback-card {
-            background: #fff;
-            border-radius: 15px;
-            padding: 20px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            margin: 0 auto;
-            max-width: 600px;
-          }
-          
-          .feedback-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
-          }
-          
-          .feedback-image {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            display: block;
-            object-fit: contain;
-          }
-          
-          .testimonial-feedback-slider :global(.slick-dots) {
-            bottom: -50px;
-          }
-          
-          .testimonial-feedback-slider :global(.slick-dots li button:before) {
-            font-size: 12px;
-            color: #ff6b35;
-          }
-          
-          .testimonial-feedback-slider :global(.slick-dots li.slick-active button:before) {
-            color: #ff6b35;
-            opacity: 1;
-          }
-          
-          .testimonial-feedback-slider :global(.slick-prev),
-          .testimonial-feedback-slider :global(.slick-next) {
-            width: 50px;
-            height: 50px;
-            background: #ff6b35;
-            border-radius: 50%;
-            z-index: 1;
-          }
-          
-          .testimonial-feedback-slider :global(.slick-prev:before),
-          .testimonial-feedback-slider :global(.slick-next:before) {
-            font-size: 24px;
-            opacity: 1;
-          }
-          
-          .testimonial-feedback-slider :global(.slick-prev) {
-            left: -60px;
-          }
-          
-          .testimonial-feedback-slider :global(.slick-next) {
-            right: -60px;
-          }
-          
-          @media (max-width: 991px) {
-            .testimonial-feedback-slider :global(.slick-prev) {
-              left: -30px;
-            }
-            
-            .testimonial-feedback-slider :global(.slick-next) {
-              right: -30px;
-            }
-          }
-          
-          @media (max-width: 767px) {
-            .feedback-card {
-              padding: 15px;
-            }
-            
-            .testimonial-feedback-slider :global(.slick-prev),
-            .testimonial-feedback-slider :global(.slick-next) {
-              width: 40px;
-              height: 40px;
-            }
-            
-            .testimonial-feedback-slider :global(.slick-prev) {
-              left: -20px;
-            }
-            
-            .testimonial-feedback-slider :global(.slick-next) {
-              right: -20px;
-            }
-          }
-        `}</style>
       </section>
-      {/* Customer Testimonials Area end */}
+      */}
       {/* Section Devider Area start */}
       <div className="section-devider d-flex">
         <img
@@ -1356,7 +1191,7 @@ const page = () => {
       <TestimonialSlider />
       {/* Testimonials Two Area end */}
       {/* Blog Area start */}
-      <section className="blog-area-five bg-light pt-130 rpt-100 pb-95 rpb-65 rel z-1">
+      {/* <section className="blog-area-five bg-light pt-130 rpt-100 pb-95 rpb-65 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12">
@@ -1479,7 +1314,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Blog Area end */}
       {/* Client Area start */}
       <div className="client-area bg-light rel z-1">
@@ -1620,7 +1455,7 @@ const page = () => {
       </div>
       {/* Headline Area end */}
       {/* Newsletter Area start */}
-      <section className="newsletter-area bgc-dark-green pt-75 rel z-1">
+      {/* <section className="newsletter-area bgc-dark-green pt-75 rel z-1">
         <div className="container">
           <div className="newsletter-wrap">
             <div className="row">
@@ -1668,7 +1503,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Newsletter Area end */}
     </WellFoodLayout>
   );
