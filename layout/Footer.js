@@ -201,7 +201,7 @@ const DefaultFooter = () => {
                     </ul>
                     <div className="any-question mt-20">
                       <h5>Have any questions?</h5>
-                      <a href="#" className="theme-btn style-two">
+                      <a href="tel:+919866142982" className="theme-btn style-two">
                         let’s talk us <i className="far fa-arrow-alt-right" />
                       </a>
                     </div>

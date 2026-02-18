@@ -192,9 +192,7 @@ export const AboutUs3 = ({
                 homemade, made-to-order treats. Every Korean bun, chocolate truffle, and custom cake is crafted
                 with the same dedication I bring to my own family's table.
               </p>
-              <Link href="/contact" className="theme-btn mt-25 mb-60">
-                Order Now <i className="far fa-arrow-alt-right" />
-              </Link>
+
               <div className="row">
                 <div className="col-sm-4 col-6">
                   <div className="counter-item style-two counter-text-wrap">

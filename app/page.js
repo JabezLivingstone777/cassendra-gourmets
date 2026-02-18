@@ -143,7 +143,7 @@ const page = () => {
   const filteredItems = getFilteredItems();
 
   return (
-    <WellFoodLayout footer={5}>
+    <WellFoodLayout footer={1}>
       {" "}
       {/* Hero Area Start */}
       <section
