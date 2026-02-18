@@ -15,7 +15,7 @@ const page = () => {
       category: "chocolates",
       title: "Chocolates & Rum",
       items: [
-        { id: 1, title: "Rum Ball (Per Piece)", price: "45", img: "/assets/images/webp/productgallery/_DSC4535-thumbnail-removebg-preview.webp" },
+        { id: 1, title: "Rum Balls (Per Piece)", price: "45", img: "/assets/images/webp/productgallery/_DSC4535-thumbnail-removebg-preview.webp" },
         { id: 2, title: "Rum Balls (Box of 6)", price: "260", img: "/assets/images/webp/productgallery/shopping__1_-removebg-preview.webp" },
         { id: 3, title: "Chocolate Liquors 10P", price: "300", img: "/assets/images/webp/productgallery/liquorChoco-1.webp" },
         { id: 4, title: "Assorted Chocolates 12P", price: "250", img: "/assets/images/webp/productgallery/assortedChoco-1.webp" },
@@ -665,7 +665,7 @@ const page = () => {
                       <i className="fas fa-star" />
                     </div>
                     <h5>
-                      <Link href="product-details">{item.title}</Link>
+                      <span>{item.title}</span>
                     </h5>
                     <span className="price">
                       ₹{item.price}
